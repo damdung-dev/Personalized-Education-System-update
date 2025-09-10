@@ -1,0 +1,249 @@
+account.html
+---------------------------------------------------------------------------------------------------------
+<style>
+  .profile-container {
+    max-width: 700px;
+    width: 100%;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+    padding: 30px 35px;
+    margin: auto;
+  }
+
+  .profile-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #1d1d1f;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #3c3c43;
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="date"],
+  .form-group select {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-size: 15px;
+    background-color: #f9f9f9;
+  }
+
+  input:disabled {
+    background-color: #f0f0f5;
+    color: #888;
+  }
+
+  .sub-note {
+    font-size: 13px;
+    color: #6e6e73;
+    margin-top: 4px;
+  }
+
+  .required {
+    color: red;
+    margin-right: 5px;
+  }
+
+  .submit-btn {
+    margin-top: 25px;
+    background-color: #0071e3;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 15px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+
+  .submit-btn:hover {
+    background-color: #005bb5;
+  }
+</style>
+
+<div class="profile-container">
+  <h2>Thông tin tài khoản</h2>
+
+  <form method="post">
+    {% csrf_token %}
+    <div class="form-group">
+      <label for="name">Tên</label>
+      <input type="text" id="name" value="dung" disabled>
+      <div class="sub-note">Đây là tên hệ thống của bạn.</div>
+    </div>
+
+    <div class="form-group">
+      <label for="username">Tên tài khoản</label>
+      <input type="text" id="username" value="dungdam290" disabled>
+    </div>
+
+    <div class="form-group">
+      <label for="student_id">Mã Sinh viên</label>
+      <input type="text" id="student_id" value="17376450302" disabled>
+    </div>
+
+    <div class="form-group">
+      <label for="account_type">Loại tài khoản</label>
+      <select id="account_type" disabled>
+        <option selected>Cá nhân</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="phone"><span class="required">*</span>Số điện thoại</label>
+      <input type="text" id="phone" name="phone" value="+84 374869954" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email"><span class="required">*</span>Email liên hệ</label>
+      <input type="email" id="email" name="email" value="damdungtienganh@gmail.com" required>
+    </div>
+
+    <div class="form-group">
+      <label for="dob">Ngày sinh</label>
+      <input type="date" id="dob" name="dob" value="2001-09-22">
+    </div>
+
+    <div class="form-group">
+      <label for="career">Nghề nghiệp</label>
+      <select id="career" name="career">
+        <option {% if career == 'Sinh viên' %}selected{% endif %}>Sinh viên</option>
+        <option {% if career == 'Giáo viên' %}selected{% endif %}>Giáo viên</option>
+        <option {% if career == 'Khác' %}selected{% endif %}>Khác</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="other">Cụ thể</label>
+      <input type="text" id="other" name="other" value="nhân viên toàn thời gian">
+    </div>
+    <button type="submit" class="submit-btn">Cập nhật thông tin</button>
+  </form>
+</div>
+
+-------------------------------------------------------------------------------
+calendar.html
+---------------------------------------------------------------------------------------------------------
+<div class="card">
+  <h2>Calendar</h2>
+  <p class="sub">Lịch học và sự kiện sắp tới.</p>
+  <ul>
+    <li>🗓️ 02/08/2025 - Buổi học Toán nâng cao</li>
+    <li>🗓️ 05/08/2025 - Kiểm tra giữa kỳ</li>
+    <li>🗓️ 10/08/2025 - Buổi tư vấn định hướng</li>
+  </ul>
+</div>
+-------------------------------------------------------------------------------
+chat.html
+-------------------------------------------------------------------------------
+<div class="card">
+  <h2>Chat</h2>
+  <p class="sub">Hệ thống nhắn tin với giáo viên và học sinh.</p>
+  <p>📩 Không có tin nhắn mới.</p>
+  <p>📝 Hãy chọn người để bắt đầu cuộc trò chuyện từ menu bên trái.</p>
+</div>
+---------------------------------------------------------------------------------------------------------
+courses.html
+-------------------------------------------------------------------------------
+<div class="card">
+  <h2>Courses</h2>
+  <p class="sub">Danh sách khóa học hiện tại.</p>
+  <ul>
+    <li>✔️ Toán học 6</li>
+    <li>✔️ Khoa học 6</li>
+    <li>✔️ Ngữ văn 6</li>
+    <li>✔️ Tiếng Anh nâng cao</li>
+  </ul>
+</div>
+---------------------------------------------------------------------------------------------------------
+documents.html
+-------------------------------------------------------------------------------
+<div class="card">
+  <h2>Documents</h2>
+  <p class="sub">Tài liệu học tập và biểu mẫu.</p>
+  <ul>
+    <li>📘 Đề cương ôn tập Toán</li>
+    <li>📗 Tài liệu Khoa học 6</li>
+    <li>📕 Phiếu đăng ký ngoại khóa</li>
+  </ul>
+</div>
+---------------------------------------------------------------------------------------------------------
+home.html
+-------------------------------------------------------------------------------
+  <div class="card welcome">
+    <h2>Welcome to the Dashboard</h2>
+    <p class="sub">Hi Mr. Dung, explore your account and activities here.</p>
+  </div>
+
+  <div class="card stats">
+    <h2>Quick Stats</h2>
+    <div class="status-boxes">
+      <div class="status assigned">Courses<br><span>4</span></div>
+      <div class="status sent">Results<br><span>3 Completed</span></div>
+      <div class="status signed">Documents<br><span>5 Uploaded</span></div>
+      <div class="status approved">Progress<br><span>87%</span></div>
+    </div>
+  </div>
+
+  <div class="card schedule">
+    <h2>Today’s Schedule</h2>
+    <p><strong>09:00 AM:</strong> IELTS Reading Practice</p>
+    <p><strong>10:30 AM:</strong> Vocabulary Review</p>
+    <p><strong>02:00 PM:</strong> Mock Speaking Test</p>
+  </div>
+
+  <div class="card engagement">
+    <h2>Actions</h2>
+    <p class="sub">What do you want to do next?</p>
+    <button class="btn">Go to Courses</button>
+    <button class="btn">Check Results</button>
+  </div>
+---------------------------------------------------------------------------------------------------------
+notification.html
+-------------------------------------------------------------------------------
+<div class="card">
+  <h2>Notifications</h2>
+  <p class="sub">Thông báo mới nhất từ hệ thống.</p>
+  <ul>
+    <li>🔔 Bạn có 1 bài kiểm tra vào ngày 05/08/2025</li>
+    <li>🔔 Tài liệu ôn tập đã được cập nhật</li>
+  </ul>
+</div>
+---------------------------------------------------------------------------------------------------------
+results.html
+-------------------------------------------------------------------------------
+<div class="card">
+  <h2>Results</h2>
+  <p class="sub">Kết quả học tập gần đây.</p>
+  <table style="width:100%; border-collapse: collapse; margin-top: 15px;">
+    <tr style="background-color: #f0f1f4;">
+      <th style="padding: 10px; border: 1px solid #ccc;">Môn</th>
+      <th style="padding: 10px; border: 1px solid #ccc;">Điểm</th>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ccc;">Toán</td>
+      <td style="padding: 10px; border: 1px solid #ccc;">9.0</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ccc;">Khoa học</td>
+      <td style="padding: 10px; border: 1px solid #ccc;">8.5</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ccc;">Ngữ văn</td>
+      <td style="padding: 10px; border: 1px solid #ccc;">8.0</td>
+    </tr>
+  </table>
+</div>
+---------------------------------------------------------------------------------------------------------

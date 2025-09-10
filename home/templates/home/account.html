@@ -1,0 +1,290 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Thông tin tài khoản{% endblock %}
+
+{% block style %}
+<style>
+:root {
+  --primary: #007aff;
+  --secondary: #00cfff;
+  --gradient: linear-gradient(135deg, var(--primary), var(--secondary));
+  --bg-light: rgba(255,255,255,0.9);
+  --bg-dark: rgba(24,27,34,0.9);
+  --radius: 18px;
+  --transition: .25s ease;
+  --shadow: 0 8px 28px rgba(0,0,0,.12);
+  --text-dark: #eee;
+}
+
+/* Container */
+.profile-container {
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 36px 28px;
+  background: var(--bg-light);
+  backdrop-filter: blur(16px);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  text-align: center;
+  transition: all var(--transition);
+}
+body.dark .profile-container {
+  background: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+/* Header */
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 28px;
+}
+.profile-avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--primary);
+  box-shadow: 0 6px 20px rgba(0,122,255,0.25);
+  margin-bottom: 14px;
+  transition: transform .3s;
+}
+.profile-avatar:hover { transform: scale(1.05); }
+.profile-header h2 {
+  font-size: 28px;
+  font-weight: 700;
+  background: var(--gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+/* Floating labels */
+.form-group {
+  position: relative;
+  margin-bottom: 22px;
+  text-align: left;
+}
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 16px 18px;
+  border-radius: var(--radius);
+  border: 1px solid rgba(0,0,0,.15);
+  background: rgba(255,255,255,.6);
+  font-size: 15px;
+  transition: all var(--transition);
+}
+body.dark .form-group input,
+body.dark .form-group select {
+  background: rgba(40,40,40,.85);
+  border: 1px solid rgba(255,255,255,.15);
+  color: var(--text-dark);
+}
+.form-group input:focus,
+.form-group select:focus {
+  border-color: var(--primary);
+  box-shadow: 0 4px 18px rgba(0,122,255,0.25);
+  outline: none;
+}
+.form-group label {
+  position: absolute;
+  top: 50%;
+  left: 18px;
+  transform: translateY(-50%);
+  padding: 0 6px;
+  background: inherit;
+  font-size: 14px;
+  color: #666;
+  pointer-events: none;
+  transition: all var(--transition);
+}
+.form-group input:focus + label,
+.form-group input:not(:placeholder-shown) + label,
+.form-group select:focus + label,
+.form-group select:not([value=""]) + label {
+  top: -9px;
+  left: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--primary);
+  background: var(--bg-light);
+  border-radius: 6px;
+}
+body.dark .form-group input:focus + label,
+body.dark .form-group input:not(:placeholder-shown) + label,
+body.dark .form-group select:focus + label,
+body.dark .form-group select:not([value=""]) + label {
+  background: var(--bg-dark);
+  color: var(--secondary);
+}
+
+/* Buttons */
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+.submit-btn,
+.cancel-btn,
+.edit-btn {
+  padding: 12px 22px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: var(--radius);
+  border: none;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+.edit-btn {
+  background: var(--gradient);
+  color: #fff;
+  box-shadow: 0 6px 18px rgba(0,122,255,.3);
+}
+.edit-btn:hover { transform: translateY(-2px); }
+.submit-btn {
+  background: var(--gradient);
+  color: #fff;
+  box-shadow: 0 6px 18px rgba(0,122,255,.3);
+}
+.submit-btn:hover { transform: translateY(-2px); }
+.cancel-btn {
+  background: #eee;
+  color: #333;
+}
+.cancel-btn:hover {
+  background: #ddd;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .profile-container { margin: 20px; padding: 24px; }
+  .profile-header h2 { font-size: 24px; }
+  .action-buttons { flex-direction: column; }
+  .action-buttons button { width: 100%; }
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="profile-container">
+  <div class="profile-header">
+    <img src="{% static 'home/images/avatar-fb-mac-dinh-1.jpg' %}" alt="Avatar" class="profile-avatar">
+    <h2>Thông tin tài khoản</h2>
+  </div>
+
+  <form method="post" id="profileForm">
+    {% csrf_token %}
+    <div class="form-group">
+      <input type="text" id="name" name="first_name" value="{{ user.first_name }}" disabled placeholder=" ">
+      <label for="name">Tên</label>
+    </div>
+
+    <div class="form-group">
+      <input type="text" id="student_id" name="student_id" value="{{ user.student_id }}" disabled placeholder=" ">
+      <label for="student_id">Mã Sinh viên</label>
+    </div>
+
+    <div class="form-group">
+      <select id="account_type" name="account_type" disabled>
+        <option value="Cá nhân" {% if user.account_type == 'Cá nhân' %}selected{% endif %}>Cá nhân</option>
+        <option value="Tổ chức" {% if user.account_type == 'Tổ chức' %}selected{% endif %}>Tổ chức</option>
+      </select>
+      <label for="account_type">Loại tài khoản</label>
+    </div>
+
+    <div class="form-group">
+      <input type="text" id="phone" name="phone" value="{{ user.phone }}" required disabled placeholder=" ">
+      <label for="phone">Số điện thoại</label>
+    </div>
+
+    <div class="form-group">
+      <input type="email" id="email" name="email" value="{{ user.email }}" required disabled placeholder=" ">
+      <label for="email">Email liên hệ</label>
+    </div>
+
+    <div class="form-group">
+      <input type="text" id="dob" name="dob" value="{{ user.birthday|date:'m/d/Y' }}" disabled placeholder=" ">
+      <label for="dob">Ngày sinh</label>
+    </div>
+
+    <div class="form-group">
+      <select id="career" name="career" disabled>
+        <option value="Sinh viên" {% if user.job == 'Sinh viên' %}selected{% endif %}>Sinh viên</option>
+        <option value="Giáo viên" {% if user.job == 'Giáo viên' %}selected{% endif %}>Giáo viên</option>
+        <option value="Khác" {% if user.job == 'Khác' %}selected{% endif %}>Khác</option>
+      </select>
+      <label for="career">Nghề nghiệp</label>
+    </div>
+
+    <div class="form-group">
+      <input type="text" id="other" name="other" value="{{ user.other }}" disabled placeholder=" ">
+      <label for="other">Mô tả</label>
+    </div>
+
+    <div class="action-buttons" id="actionButtons">
+      <button type="button" class="edit-btn" id="editBtn">Cập nhật thông tin</button>
+    </div>
+  </form>
+</div>
+{% endblock %}
+
+{% block script %}
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const form = document.getElementById("profileForm");
+  const actionButtons = document.getElementById("actionButtons");
+  const dobInput = document.getElementById("dob");
+
+  function enableEditing() {
+    const inputs = form.querySelectorAll("input, select");
+    inputs.forEach(input => {
+      if (input.id !== "email" && input.id !== "username") {
+        input.removeAttribute("disabled");
+      }
+    });
+
+    actionButtons.innerHTML = `
+      <button type="submit" class="submit-btn">Lưu</button>
+      <button type="button" class="cancel-btn" id="cancelBtn">Quay lại</button>
+    `;
+
+    document.getElementById("cancelBtn").addEventListener("click", disableEditing);
+  }
+
+  function disableEditing() {
+    const inputs = form.querySelectorAll("input, select");
+    inputs.forEach(input => input.setAttribute("disabled", true));
+    actionButtons.innerHTML = `<button type="button" class="edit-btn" id="editBtn">Cập nhật thông tin</button>`;
+    document.getElementById("editBtn").addEventListener("click", enableEditing);
+  }
+
+  // Bắt đầu với nút edit
+  document.getElementById("editBtn").addEventListener("click", enableEditing);
+
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    if (!confirm("Bạn có muốn đổi thông tin không?")) return;
+
+    // Chuyển mm/dd/yyyy -> yyyy-mm-dd
+    if (dobInput.value) {
+      const parts = dobInput.value.split("/");
+      if (parts.length === 3) {
+        const mm = parts[0].padStart(2, "0");
+        const dd = parts[1].padStart(2, "0");
+        const yyyy = parts[2];
+        dobInput.value = `${yyyy}-${mm}-${dd}`;
+      }
+    }
+
+    form.submit();
+  });
+});
+</script>
+{% endblock %}

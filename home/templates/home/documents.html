@@ -1,0 +1,209 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Thư viện sách{% endblock %}
+
+{% block style %}
+<style>
+:root {
+  --primary: #007aff;
+  --secondary: #00cfff;
+  --danger: #ff3b30;
+  --bg-card: #fff;
+  --shadow: rgba(0,0,0,0.12);
+  --radius: 14px;
+  --speed: 0.25s ease;
+  --divider: #ddd;
+}
+body { background: linear-gradient(135deg, #f0f4f9, #e6edf5); margin: 0; font-family: "Segoe UI", Roboto, sans-serif; }
+.container { max-width: 1100px; margin: 20px auto; padding: 0 15px; display: flex; flex-direction: column; gap: 30px; }
+.card { background: var(--bg-card); border-radius: var(--radius); box-shadow: 0 6px 20px var(--shadow); padding: 20px; transition: transform var(--speed), box-shadow var(--speed); }
+.card:hover { transform: translateY(-4px); box-shadow: 0 10px 28px rgba(0,0,0,0.15); }
+.header-row { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+.header-row h2 { margin: 0; font-size: 20px; color: var(--primary); flex: 1 1 200px; }
+.btn-group { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.btn-group .divider { width: 1px; background: var(--divider); height: 24px; margin: 0 4px; }
+.btn, .btn-read { padding: 6px 14px; border: none; border-radius: 22px; font-size: 13px; cursor: pointer; display: flex; align-items: center; gap: 6px; background: var(--primary); color: #fff; transition: all var(--speed); text-decoration: none; }
+.btn svg, .btn-read svg { width: 14px; height: 14px; }
+.btn:hover, .btn-read:hover { opacity: 0.9; transform: scale(1.05); }
+.btn-danger { background: var(--danger); }
+.btn-alt { background: var(--secondary); }
+.book-list { list-style: none; margin: 0; padding: 0; }
+.book-list li { padding: 8px 0; border-bottom: 1px solid #eee; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px; }
+.book-list li:last-child { border-bottom: none; }
+.count-label { font-size: 13px; color: gray; display: block; margin-bottom: 10px; }
+.modal { display: none; position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.75); justify-content: center; align-items: center; }
+.modal-content { background: #fff; border-radius: var(--radius); padding: 10px; width: 95%; max-width: 1000px; height: 90%; display:flex; flex-direction: column; }
+.modal-content iframe { flex: 1; border: none; border-radius: var(--radius); }
+.close { align-self: flex-end; font-size: 28px; cursor: pointer; color: var(--danger); font-weight:bold; }
+.close:hover { opacity: 0.7; }
+.pagination { margin-top: 16px; display:flex; flex-wrap: wrap; gap:10px; align-items:center; justify-content:center; }
+.pagination a { text-decoration:none; padding:6px 12px; border-radius:8px; background: var(--primary); color:white; font-size:13px; }
+.pagination a:hover { opacity:0.9; transform:scale(1.05); }
+@media (max-width: 768px) { 
+  .header-row { flex-direction: column; align-items: flex-start; gap: 10px; } 
+  .btn-group { flex-wrap: wrap; gap:6px; } 
+  .book-list li { flex-direction: column; align-items: flex-start; gap:4px; } 
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+
+  <!-- Thư viện của tôi -->
+  <div class="card">
+    <div class="header-row">
+      <h2>📘 Thư viện của tôi</h2>
+      <div class="btn-group">
+        <button class="btn"><svg fill="currentColor"><use href="#icon-plus"/></svg> Thêm</button>
+        <button class="btn btn-danger"><svg fill="currentColor"><use href="#icon-trash"/></svg> Xóa</button>
+        <div class="divider"></div>
+        <button class="btn btn-alt"><svg fill="currentColor"><use href="#icon-list"/></svg> List</button>
+        <button class="btn btn-alt"><svg fill="currentColor"><use href="#icon-grid"/></svg> Cột</button>
+      </div>
+    </div>
+    <label class="count-label">Số lượng sách: {{ my_documents_count|default:0 }}</label>
+    <ul id="myDocs" class="book-list">
+      {% if documents %}
+        {% for doc in documents %}
+        <li>
+          <div>
+            📘 <a href="{{ doc.get_link }}" target="_blank">{{ doc.title }}</a>
+            <span style="font-size:12px;color:gray;">({{ doc.action|default:"" }})</span>
+          </div>
+          <button class="btn-read" onclick="logAndOpen('{{ doc.id }}', '{{ doc.get_link }}')">
+            <svg fill="currentColor"><use href="#icon-eye"/></svg> Đọc ngay
+          </button>
+        </li>
+        {% endfor %}
+      {% else %}
+        <li>📘 Danh sách trống</li>
+      {% endif %}
+    </ul>
+  </div>
+
+  <!-- Sách đã đọc gần đây -->
+  <div class="card">
+    <div class="header-row">
+      <h2>📘 Sách đã đọc gần đây</h2>
+    </div>
+    {% if recent_books %}
+      <ul class="book-list">
+        {% for book in recent_books %}
+          <li>
+            <div>
+              <a href="{{ book.get_link }}" target="_blank">{{ book.title }}</a>
+              <small style="color:gray;"> — {{ book.author|default:"Unknown" }}</small>
+            </div>
+            <div style="min-width:120px; text-align:right;">
+              <button class="btn-read" onclick="logAndOpen('{{ book.id }}', '{{ book.get_link }}')">Mở</button>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>Chưa có sách nào được đọc.</p>
+    {% endif %}
+  </div>
+
+  <!-- Đầu sách tuyển chọn -->
+  <div class="card">
+    <div class="header-row">
+        <h2>📖 Đầu sách tuyển chọn</h2>
+    </div>
+    <label class="count-label">Số lượng sách: {{ recommend_count }}</label>
+    <ul class="book-list list-view">
+        {% for recommend in page_obj %}
+          <li>
+            <div>
+              📖 <strong>{{ recommend.title }}</strong><br>
+              <small style="color:gray;">
+                {% if recommend.author %}👤 {{ recommend.author }}{% endif %}
+                {% if recommend.source %} &nbsp;🌐 {{ recommend.source }}{% endif %}
+              </small>
+            </div>
+            {% if recommend.get_link %}
+                <button class="btn-read"
+                        onclick="logAndOpen('{{ recommend.id }}', '{{ recommend.get_link }}')">
+                  <svg fill="currentColor"><use href="#icon-eye"/></svg>
+                  {% if recommend.is_pdf %} Đọc (PDF) {% else %} Đọc ngay {% endif %}
+                </button>
+            {% else %}
+                <button class="btn-read" onclick="alert('❌ Chưa có file hoặc URL để đọc!')">
+                  Đọc ngay
+                </button>
+            {% endif %}
+          </li>
+        {% empty %}
+            <li>📖 Danh sách trống</li>
+        {% endfor %}
+    </ul>
+    <div class="pagination">
+        {% if page_obj.has_previous %}
+            <a href="?page={{ page_obj.previous_page_number }}">⬅ Trang trước</a>
+        {% endif %}
+        <span>Trang {{ page_obj.number }} / {{ page_obj.paginator.num_pages }}</span>
+        {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}">Trang sau ➡</a>
+        {% endif %}
+    </div>
+  </div>
+
+</div>
+
+<!-- Modal PDF -->
+<div id="pdfModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closePDF()">&times;</span>
+    <iframe id="pdfViewer"></iframe>
+  </div>
+</div>
+
+<svg style="display:none;">
+  <symbol id="icon-plus" viewBox="0 0 24 24"><path d="M12 5v14m-7-7h14" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/></symbol>
+  <symbol id="icon-trash" viewBox="0 0 24 24"><path d="M3 6h18M9 6v12m6-12v12M5 6l1 14h12l1-14" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/></symbol>
+  <symbol id="icon-list" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/></symbol>
+  <symbol id="icon-grid" viewBox="0 0 24 24"><path d="M4 4h7v7H4V4zm9 0h7v7h-7V4zM4 13h7v7H4v-7zm9 0h7v7h-7v-7z" fill="white"/></symbol>
+  <symbol id="icon-eye" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8S1 12 1 12zm11 3a3 3 0 100-6 3 3 0 000 6z" fill="white"/></symbol>
+</svg>
+{% endblock %}
+
+{% block script %}
+<script>
+function getCookie(name) {
+  let cookieValue = null;
+  if (document.cookie && document.cookie !== '') {
+      const cookies = document.cookie.split(';');
+      for (let i = 0; i < cookies.length; i++) {
+          const cookie = cookies[i].trim();
+          if (cookie.substring(0, name.length + 1) === (name + '=')) {
+              cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+              break;
+          }
+      }
+  }
+  return cookieValue;
+}
+const CSRF = getCookie('csrftoken');
+
+function logAndOpen(bookId, url) {
+  fetch("{% url 'home:log_book_action' %}", {
+    method: "POST",
+    headers: {
+      "X-CSRFToken": CSRF,
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    body: `book_id=${encodeURIComponent(bookId)}&action=read`
+  })
+  .then(r => r.json())
+  .then(data => {
+    if (url) window.open(url, '_blank');
+    setTimeout(() => location.reload(), 600);
+  })
+  .catch(err => {
+    console.error(err);
+    if (url) window.open(url, '_blank');
+  });
+}
+</script>
+{% endblock %}

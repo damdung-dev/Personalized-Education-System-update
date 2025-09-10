@@ -1,0 +1,248 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Lịch{% endblock %}
+
+{% block style %}
+<style>
+/* ===== Reset & Base ===== */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+.calendar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background: #f4f6fa; /* nền sáng */
+  padding: 20px;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Frame gradient animation */
+.calendar-frame {
+  padding: 4px;
+  border-radius: 28px;
+  background: linear-gradient(135deg, #00c6ff, #007aff, #ff6ec4, #7873f5);
+  background-size: 300% 300%;
+  animation: borderAnimation 8s ease infinite;
+}
+@keyframes borderAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Card glassmorphism */
+.calendar-card {
+  border-radius: 24px;
+  padding: 24px;
+  background: rgba(255,255,255,0.9); /* sáng, mờ */
+  backdrop-filter: blur(12px) saturate(180%);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.1);
+  color: #111;
+  overflow: hidden;
+  width: 100%;
+  max-width: 900px;
+}
+
+/* Header */
+.calendar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.calendar-header h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #111;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#current-time {
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 0.7;
+  color: #333;
+}
+
+/* Buttons */
+.calendar-header button,
+.nav-buttons button {
+  border: none;
+  outline: none;
+  padding: 10px 18px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: rgba(0,122,255,0.1);
+  color: #007aff;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.calendar-header button:hover,
+.nav-buttons button:hover {
+  background: rgba(0,122,255,0.2);
+  transform: translateY(-2px) scale(1.05);
+}
+
+.calendar-header button:active,
+.nav-buttons button:active {
+  transform: scale(0.95);
+}
+
+/* Nav buttons */
+.nav-buttons button {
+  font-size: 1.4rem;
+  padding: 8px 14px;
+  min-width: 42px;
+  justify-content: center;
+}
+
+/* Grid */
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 12px;
+}
+
+.calendar-weekday {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Day cell */
+.calendar-cell {
+  position: relative;
+  padding: 14px 0;
+  text-align: center;
+  font-size: 1.1rem;
+  border-radius: 14px;
+  background: rgba(0,122,255,0.05);
+  color: #111;
+  transition: all 0.3s;
+  cursor: pointer;
+  min-height: 100px;
+}
+
+.calendar-cell:hover {
+  background: rgba(0,122,255,0.15);
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+/* Today */
+.calendar-cell.today {
+  background: linear-gradient(135deg, #007aff, #00c6ff);
+  font-weight: 700;
+  color: #fff;
+  box-shadow: 0 6px 20px rgba(0, 122, 255, 0.3);
+  border: 2px solid #007aff;
+}
+
+/* Other month */
+.calendar-cell.other-month {
+  color: #aaa;
+  opacity: 0.5;
+}
+
+/* Event dot */
+.calendar-cell.has-event::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ff3b30;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .calendar-card { padding: 16px; }
+  .calendar-header h2 { font-size: 1.4rem; }
+  .calendar-cell { min-height: 80px; font-size: 0.9rem; }
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="calendar-container">
+  <div class="calendar-card">
+    <div class="calendar-header">
+      <div class="nav-buttons">
+        <button id="prev-month">&lt;</button>
+        <button id="next-month">&gt;</button>
+      </div>
+      <h2>{{ month }}/{{ year }}
+        <span id="current-time"></span>
+      </h2>
+      <button id="today-btn">Hôm nay</button>
+    </div>
+
+    <div class="calendar-grid">
+      {% for day in weekdays %}
+        <div class="calendar-weekday">{{ day }}</div>
+      {% endfor %}
+
+      {% for day in month_days %}
+        <div class="calendar-cell 
+                    {% if day == today %}today{% endif %}
+                    {% if day.month != month %}other-month{% endif %}" 
+            id="day-{{ day }}">
+          <span class="date-number">{{ day.day }}</span>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block script %}
+<script>
+// Cập nhật thời gian thực
+function updateTime() {
+  const now = new Date();
+  const timeEl = document.getElementById('current-time');
+  if(timeEl){
+    timeEl.textContent = now.toLocaleTimeString();
+  }
+}
+setInterval(updateTime, 1000);
+updateTime();
+
+// Điều hướng tháng
+const prevBtn = document.getElementById('prev-month');
+const nextBtn = document.getElementById('next-month');
+const todayBtn = document.getElementById('today-btn');
+
+function goToMonth(offset){
+    const url = new URL(window.location.href);
+    const currentMonth = parseInt(url.searchParams.get('month')) || {{ month }};
+    const currentYear = parseInt(url.searchParams.get('year')) || {{ year }};
+    let newMonth = currentMonth + offset;
+    let newYear = currentYear;
+    if(newMonth < 1){ newMonth = 12; newYear -=1;}
+    if(newMonth > 12){ newMonth = 1; newYear +=1;}
+    url.searchParams.set('month', newMonth);
+    url.searchParams.set('year', newYear);
+    window.location.href = url.toString();
+}
+
+if(prevBtn) prevBtn.addEventListener('click', ()=>goToMonth(-1));
+if(nextBtn) nextBtn.addEventListener('click', ()=>goToMonth(1));
+if(todayBtn) todayBtn.addEventListener('click', ()=>window.location.href = `?month={{ today.month }}&year={{ today.year }}`);
+</script>
+{% endblock %}

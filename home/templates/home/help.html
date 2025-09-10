@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+{% block title %}Trung tâm trợ giúp{% endblock %}
+
+{% block style %}
+<style>
+:root {
+  --primary: #007aff;
+  --secondary: #00cfff;
+  --card-bg: rgba(255, 255, 255, 0.85);
+  --card-bg-dark: rgba(30, 30, 30, 0.9);
+  --shadow: rgba(0, 0, 0, 0.15);
+  --radius: 20px;
+  --speed: 0.3s ease;
+}
+
+/* Layout */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Card */
+.card {
+  background: var(--card-bg);
+  backdrop-filter: blur(14px);
+  border-radius: var(--radius);
+  box-shadow: 0 12px 28px var(--shadow);
+  padding: 28px;
+  transition: all var(--speed);
+  width: 100%;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.2);
+}
+.card h2 {
+  font-size: 26px;
+  margin-bottom: 12px;
+  font-weight: 700;
+  color: var(--primary);
+}
+.card p.sub {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* List */
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.card ul li {
+  margin: 10px 0;
+  padding: 12px 14px;
+  border-radius: 14px;
+  transition: all var(--speed);
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.03);
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.card ul li:hover {
+  background: rgba(0, 122, 255, 0.1);
+  transform: scale(1.02);
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .card {
+    background: var(--card-bg-dark);
+    color: #fff;
+  }
+  .card p.sub {
+    color: #ccc;
+  }
+  .card ul li {
+    background: rgba(255, 255, 255, 0.06);
+    color: #ddd;
+  }
+  .card ul li:hover {
+    background: rgba(0, 122, 255, 0.25);
+  }
+}
+
+/* Responsive */
+@media(max-width: 600px) {
+  .card {
+    padding: 20px;
+  }
+  .card h2 {
+    font-size: 22px;
+  }
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="card">
+    <h2>📖 Trung tâm trợ giúp</h2>
+    <p class="sub">
+      Tại đây bạn có thể tìm thấy hướng dẫn sử dụng hệ thống và các cách liên hệ để được hỗ trợ.
+    </p>
+    <ul>
+      <li>❓ Câu hỏi thường gặp</li>
+      <li>📞 Liên hệ bộ phận hỗ trợ</li>
+      <li>📚 Hướng dẫn sử dụng hệ thống</li>
+      <li>💡 Mẹo & thủ thuật</li>
+    </ul>
+  </div>
+</div>
+{% endblock %}

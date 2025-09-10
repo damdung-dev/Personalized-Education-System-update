@@ -1,0 +1,226 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block style %}
+<style>
+:root {
+  --primary: #007aff;
+  --secondary: #00cfff;
+  --success: #28a745;
+  --danger: #ff3b30;
+  --card-bg: rgba(255,255,255,0.95);
+  --shadow: rgba(0,0,0,0.12);
+  --radius: 18px;
+  --speed: 0.3s ease;
+  --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+  font-family: var(--font);
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* Card */
+.card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: 0 6px 18px var(--shadow);
+  overflow: hidden;
+  transition: transform var(--speed), box-shadow var(--speed);
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 28px rgba(0,0,0,0.2);
+}
+.card-header {
+  padding: 16px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+}
+.bg-primary { background: linear-gradient(135deg, var(--primary), var(--secondary)); }
+.bg-success { background: linear-gradient(135deg, var(--success), #5cd65c); }
+.card-body { padding: 20px; }
+
+/* Table */
+.table-responsive { overflow-x: auto; }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+  font-size: 15px;
+}
+thead tr { background: rgba(0,0,0,0.05); }
+th, td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+  transition: background var(--speed);
+}
+tbody tr:hover { background: rgba(0,122,255,0.06); }
+
+/* Buttons */
+button {
+  padding: 7px 16px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--speed);
+}
+button:hover { transform: scale(1.05); }
+.bg-danger { background: var(--danger); color: #fff; }
+.bg-success-btn { background: var(--success); color: #fff; }
+
+/* Responsive */
+@media(max-width: 768px){
+  th, td { padding: 10px; font-size: 13px; }
+  button { font-size: 13px; padding: 6px 14px; }
+}
+
+/* Dark mode */
+@media(prefers-color-scheme: dark){
+  body { background: #121212; }
+  .card { background: rgba(30,30,30,0.95); color: #eee; }
+  th, td { border-color: #555; color: #ddd; }
+  thead tr { background: rgba(255,255,255,0.1); }
+  tbody tr:hover { background: rgba(0,122,255,0.15); }
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+
+  <!-- Khóa học của tôi -->
+  <div class="card">
+    <div class="card-header bg-primary">📘 Khóa học của tôi</div>
+    <div class="card-body">
+      {% if my_courses %}
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr>
+              <th>Mã học phần</th>
+              <th>Tên học phần</th>
+              <th>Số tín chỉ</th>
+              <th>Trạng thái</th>
+              <th>Tùy chọn</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for course in my_courses %}
+            <tr>
+              <td>{{ course.code }}</td>
+              <td>{{ course.name }}</td>
+              <td>{{ course.credits }}</td>
+              <td>{{ course.get_status_display }}</td>
+              <td>
+                <form method="POST" action="{% url 'home:course_detail' course.code %}">
+                  {% csrf_token %}
+                  <button type="submit" class="bg-danger">Xem khóa học</button>
+                </form>
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      {% else %}
+      <p class="text-muted">Bạn chưa có khóa học nào.</p>
+      {% endif %}
+    </div>
+  </div>
+
+  <!-- Khóa học hiện có -->
+  <div class="card">
+    <div class="card-header bg-success">📚 Khóa học hiện có</div>
+    <div class="card-body">
+      {% if suggested_courses %}
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr>
+              <th>Mã học phần</th>
+              <th>Tên học phần</th>
+              <th>Số tín chỉ</th>
+              <th>Trạng thái</th>
+              <th>Đăng ký</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for course in suggested_courses %}
+            <tr>
+              <td>{{ course.code }}</td>
+              <td>{{ course.name }}</td>
+              <td>{{ course.credits }}</td>
+              <td>{{ course.get_status_display }}</td>
+              <td>
+                <button class="bg-success-btn"
+                        onclick="registerCourse('{% url 'home:register_course' course.code %}')">
+                  Đăng ký
+                </button>
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      {% else %}
+      <p class="text-muted">Không có khóa học nào để đăng ký.</p>
+      {% endif %}
+    </div>
+  </div>
+
+</div>
+
+<script>
+function getCookie(name) {
+  let cookieValue = null;
+  if (document.cookie) {
+    const cookies = document.cookie.split(";");
+    for (let cookie of cookies) {
+      cookie = cookie.trim();
+      if (cookie.startsWith(name + "=")) {
+        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+        break;
+      }
+    }
+  }
+  return cookieValue;
+}
+
+async function registerCourse(url) {
+  if (!confirm("Bạn có chắc chắn muốn đăng ký khóa học này?")) return;
+  try {
+    const response = await fetch(url, {
+      method: "POST",
+      headers: {
+        "X-CSRFToken": getCookie("csrftoken"),
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({})
+    });
+    const data = await response.json();
+    alert(data.message);
+    if (data.success) location.reload();
+  } catch (err) {
+    console.error(err);
+    alert("Có lỗi xảy ra: " + err.message);
+  }
+}
+</script>
+{% endblock %}

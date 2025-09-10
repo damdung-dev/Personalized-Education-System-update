@@ -1,0 +1,162 @@
+{% extends "base.html" %}
+{% block title %}Các khóa học{% endblock %}
+
+{% block style %}
+<style>
+:root {
+  --primary: #007aff;
+  --secondary: #00c6ff;
+  --gradient: linear-gradient(135deg, var(--primary), var(--secondary));
+  --card-bg: rgba(255, 255, 255, 0.9);
+  --card-bg-dark: rgba(28, 28, 28, 0.9);
+  --shadow: 0 12px 28px rgba(0,0,0,0.15);
+  --radius: 20px;
+  --transition: 0.25s ease;
+  --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Container */
+.container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 16px;
+  font-family: var(--font);
+}
+
+/* Card */
+.card {
+  background: var(--card-bg);
+  backdrop-filter: blur(12px);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px rgba(0,0,0,0.18);
+}
+
+/* Header */
+.card-header {
+  background: var(--gradient);
+  padding: 18px 22px;
+}
+.card-header h2 {
+  margin: 0;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+/* Table */
+.table-responsive {
+  overflow-x: auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+thead tr {
+  background: rgba(0,122,255,0.08);
+}
+th, td {
+  padding: 14px 16px;
+  text-align: center;
+  font-size: 15px;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  transition: background var(--transition);
+}
+thead th {
+  font-weight: 600;
+  color: #333;
+}
+tbody tr:nth-child(even) {
+  background: rgba(0,0,0,0.02);
+}
+tbody tr:hover {
+  background: rgba(0,122,255,0.1);
+  transform: scale(1.01);
+}
+tbody td:first-child {
+  font-weight: 600;
+  color: var(--primary);
+}
+
+/* Empty state */
+.empty-state {
+  padding: 40px 20px;
+  text-align: center;
+  color: #777;
+  font-style: italic;
+}
+.empty-state i {
+  font-size: 40px;
+  display: block;
+  margin-bottom: 10px;
+  color: var(--primary);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  th, td {
+    padding: 10px 8px;
+    font-size: 14px;
+  }
+  .card-header h2 {
+    font-size: 18px;
+  }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .card { background: var(--card-bg-dark); color: #eee; }
+  .card-header { background: var(--gradient); }
+  thead tr { background: rgba(0,122,255,0.2); }
+  th, td { border-bottom: 1px solid rgba(255,255,255,0.08); color: #ddd; }
+  tbody tr:nth-child(even) { background: rgba(255,255,255,0.05); }
+  tbody tr:hover { background: rgba(0,122,255,0.25); }
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="card">
+    <div class="card-header">
+      <h2>Các khóa học hiện có tại trung tâm</h2>
+    </div>
+
+    {% if suggested_courses %}
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr>
+              <th>Mã học phần</th>
+              <th>Tên học phần</th>
+              <th>Số tín chỉ</th>
+              <th>Trung tâm</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for course in suggested_courses %}
+            <tr>
+              <td>{{ course.code }}</td>
+              <td>{{ course.name }}</td>
+              <td>{{ course.credits }}</td>
+              <td>{{ course.center_name }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    {% else %}
+      <div class="empty-state">
+        <i class="bi bi-journal-x"></i>
+        Hiện tại chưa có khóa học nào.
+      </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

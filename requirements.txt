@@ -1,0 +1,32 @@
+torch==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu121
+torchaudio
+
+# LLM và AI
+transformers==4.43.3
+accelerate==0.33.0
+peft==0.11.1
+bitsandbytes==0.43.2
+datasets==2.20.0
+trl==0.8.6
+sentencepiece
+tokenizers
+
+# Web / API (chọn nếu serve qua HTTP)
+fastapi==0.111.0
+uvicorn==0.30.5
+python-dotenv==1.0.1
+pydantic==2.8.2
+pyngrok
+
+# Data science / ML / vision
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+pillow
+opencv-python
+dlib
+keras
+protobuf

@@ -1,0 +1,140 @@
+{% extends "base.html" %}
+{% block title %}Kết quả{% endblock %}
+
+{% block style %}
+<style>
+:root {
+  --primary: #007aff;
+  --card-bg: rgba(255,255,255,0.92);
+  --shadow: 0 10px 28px rgba(0,0,0,0.12);
+  --radius: 18px;
+  --transition: 0.3s;
+}
+
+/* Container */
+.container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Card */
+.card {
+  width: 100%;
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  transition: all var(--transition);
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 36px rgba(0,0,0,0.18);
+}
+.card-header {
+  background: var(--primary);
+  color: #fff;
+  padding: 18px 22px;
+}
+.card-header h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+.card-body { padding: 20px; }
+
+/* Table */
+.table-responsive { width: 100%; overflow-x: auto; }
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  min-width: 600px;
+}
+thead tr {
+  background: rgba(0,122,255,0.1);
+}
+th, td {
+  padding: 14px 16px;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+  text-align: center;
+  transition: background var(--transition);
+  font-size: 15px;
+}
+tbody tr:hover {
+  background: rgba(0,122,255,0.07);
+}
+tbody tr:nth-child(even) {
+  background: rgba(0,0,0,0.02);
+}
+
+/* Empty state */
+.text-muted {
+  font-style: italic;
+  color: #777;
+  text-align: center;
+  padding: 24px 0;
+  font-size: 15px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+  .card-header h2 { font-size: 18px; }
+  th, td { padding: 10px 8px; font-size: 14px; }
+  table { min-width: unset; }
+}
+
+/* Dark mode */
+@media(prefers-color-scheme:dark){
+  .card { background: rgba(30,30,30,0.9); color:#fff; }
+  .card-header { background: rgba(0,122,255,0.85); }
+  table thead tr { background: rgba(0,122,255,0.25); }
+  table td, table th { border-bottom:1px solid rgba(255,255,255,0.08); color:#eee; }
+  tbody tr:nth-child(even){ background: rgba(255,255,255,0.05); }
+  tbody tr:hover{ background: rgba(0,122,255,0.2); }
+  .text-muted { color: #aaa; }
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="card">
+    <div class="card-header">
+      <h2>Kết quả học tập của tôi</h2>
+    </div>
+    <div class="card-body">
+      {% if recommend_courses %}
+        <div class="table-responsive">
+          <table>
+            <thead>
+              <tr>
+                <th>Mã học phần</th>
+                <th>Tên học phần</th>
+                <th>Số tín chỉ</th>
+                <th>Trạng thái</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for course in recommend_courses %}
+              <tr>
+                <td>{{ course.code }}</td>
+                <td>{{ course.name }}</td>
+                <td>{{ course.credits }}</td>
+                <td>{{ course.status }}</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      {% else %}
+        <p class="text-muted">Bạn chưa có kết quả học tập nào được ghi nhận.</p>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endblock %}
