@@ -15,17 +15,32 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path,include
+from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
+from django.conf.urls.i18n import i18n_patterns
 
-urlpatterns = [
+'''urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('login.urls')),
     path('forgotpassword/',include('forgotpassword.urls')),
     path('signup/',include('signup.urls')),
     path('home/',include('home.urls', namespace='home')),
+    path('i18n/', include('django.conf.urls.i18n')),
+]'''
+
+urlpatterns = [
+    path('i18n/', include('django.conf.urls.i18n')),  # set_language
 ]
+
+# Routes with language prefix
+urlpatterns += i18n_patterns(
+    path('admin/', admin.site.urls),
+    path('', include('login.urls')),                  # login app
+    path('signup/', include('signup.urls')),          # signup app
+    path('forgotpassword/', include('forgotpassword.urls')),  # forgot password
+    path('home/', include('home.urls', namespace='home')),    # home app
+)
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -1,5 +1,7 @@
 {% extends "base.html" %}
-{% block title %}Notifications{% endblock %}
+{% load static %}
+{% load i18n %}
+{% block title %}{% trans "Notifications" %}{% endblock %}
 
 {% block style %}
 <style>
@@ -135,18 +137,18 @@
 <div class="notifications-container">
   <!-- Header -->
   <div class="notifications-header">
-    <h2>🔔 Notifications</h2>
+    <h2>🔔 {% trans "Notifications" %}</h2>
     <div class="filter-btns">
-      <button class="filter-btn active" data-filter="all">All</button>
-      <button class="filter-btn" data-filter="unread">Unread</button>
-      <button class="filter-btn" data-filter="today">Today</button>
-      <button class="filter-btn" data-filter="week">This Week</button>
+      <button class="filter-btn active" data-filter="all">{% trans "All" %}</button>
+      <button class="filter-btn" data-filter="unread">{% trans "Unread" %}</button>
+      <button class="filter-btn" data-filter="today">{% trans "Today" %}</button>
+      <button class="filter-btn" data-filter="week">{% trans "This week" %}</button>
     </div>
   </div>
 
   <!-- List -->
   <div class="notifications-list" id="notifications-list">
-    <div class="group-header">Today</div>
+    <div class="group-header">{% trans "Today" %}</div>
     {% for n in notifications %}
     <div class="notification-item" data-unread="{{ n.unread|yesno:'true,false' }}" data-time="{{ n.time_tag }}">
       <img src="{{ n.icon_url }}" alt="icon">
@@ -166,7 +168,7 @@
 
   <!-- Footer -->
   <div class="notifications-footer">
-    <button id="load-more-btn">See older notifications</button>
+    <button id="load-more-btn">{% trans "See older notifications" %}</button>
   </div>
 </div>
 {% endblock %}

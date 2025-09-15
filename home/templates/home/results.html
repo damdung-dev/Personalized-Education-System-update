@@ -1,5 +1,7 @@
 {% extends "base.html" %}
-{% block title %}Kết quả{% endblock %}
+{% load static %}
+{% load i18n %}
+{% block title %}{% trans "Results" %}{% endblock %}
 
 {% block style %}
 <style>
@@ -105,7 +107,7 @@ tbody tr:nth-child(even) {
 <div class="container">
   <div class="card">
     <div class="card-header">
-      <h2>Kết quả học tập của tôi</h2>
+      <h2>{% trans "My results" %}</h2>
     </div>
     <div class="card-body">
       {% if recommend_courses %}
@@ -113,10 +115,11 @@ tbody tr:nth-child(even) {
           <table>
             <thead>
               <tr>
-                <th>Mã học phần</th>
-                <th>Tên học phần</th>
-                <th>Số tín chỉ</th>
-                <th>Trạng thái</th>
+                <th>{% trans "Subject code" %}</th>
+                <th>{% trans "Subject name" %}</th>
+                <th>{% trans "Study month" %}</th>
+                <th>{% trans "Static" %}</th>
+                <th>{% trans "Optional" %}</th>
               </tr>
             </thead>
             <tbody>
@@ -132,7 +135,7 @@ tbody tr:nth-child(even) {
           </table>
         </div>
       {% else %}
-        <p class="text-muted">Bạn chưa có kết quả học tập nào được ghi nhận.</p>
+        <p class="text-muted">{% trans "You have no recorded learning outcomes." %}</p>
       {% endif %}
     </div>
   </div>

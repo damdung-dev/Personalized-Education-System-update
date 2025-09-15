@@ -469,26 +469,24 @@ AI Prediction Helper for suggest what user want to watch and encoraging.
 ===============================
 '''
 def predict_future_action(durations):
-    """
-    Predict whether user will continue learning.
-    Simple logistic regression trained on synthetic rule:
-    - More time → more likely to continue
-    """
     if not durations:
         return "no_activity", 0.0
 
-    # Feature = today's study time (seconds)
     X = np.array(durations).reshape(-1, 1)
-
-    # Fake labels: <30m=0 (drop), >2h=1 (continue)
     y = np.array([1 if d > 2*3600 else 0 for d in durations])
 
-    # Train a tiny model in-memory
+    # Kiểm tra có đủ 2 lớp chưa
+    if len(set(y)) < 2:
+        # Tự dự đoán rule-based khi dữ liệu chỉ 1 lớp
+        today = durations[-1]
+        prob = 1.0 if y[0] == 1 else 0.0
+        return ("continue" if prob >= 0.5 else "drop", prob)
+
     model = LogisticRegression()
     model.fit(X, y)
 
     today = durations[-1]
-    prob = model.predict_proba([[today]])[0][1]  # Probability of "continue"
+    prob = model.predict_proba([[today]])[0][1]
 
     return ("continue" if prob >= 0.5 else "drop", prob)
 

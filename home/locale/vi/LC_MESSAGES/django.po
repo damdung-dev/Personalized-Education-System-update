@@ -1,0 +1,420 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 15:26+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Vietnamese\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\home\templates\base.html:111 .\home\templates\home\account.html:221
+msgid "Teachers"
+msgstr "Giáo viên"
+
+#: .\home\templates\base.html:112 .\home\templates\base.html:125
+#: .\home\templates\home\centers.html:5 .\home\templates\home\teachers.html:115
+msgid "Courses"
+msgstr "Khóa học"
+
+#: .\home\templates\base.html:113
+msgid "Help"
+msgstr "Trợ giúp"
+
+#: .\home\templates\base.html:114
+msgid "Theme"
+msgstr "Giao diện"
+
+#: .\home\templates\base.html:124
+msgid "Home"
+msgstr "Trang chủ"
+
+#: .\home\templates\base.html:126 .\home\templates\home\home.html:121
+#: .\home\templates\home\results.html:4
+msgid "Results"
+msgstr "Kết quả"
+
+#: .\home\templates\base.html:127 .\home\templates\home\home.html:125
+msgid "Documents"
+msgstr "Tài liệu"
+
+#: .\home\templates\base.html:128 .\home\templates\home\calendar.html:5
+msgid "Calendar"
+msgstr "Lịch"
+
+#: .\home\templates\base.html:129
+msgid "Chat"
+msgstr "Trò chuyện"
+
+#: .\home\templates\base.html:130 .\home\templates\home\notification.html:4
+msgid "Notifications"
+msgstr "Thông báo"
+
+#: .\home\templates\base.html:131
+msgid "Account"
+msgstr "Tài khoản"
+
+#: .\home\templates\base.html:138
+msgid "Language"
+msgstr "Ngôn ngữ"
+
+#: .\home\templates\base.html:150
+msgid "Logout"
+msgstr "Đăng xuất"
+
+#: .\home\templates\base.html:210
+msgid "Are you sure you want to log out?"
+msgstr "Bạn có chắc muốn đăng xuất không?"
+
+#: .\home\templates\home\account.html:180
+msgid "My account information"
+msgstr "Thông tin tài khoản của tôi"
+
+#: .\home\templates\home\account.html:187
+msgid "Name"
+msgstr "Họ và tên"
+
+#: .\home\templates\home\account.html:192
+msgid "Student id"
+msgstr "Mã sinh viên"
+
+#: .\home\templates\home\account.html:197
+msgid "Personal"
+msgstr "Cá nhân"
+
+#: .\home\templates\home\account.html:198
+msgid "Company"
+msgstr "Công ty"
+
+#: .\home\templates\home\account.html:200
+msgid "Type of your account"
+msgstr "Loại tài khoản"
+
+#: .\home\templates\home\account.html:205
+msgid "Phone number"
+msgstr "Số điện thoại"
+
+#: .\home\templates\home\account.html:210
+msgid "Your email"
+msgstr "Email của bạn"
+
+#: .\home\templates\home\account.html:215
+msgid "Your date of birth"
+msgstr "Ngày sinh"
+
+#: .\home\templates\home\account.html:220
+msgid "Students"
+msgstr "Sinh viên"
+
+#: .\home\templates\home\account.html:222
+msgid "Others"
+msgstr "Khác"
+
+#: .\home\templates\home\account.html:224
+msgid "Jobs"
+msgstr "Công việc"
+
+#: .\home\templates\home\account.html:229
+msgid "Description"
+msgstr "Mô tả"
+
+#: .\home\templates\home\account.html:233
+msgid "Update your information"
+msgstr "Cập nhật thông tin"
+
+#: .\home\templates\home\calendar.html:194
+#: .\home\templates\home\notification.html:144
+#: .\home\templates\home\notification.html:151
+msgid "Today"
+msgstr "Hôm nay"
+
+#: .\home\templates\home\centers.html:131
+msgid "Courses at the center now"
+msgstr "Khóa học hiện tại tại trung tâm"
+
+#: .\home\templates\home\centers.html:139
+#: .\home\templates\home\courses.html:117
+#: .\home\templates\home\results.html:118
+msgid "Subject code"
+msgstr "Mã môn học"
+
+#: .\home\templates\home\centers.html:140
+#: .\home\templates\home\courses.html:118
+#: .\home\templates\home\results.html:119
+msgid "Subject name"
+msgstr "Tên môn học"
+
+#: .\home\templates\home\centers.html:141
+#: .\home\templates\home\courses.html:119
+#: .\home\templates\home\results.html:120
+msgid "Study month"
+msgstr "Tháng học"
+
+#: .\home\templates\home\centers.html:142
+msgid "Register"
+msgstr "Đăng ký"
+
+#: .\home\templates\home\centers.html:160
+msgid "There are no courses yet"
+msgstr "Hiện chưa có khóa học"
+
+#: .\home\templates\home\chat.html:4
+msgid "Chat assistant"
+msgstr "Trợ lý trò chuyện"
+
+#: .\home\templates\home\chat.html:141
+msgid "Hi! I'm your virtual assistant. Please enter your question below 👋"
+msgstr "Xin chào! Tôi là trợ lý ảo của bạn. Vui lòng nhập câu hỏi bên dưới 👋"
+
+#: .\home\templates\home\course_detail.html:171
+msgid "List of my lessons"
+msgstr "Danh sách bài học của tôi"
+
+#: .\home\templates\home\course_detail.html:176
+msgid "Find lessons you want..."
+msgstr "Tìm bài học bạn muốn..."
+
+#: .\home\templates\home\course_detail.html:181
+msgid "Youtube search"
+msgstr "Tìm kiếm Youtube"
+
+#: .\home\templates\home\course_detail.html:182
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: .\home\templates\home\course_detail.html:196
+msgid "Description:"
+msgstr "Mô tả:"
+
+#: .\home\templates\home\course_detail.html:197
+msgid "Starting date: "
+msgstr "Ngày bắt đầu:"
+
+#: .\home\templates\home\course_detail.html:202
+msgid "Learn now"
+msgstr "Học ngay"
+
+#: .\home\templates\home\course_detail.html:207
+msgid "There are no lessons for this course."
+msgstr "Chưa có bài học nào cho khóa học này"
+
+#: .\home\templates\home\courses.html:110
+msgid "My course"
+msgstr "Khóa học của tôi"
+
+#: .\home\templates\home\courses.html:150
+msgid "Current courses at our center"
+msgstr "Các khóa học hiện tại tại trung tâm của chúng tôi"
+
+#: .\home\templates\home\courses.html:120
+#: .\home\templates\home\results.html:121
+msgid "Static"
+msgstr "Tĩnh"
+
+#: .\home\templates\home\courses.html:121
+#: .\home\templates\home\results.html:122
+msgid "Optional"
+msgstr "Tùy chọn"
+
+#: .\home\templates\home\courses.html:134
+msgid "Learn about the course"
+msgstr "Tìm hiểu về khóa học"
+
+#: .\home\templates\home\courses.html:143
+msgid "You have not any courses now"
+msgstr "Bạn hiện chưa có khóa học nào"
+
+#: .\home\templates\home\documents.html:4
+msgid "Library"
+msgstr "Thư viện"
+
+#: .\home\templates\home\documents.html:57
+msgid "My library"
+msgstr "Thư viện của tôi"
+
+#: .\home\templates\home\documents.html:59
+msgid "Add"
+msgstr "Thêm"
+
+#: .\home\templates\home\documents.html:60
+msgid "Delete"
+msgstr "Xóa"
+
+#: .\home\templates\home\documents.html:62
+msgid "List"
+msgstr "Danh sách"
+
+#: .\home\templates\home\documents.html:63
+msgid "Column"
+msgstr "Cột"
+
+#: .\home\templates\home\documents.html:66
+msgid "The amount of books currently"
+msgstr "Số lượng sách hiện tại"
+
+#: .\home\templates\home\documents.html:76
+#: .\home\templates\home\documents.html:129
+#: .\home\templates\home\documents.html:133
+msgid "Read now"
+msgstr "Đọc ngay"
+
+#: .\home\templates\home\documents.html:80
+msgid "None of books"
+msgstr "Không có sách nào"
+
+#: .\home\templates\home\documents.html:88
+msgid "Books you read recently"
+msgstr "Sách bạn đọc gần đây"
+
+#: .\home\templates\home\documents.html:99
+msgid "Open"
+msgstr "Mở"
+
+#: .\home\templates\home\documents.html:105
+msgid "None of books are reading"
+msgstr "Không có sách nào đang đọc"
+
+#: .\home\templates\home\documents.html:112
+msgid "Top of books"
+msgstr "Sách hàng đầu"
+
+#: .\home\templates\home\documents.html:114
+msgid "The number of books"
+msgstr "Số lượng sách"
+
+#: .\home\templates\home\documents.html:138
+msgid "None of books here"
+msgstr "Không có sách nào ở đây"
+
+#: .\home\templates\home\documents.html:143
+msgid "Previous"
+msgstr "Trước"
+
+#: .\home\templates\home\documents.html:145
+msgid "Page"
+msgstr "Trang"
+
+#: .\home\templates\home\documents.html:147
+msgid "Next page"
+msgstr "Trang tiếp theo"
+
+#: .\home\templates\home\help.html:4
+msgid "Help center"
+msgstr "Trung tâm trợ giúp"
+
+#: .\home\templates\home\help.html:116
+msgid "Frequently asked questions"
+msgstr "Câu hỏi thường gặp"
+
+#: .\home\templates\home\help.html:117
+msgid "Contact support"
+msgstr "Liên hệ hỗ trợ"
+
+#: .\home\templates\home\help.html:118
+msgid "System user manual"
+msgstr "Hướng dẫn sử dụng hệ thống"
+
+#: .\home\templates\home\help.html:119
+msgid "Tips"
+msgstr "Mẹo"
+
+#: .\home\templates\home\home.html:109
+msgid "Welcome to the Dashboard 👋"
+msgstr "Chào mừng đến với Bảng điều khiển 👋"
+
+#: .\home\templates\home\home.html:110
+msgid "Hi"
+msgstr "Xin chào"
+
+#: .\home\templates\home\home.html:110
+msgid "explore your account and activities here."
+msgstr "Khám phá tài khoản và hoạt động của bạn tại đây."
+
+#: .\home\templates\home\home.html:114
+msgid "Quick Stats"
+msgstr "Thống kê nhanh"
+
+#: .\home\templates\home\home.html:117
+msgid "Studying Courses"
+msgstr "Khóa học đang học"
+
+#: .\home\templates\home\home.html:129
+msgid "Progress"
+msgstr "Tiến độ"
+
+#: .\home\templates\home\home.html:136
+msgid "Learning Progress"
+msgstr "Tiến trình học tập"
+
+#: .\home\templates\home\home.html:139
+msgid "User Activities"
+msgstr "Hoạt động của người dùng"
+
+#: .\home\templates\home\lessons.html:5
+msgid "Lesson"
+msgstr "Bài học"
+
+#: .\home\templates\home\lessons.html:99
+msgid "Your browswer does not support videos"
+msgstr "Trình duyệt của bạn không hỗ trợ video"
+
+#: .\home\templates\home\lessons.html:104
+msgid "Back"
+msgstr "Quay lại"
+
+#: .\home\templates\home\lessons.html:105
+msgid "Done"
+msgstr "Hoàn thành"
+
+#: .\home\templates\home\notification.html:142
+msgid "All"
+msgstr "Tất cả"
+
+#: .\home\templates\home\notification.html:143
+msgid "Unread"
+msgstr "Chưa đọc"
+
+#: .\home\templates\home\notification.html:145
+msgid "This week"
+msgstr "Tuần này"
+
+#: .\home\templates\home\notification.html:171
+msgid "See older notifications"
+msgstr "Xem thông báo cũ"
+
+#: .\home\templates\home\results.html:138
+msgid "You have no recorded learning outcomes."
+msgstr "Bạn chưa có kết quả học tập nào được ghi nhận"
+
+#: .\home\templates\home\teachers.html:4
+msgid "List of teachers"
+msgstr "Danh sách giáo viên"
+
+#: .\home\templates\home\teachers.html:113
+msgid "STT"
+msgstr "STT"
+
+#: .\home\templates\home\teachers.html:114
+msgid "Teachers name"
+msgstr "Tên giáo viên"
+
+#: .\home\templates\home\teachers.html:127
+msgid "No data of teachers"
+msgstr "Không có dữ liệu giáo viên"
+
+#: .\home\templates\home\results.html:110
+msgid "My results"
+msgstr "Kết quả của tôi"   # Belarusian
+
+#: .\home\templates\home\help.html:119
+msgid "Here you can find system user manuals and ways to contact for support."
+msgstr "Tại đây bạn có thể tìm thấy hướng dẫn sử dụng hệ thống và cách liên hệ để được hỗ trợ."

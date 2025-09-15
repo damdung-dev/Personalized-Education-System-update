@@ -1,0 +1,417 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 15:26+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Estonian\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\home\templates\base.html:111 .\home\templates\home\account.html:221
+msgid "Teachers"
+msgstr "Õpetajad"
+
+#: .\home\templates\base.html:112 .\home\templates\base.html:125
+#: .\home\templates\home\centers.html:5 .\home\templates\home\teachers.html:115
+msgid "Courses"
+msgstr "Kursused"
+
+#: .\home\templates\base.html:113
+msgid "Help"
+msgstr "Abi"
+
+#: .\home\templates\base.html:114
+msgid "Theme"
+msgstr "Teema"
+
+#: .\home\templates\base.html:124
+msgid "Home"
+msgstr "Kodu"
+
+#: .\home\templates\base.html:126 .\home\templates\home\home.html:121
+#: .\home\templates\home\results.html:4
+msgid "Results"
+msgstr "Tulemused"
+
+#: .\home\templates\base.html:127 .\home\templates\home\home.html:125
+msgid "Documents"
+msgstr "Dokumendid"
+
+#: .\home\templates\base.html:128 .\home\templates\home\calendar.html:5
+msgid "Calendar"
+msgstr "Kalender"
+
+#: .\home\templates\base.html:129
+msgid "Chat"
+msgstr "Vestlus"
+
+#: .\home\templates\base.html:130 .\home\templates\home\notification.html:4
+msgid "Notifications"
+msgstr "Teavitused"
+
+#: .\home\templates\base.html:131
+msgid "Account"
+msgstr "Konto"
+
+#: .\home\templates\base.html:138
+msgid "Language"
+msgstr "Keel"
+
+#: .\home\templates\base.html:150
+msgid "Logout"
+msgstr "Logi välja"
+
+#: .\home\templates\base.html:210
+msgid "Are you sure you want to log out?"
+msgstr "Kas olete kindel, et soovite välja logida?"
+
+#: .\home\templates\home\account.html:180
+msgid "My account information"
+msgstr "Minu konto andmed"
+
+#: .\home\templates\home\account.html:187
+msgid "Name"
+msgstr "Nimi"
+
+#: .\home\templates\home\account.html:192
+msgid "Student id"
+msgstr "Õpilase ID"
+
+#: .\home\templates\home\account.html:197
+msgid "Personal"
+msgstr "Isiklik"
+
+#: .\home\templates\home\account.html:198
+msgid "Company"
+msgstr "Ettevõte"
+
+#: .\home\templates\home\account.html:200
+msgid "Type of your account"
+msgstr "Konto tüüp"
+
+#: .\home\templates\home\account.html:205
+msgid "Phone number"
+msgstr "Telefoninumber"
+
+#: .\home\templates\home\account.html:210
+msgid "Your email"
+msgstr "Teie e-post"
+
+#: .\home\templates\home\account.html:215
+msgid "Your date of birth"
+msgstr "Teie sünnikuupäev"
+
+#: .\home\templates\home\account.html:220
+msgid "Students"
+msgstr "Õpilased"
+
+#: .\home\templates\home\account.html:222
+msgid "Others"
+msgstr "Muud"
+
+#: .\home\templates\home\account.html:224
+msgid "Jobs"
+msgstr "Tööd"
+
+#: .\home\templates\home\account.html:229
+msgid "Description"
+msgstr "Kirjeldus"
+
+#: .\home\templates\home\account.html:233
+msgid "Update your information"
+msgstr "Uuenda oma andmeid"
+
+#: .\home\templates\home\calendar.html:194
+#: .\home\templates\home\notification.html:144
+#: .\home\templates\home\notification.html:151
+msgid "Today"
+msgstr "Täna"
+
+#: .\home\templates\home\centers.html:131
+msgid "Courses at the center now"
+msgstr "Kursused keskuses praegu"
+
+#: .\home\templates\home\centers.html:139
+#: .\home\templates\home\courses.html:117
+#: .\home\templates\home\results.html:118
+msgid "Subject code"
+msgstr "Aine kood"
+
+#: .\home\templates\home\centers.html:140
+#: .\home\templates\home\courses.html:118
+#: .\home\templates\home\results.html:119
+msgid "Subject name"
+msgstr "Aine nimetus"
+
+#: .\home\templates\home\centers.html:141
+#: .\home\templates\home\courses.html:119
+#: .\home\templates\home\results.html:120
+msgid "Study month"
+msgstr "Õppimise kuu"
+
+#: .\home\templates\home\centers.html:142
+msgid "Register"
+msgstr "Registreeru"
+
+#: .\home\templates\home\centers.html:160
+msgid "There are no courses yet"
+msgstr "Kursuseid veel ei ole"
+
+#: .\home\templates\home\chat.html:4
+msgid "Chat assistant"
+msgstr "Vestlusassistent"
+
+#: .\home\templates\home\chat.html:141
+msgid "Hi! I'm your virtual assistant. Please enter your question below 👋"
+msgstr "Tere! Olen teie virtuaalne assistent. Palun sisestage oma küsimus allpool 👋"
+
+#: .\home\templates\home\course_detail.html:171
+msgid "List of my lessons"
+msgstr "Minu tundide nimekiri"
+
+#: .\home\templates\home\course_detail.html:176
+msgid "Find lessons you want..."
+msgstr "Leia tund, mida soovite..."
+
+#: .\home\templates\home\course_detail.html:181
+msgid "Youtube search"
+msgstr "YouTube otsing"
+
+#: .\home\templates\home\course_detail.html:182
+msgid "Search"
+msgstr "Otsi"
+
+#: .\home\templates\home\course_detail.html:196
+msgid "Description:"
+msgstr "Kirjeldus:"
+
+#: .\home\templates\home\course_detail.html:197
+msgid "Starting date: "
+msgstr "Alguskuupäev: "
+
+#: .\home\templates\home\course_detail.html:202
+msgid "Learn now"
+msgstr "Alusta õppimist nüüd"
+
+#: .\home\templates\home\course_detail.html:207
+msgid "There are no lessons for this course."
+msgstr "Selle kursuse jaoks pole tunde."
+
+#: .\home\templates\home\courses.html:110
+msgid "My course"
+msgstr "Nire ikastaroa"
+
+#: .\home\templates\home\courses.html:150
+msgid "Current courses at our center"
+msgstr "Gure zentroko egungo ikastaroak"
+
+#: .\home\templates\home\courses.html:120
+#: .\home\templates\home\results.html:121
+msgid "Static"
+msgstr "Staatiline"
+
+#: .\home\templates\home\courses.html:121
+#: .\home\templates\home\results.html:122
+msgid "Optional"
+msgstr "Valikuline"
+
+#: .\home\templates\home\courses.html:134
+msgid "Learn about the course"
+msgstr "Õpi kursuse kohta"
+
+#: .\home\templates\home\courses.html:143
+msgid "You have not any courses now"
+msgstr "Teil pole praegu kursuseid"
+
+#: .\home\templates\home\documents.html:4
+msgid "Library"
+msgstr "Raamatukogu"
+
+#: .\home\templates\home\documents.html:57
+msgid "My library"
+msgstr "Minu raamatukogu"
+
+#: .\home\templates\home\documents.html:59
+msgid "Add"
+msgstr "Lisa"
+
+#: .\home\templates\home\documents.html:60
+msgid "Delete"
+msgstr "Kustuta"
+
+#: .\home\templates\home\documents.html:62
+msgid "List"
+msgstr "Nimekiri"
+
+#: .\home\templates\home\documents.html:63
+msgid "Column"
+msgstr "Veerg"
+
+#: .\home\templates\home\documents.html:66
+msgid "The amount of books currently"
+msgstr "Raamatute arv praegu"
+
+#: .\home\templates\home\documents.html:76
+#: .\home\templates\home\documents.html:129
+#: .\home\templates\home\documents.html:133
+msgid "Read now"
+msgstr "Loe nüüd"
+
+#: .\home\templates\home\documents.html:80
+msgid "None of books"
+msgstr "Raamatuid pole"
+
+#: .\home\templates\home\documents.html:88
+msgid "Books you read recently"
+msgstr "Raamatud, mida lugesite hiljuti"
+
+#: .\home\templates\home\documents.html:99
+msgid "Open"
+msgstr "Ava"
+
+#: .\home\templates\home\documents.html:105
+msgid "None of books are reading"
+msgstr "Ühtegi raamatut ei loeta"
+
+#: .\home\templates\home\documents.html:112
+msgid "Top of books"
+msgstr "Raamatute tipp"
+
+#: .\home\templates\home\documents.html:114
+msgid "The number of books"
+msgstr "Raamatute arv"
+
+#: .\home\templates\home\documents.html:138
+msgid "None of books here"
+msgstr "Siin pole raamatuid"
+
+#: .\home\templates\home\documents.html:143
+msgid "Previous"
+msgstr "Eelmine"
+
+#: .\home\templates\home\documents.html:145
+msgid "Page"
+msgstr "Leht"
+
+#: .\home\templates\home\documents.html:147
+msgid "Next page"
+msgstr "Järgmine leht"
+
+#: .\home\templates\home\help.html:4
+msgid "Help center"
+msgstr "Abikeskus"
+
+#: .\home\templates\home\help.html:116
+msgid "Frequently asked questions"
+msgstr "Korduma kippuvad küsimused"
+
+#: .\home\templates\home\help.html:117
+msgid "Contact support"
+msgstr "Võta ühendust toega"
+
+#: .\home\templates\home\help.html:118
+msgid "System user manual"
+msgstr "Süsteemi kasutusjuhend"
+
+#: .\home\templates\home\help.html:119
+msgid "Tips"
+msgstr "Nõuanded"
+
+#: .\home\templates\home\home.html:109
+msgid "Welcome to the Dashboard 👋"
+msgstr "Tere tulemast juhtpaneelile 👋"
+
+#: .\home\templates\home\home.html:110
+msgid "Hi"
+msgstr "Tere"
+
+#: .\home\templates\home\home.html:110
+msgid "explore your account and activities here."
+msgstr "uurige oma kontot ja tegevusi siin."
+
+#: .\home\templates\home\home.html:114
+msgid "Quick Stats"
+msgstr "Kiired statistika"
+
+#: .\home\templates\home\home.html:117
+msgid "Studying Courses"
+msgstr "Õppematerjalid"
+
+#: .\home\templates\home\home.html:129
+msgid "Progress"
+msgstr "Edusammud"
+
+#: .\home\templates\home\home.html:136
+msgid "Learning Progress"
+msgstr "Õppimise edenemine"
+
+#: .\home\templates\home\home.html:139
+msgid "User Activities"
+msgstr "Kasutaja tegevused"
+
+#: .\home\templates\home\lessons.html:5
+msgid "Lesson"
+msgstr "Tund"
+
+#: .\home\templates\home\lessons.html:99
+msgid "Your browswer does not support videos"
+msgstr "Teie brauser ei toeta videoid"
+
+#: .\home\templates\home\lessons.html:104
+msgid "Back"
+msgstr "Tagasi"
+
+#: .\home\templates\home\lessons.html:105
+msgid "Done"
+msgstr "Valmis"
+
+#: .\home\templates\home\notification.html:142
+msgid "All"
+msgstr "Kõik"
+
+#: .\home\templates\home\notification.html:143
+msgid "Unread"
+msgstr "Lugemata"
+
+#: .\home\templates\home\notification.html:145
+msgid "This week"
+msgstr "Selle nädala"
+
+#: .\home\templates\home\notification.html:171
+msgid "See older notifications"
+msgstr "Vaata vanemaid teavitusi"
+
+#: .\home\templates\home\results.html:138
+msgid "You have no recorded learning outcomes."
+msgstr "Teil ei ole registreeritud õppimise tulemusi"
+
+#: .\home\templates\home\teachers.html:4
+msgid "List of teachers"
+msgstr "Õpetajate nimekiri"
+
+#: .\home\templates\home\teachers.html:113
+msgid "STT"
+msgstr "Nr"
+
+#: .\home\templates\home\teachers.html:114
+msgid "Teachers name"
+msgstr "Õpetaja nimi"
+
+#: .\home\templates\home\teachers.html:127
+msgid "No data of teachers"
+msgstr "Õpetajate andmeid pole"
+
+#: .\home\templates\home\help.html:119
+msgid "Here you can find system user manuals and ways to contact for support."
+msgstr "Siit leiate süsteemi kasutusjuhendid ja viise toe saamiseks ühendust võtta."

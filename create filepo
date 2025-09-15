@@ -1,0 +1,88 @@
+import os
+
+# Danh sách country codes + tên gốc (msgid)
+languages_list = [
+    ('af', 'Afrikaans (South Africa)'),
+    ('am', 'Amharic (Ethiopia)'),
+    ('ar', 'Arabic (Saudi Arabia)'),
+    ('az', 'Azerbaijani (Azerbaijan)'),
+    ('be', 'Belarusian (Belarus)'),
+    ('bg', 'Bulgarian (Bulgaria)'),
+    ('bn', 'Bengali (Bangladesh)'),
+    ('ca', 'Catalan (Spain)'),
+    ('cs', 'Czech (Czech Republic)'),
+    ('da', 'Danish (Denmark)'),
+    ('de', 'German (Germany)'),
+    ('el', 'Greek (Greece)'),
+    ('en', 'English (United States)'),
+    ('en-GB', 'English (United Kingdom)'),
+    ('es', 'Spanish (Spain)'),
+    ('es-MX', 'Spanish (Mexico)'),
+    ('et', 'Estonian (Estonia)'),
+    ('fa', 'Persian (Iran)'),
+    ('fi', 'Finnish (Finland)'),
+    ('fil', 'Filipino (Philippines)'),
+    ('fr', 'French (France)'),
+    ('fr-CA', 'French (Canada)'),
+    ('he', 'Hebrew (Israel)'),
+    ('hi', 'Hindi (India)'),
+    ('hr', 'Croatian (Croatia)'),
+    ('hu', 'Hungarian (Hungary)'),
+    ('id', 'Indonesian (Indonesia)'),
+    ('it', 'Italian (Italy)'),
+    ('ja', 'Japanese (Japan)'),
+    ('ko', 'Korean (South Korea)'),
+    ('lo', 'Lao (Laos)'),
+    ('lt', 'Lithuanian (Lithuania)'),
+    ('lv', 'Latvian (Latvia)'),
+    ('ms', 'Malay (Malaysia)'),
+    ('my', 'Burmese (Myanmar)'),
+    ('ne', 'Nepali (Nepal)'),
+    ('nl', 'Dutch (Netherlands)'),
+    ('no', 'Norwegian (Norway)'),
+    ('pl', 'Polish (Poland)'),
+    ('pt', 'Portuguese (Portugal)'),
+    ('pt-BR', 'Portuguese (Brazil)'),
+    ('ro', 'Romanian (Romania)'),
+    ('ru', 'Russian (Russia)'),
+    ('si', 'Sinhala (Sri Lanka)'),
+    ('sk', 'Slovak (Slovakia)'),
+    ('sl', 'Slovenian (Slovenia)'),
+    ('sr', 'Serbian (Serbia)'),
+    ('sv', 'Swedish (Sweden)'),
+    ('th', 'Thai (Thailand)'),
+    ('tr', 'Turkish (Turkey)'),
+    ('uk', 'Ukrainian (Ukraine)'),
+    ('ur', 'Urdu (Pakistan)'),
+    ('uz', 'Uzbek (Uzbekistan)'),
+    ('vi', 'Vietnamese (Vietnam)'),
+    ('zh', 'Chinese (China)'),
+    ('zh-TW', 'Chinese (Taiwan)')
+]
+
+# Các ngôn ngữ bạn muốn tạo file .po
+target_languages = ['vi', 'fr', 'es', 'de', 'ja', 'ko']  # thêm code ngôn ngữ khác nếu muốn
+
+# Thư mục locale
+base_locale_dir = 'locale'
+
+for lang in target_languages:
+    po_dir = os.path.join(base_locale_dir, lang, 'LC_MESSAGES')
+    os.makedirs(po_dir, exist_ok=True)
+    po_file_path = os.path.join(po_dir, 'django.po')
+
+    with open(po_file_path, 'w', encoding='utf-8') as f:
+        # Header
+        f.write('msgid ""\n')
+        f.write('msgstr ""\n')
+        f.write(f'"Language: {lang}\\n"\n')
+        f.write('"MIME-Version: 1.0\\n"\n')
+        f.write('"Content-Type: text/plain; charset=UTF-8\\n"\n')
+        f.write('"Content-Transfer-Encoding: 8bit\\n"\n\n')
+
+        # Write all country codes
+        for code, name in languages_list:
+            f.write(f'msgid "{name}"\n')
+            f.write('msgstr ""\n\n')
+
+print("Tạo file .po xong! Bây giờ chỉ cần điền msgstr và compilemessages")

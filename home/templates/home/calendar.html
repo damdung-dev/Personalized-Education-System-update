@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 {% load static %}
-{% block title %}Lịch{% endblock %}
+{% load i18n %}
+
+{% block title %}{% trans "Calendar" %}{% endblock %}
 
 {% block style %}
 <style>
@@ -189,7 +191,7 @@
       <h2>{{ month }}/{{ year }}
         <span id="current-time"></span>
       </h2>
-      <button id="today-btn">Hôm nay</button>
+      <button id="today-btn">{% trans "Today" %}</button>
     </div>
 
     <div class="calendar-grid">

@@ -1,0 +1,416 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 15:26+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Czech\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: .\home\templates\base.html:111 .\home\templates\home\account.html:221
+msgid "Teachers"
+msgstr "Učitelé"
+
+#: .\home\templates\base.html:112 .\home\templates\base.html:125
+#: .\home\templates\home\centers.html:5 .\home\templates\home\teachers.html:115
+msgid "Courses"
+msgstr "Kurzy"
+
+#: .\home\templates\base.html:113
+msgid "Help"
+msgstr "Nápověda"
+
+#: .\home\templates\base.html:114
+msgid "Theme"
+msgstr "Téma"
+
+#: .\home\templates\base.html:124
+msgid "Home"
+msgstr "Domů"
+
+#: .\home\templates\base.html:126 .\home\templates\home\home.html:121
+#: .\home\templates\home\results.html:4
+msgid "Results"
+msgstr "Výsledky"
+
+#: .\home\templates\base.html:127 .\home\templates\home\home.html:125
+msgid "Documents"
+msgstr "Dokumenty"
+
+#: .\home\templates\base.html:128 .\home\templates\home\calendar.html:5
+msgid "Calendar"
+msgstr "Kalendář"
+
+#: .\home\templates\base.html:129
+msgid "Chat"
+msgstr "Chat"
+
+#: .\home\templates\base.html:130 .\home\templates\home\notification.html:4
+msgid "Notifications"
+msgstr "Oznámení"
+
+#: .\home\templates\base.html:131
+msgid "Account"
+msgstr "Účet"
+
+#: .\home\templates\base.html:138
+msgid "Language"
+msgstr "Jazyk"
+
+#: .\home\templates\base.html:150
+msgid "Logout"
+msgstr "Odhlásit se"
+
+#: .\home\templates\base.html:210
+msgid "Are you sure you want to log out?"
+msgstr "Opravdu se chcete odhlásit?"
+
+#: .\home\templates\home\account.html:180
+msgid "My account information"
+msgstr "Moje informace o účtu"
+
+#: .\home\templates\home\account.html:187
+msgid "Name"
+msgstr "Jméno"
+
+#: .\home\templates\home\account.html:192
+msgid "Student id"
+msgstr "Studentské ID"
+
+#: .\home\templates\home\account.html:197
+msgid "Personal"
+msgstr "Osobní"
+
+#: .\home\templates\home\account.html:198
+msgid "Company"
+msgstr "Společnost"
+
+#: .\home\templates\home\account.html:200
+msgid "Type of your account"
+msgstr "Typ účtu"
+
+#: .\home\templates\home\account.html:205
+msgid "Phone number"
+msgstr "Telefonní číslo"
+
+#: .\home\templates\home\account.html:210
+msgid "Your email"
+msgstr "Váš e-mail"
+
+#: .\home\templates\home\account.html:215
+msgid "Your date of birth"
+msgstr "Datum narození"
+
+#: .\home\templates\home\account.html:220
+msgid "Students"
+msgstr "Studenti"
+
+#: .\home\templates\home\account.html:222
+msgid "Others"
+msgstr "Ostatní"
+
+#: .\home\templates\home\account.html:224
+msgid "Jobs"
+msgstr "Práce"
+
+#: .\home\templates\home\account.html:229
+msgid "Description"
+msgstr "Popis"
+
+#: .\home\templates\home\account.html:233
+msgid "Update your information"
+msgstr "Aktualizujte své informace"
+
+#: .\home\templates\home\calendar.html:194
+#: .\home\templates\home\notification.html:144
+#: .\home\templates\home\notification.html:151
+msgid "Today"
+msgstr "Dnes"
+
+#: .\home\templates\home\centers.html:131
+msgid "Courses at the center now"
+msgstr "Kurzy v centru"
+
+#: .\home\templates\home\centers.html:139
+#: .\home\templates\home\courses.html:117
+#: .\home\templates\home\results.html:118
+msgid "Subject code"
+msgstr "Kód předmětu"
+
+#: .\home\templates\home\centers.html:140
+#: .\home\templates\home\courses.html:118
+#: .\home\templates\home\results.html:119
+msgid "Subject name"
+msgstr "Název předmětu"
+
+#: .\home\templates\home\centers.html:141
+#: .\home\templates\home\courses.html:119
+#: .\home\templates\home\results.html:120
+msgid "Study month"
+msgstr "Měsíc studia"
+
+#: .\home\templates\home\centers.html:142
+msgid "Register"
+msgstr "Registrovat se"
+
+#: .\home\templates\home\centers.html:160
+msgid "There are no courses yet"
+msgstr "Zatím nejsou žádné kurzy"
+
+#: .\home\templates\home\chat.html:4
+msgid "Chat assistant"
+msgstr "Chat asistent"
+
+#: .\home\templates\home\chat.html:141
+msgid "Hi! I'm your virtual assistant. Please enter your question below 👋"
+msgstr "Ahoj! Jsem váš virtuální asistent. Zadejte svou otázku níže 👋"
+
+#: .\home\templates\home\course_detail.html:171
+msgid "List of my lessons"
+msgstr "Seznam mých lekcí"
+
+#: .\home\templates\home\course_detail.html:176
+msgid "Find lessons you want..."
+msgstr "Najděte lekce, které chcete..."
+
+#: .\home\templates\home\course_detail.html:181
+msgid "Youtube search"
+msgstr "Vyhledávání na YouTube"
+
+#: .\home\templates\home\course_detail.html:182
+msgid "Search"
+msgstr "Hledat"
+
+#: .\home\templates\home\course_detail.html:196
+msgid "Description:"
+msgstr "Popis:"
+
+#: .\home\templates\home\course_detail.html:197
+msgid "Starting date: "
+msgstr "Datum zahájení: "
+
+#: .\home\templates\home\course_detail.html:202
+msgid "Learn now"
+msgstr "Učit se nyní"
+
+#: .\home\templates\home\course_detail.html:207
+msgid "There are no lessons for this course."
+msgstr "Pro tento kurz nejsou žádné lekce."
+
+#: .\home\templates\home\courses.html:110
+msgid "My course"
+msgstr "Můj kurz"
+
+#: .\home\templates\home\courses.html:150
+msgid "Current courses at our center"
+msgstr "Aktuální kurzy v našem centru"
+
+#: .\home\templates\home\courses.html:120
+#: .\home\templates\home\results.html:121
+msgid "Static"
+msgstr "Povinný"
+
+#: .\home\templates\home\courses.html:121
+#: .\home\templates\home\results.html:122
+msgid "Optional"
+msgstr "Volitelný"
+
+#: .\home\templates\home\courses.html:134
+msgid "Learn about the course"
+msgstr "Zjistit více o kurzu"
+
+#: .\home\templates\home\courses.html:143
+msgid "You have not any courses now"
+msgstr "Momentálně nemáte žádné kurzy"
+
+#: .\home\templates\home\documents.html:4
+msgid "Library"
+msgstr "Knihovna"
+
+#: .\home\templates\home\documents.html:57
+msgid "My library"
+msgstr "Moje knihovna"
+
+#: .\home\templates\home\documents.html:59
+msgid "Add"
+msgstr "Přidat"
+
+#: .\home\templates\home\documents.html:60
+msgid "Delete"
+msgstr "Smazat"
+
+#: .\home\templates\home\documents.html:62
+msgid "List"
+msgstr "Seznam"
+
+#: .\home\templates\home\documents.html:63
+msgid "Column"
+msgstr "Sloupec"
+
+#: .\home\templates\home\documents.html:66
+msgid "The amount of books currently"
+msgstr "Počet knih aktuálně"
+
+#: .\home\templates\home\documents.html:76
+#: .\home\templates\home\documents.html:129
+#: .\home\templates\home\documents.html:133
+msgid "Read now"
+msgstr "Číst nyní"
+
+#: .\home\templates\home\documents.html:80
+msgid "None of books"
+msgstr "Žádné knihy"
+
+#: .\home\templates\home\documents.html:88
+msgid "Books you read recently"
+msgstr "Knihy, které jste nedávno četli"
+
+#: .\home\templates\home\documents.html:99
+msgid "Open"
+msgstr "Otevřít"
+
+#: .\home\templates\home\documents.html:105
+msgid "None of books are reading"
+msgstr "Nečtete žádné knihy"
+
+#: .\home\templates\home\documents.html:112
+msgid "Top of books"
+msgstr "Nejlepší knihy"
+
+#: .\home\templates\home\documents.html:114
+msgid "The number of books"
+msgstr "Počet knih"
+
+#: .\home\templates\home\documents.html:138
+msgid "None of books here"
+msgstr "Žádné knihy zde"
+
+#: .\home\templates\home\documents.html:143
+msgid "Previous"
+msgstr "Předchozí"
+
+#: .\home\templates\home\documents.html:145
+msgid "Page"
+msgstr "Stránka"
+
+#: .\home\templates\home\documents.html:147
+msgid "Next page"
+msgstr "Další stránka"
+
+#: .\home\templates\home\help.html:4
+msgid "Help center"
+msgstr "Centrum nápovědy"
+
+#: .\home\templates\home\help.html:116
+msgid "Frequently asked questions"
+msgstr "Často kladené otázky"
+
+#: .\home\templates\home\help.html:117
+msgid "Contact support"
+msgstr "Kontaktovat podporu"
+
+#: .\home\templates\home\help.html:118
+msgid "System user manual"
+msgstr "Uživatelská příručka systému"
+
+#: .\home\templates\home\help.html:119
+msgid "Tips"
+msgstr "Tipy"
+
+#: .\home\templates\home\home.html:109
+msgid "Welcome to the Dashboard 👋"
+msgstr "Vítejte na hlavním panelu 👋"
+
+#: .\home\templates\home\home.html:110
+msgid "Hi"
+msgstr "Ahoj"
+
+#: .\home\templates\home\home.html:110
+msgid "explore your account and activities here."
+msgstr "zde prozkoumejte svůj účet a aktivity."
+
+#: .\home\templates\home\home.html:114
+msgid "Quick Stats"
+msgstr "Rychlé statistiky"
+
+#: .\home\templates\home\home.html:117
+msgid "Studying Courses"
+msgstr "Studované kurzy"
+
+#: .\home\templates\home\home.html:129
+msgid "Progress"
+msgstr "Pokrok"
+
+#: .\home\templates\home\home.html:136
+msgid "Learning Progress"
+msgstr "Studijní pokrok"
+
+#: .\home\templates\home\home.html:139
+msgid "User Activities"
+msgstr "Aktivity uživatele"
+
+#: .\home\templates\home\lessons.html:5
+msgid "Lesson"
+msgstr "Lekce"
+
+#: .\home\templates\home\lessons.html:99
+msgid "Your browswer does not support videos"
+msgstr "Váš prohlížeč nepodporuje videa"
+
+#: .\home\templates\home\lessons.html:104
+msgid "Back"
+msgstr "Zpět"
+
+#: .\home\templates\home\lessons.html:105
+msgid "Done"
+msgstr "Hotovo"
+
+#: .\home\templates\home\notification.html:142
+msgid "All"
+msgstr "Vše"
+
+#: .\home\templates\home\notification.html:143
+msgid "Unread"
+msgstr "Nepřečtené"
+
+#: .\home\templates\home\notification.html:145
+msgid "This week"
+msgstr "Tento týden"
+
+#: .\home\templates\home\notification.html:171
+msgid "See older notifications"
+msgstr "Zobrazit starší oznámení"
+
+#: .\home\templates\home\results.html:138
+msgid "You have no recorded learning outcomes."
+msgstr "Nemáte žádné zaznamenané studijní výsledky."
+
+#: .\home\templates\home\teachers.html:4
+msgid "List of teachers"
+msgstr "Seznam učitelů"
+
+#: .\home\templates\home\teachers.html:113
+msgid "STT"
+msgstr "STT"
+
+#: .\home\templates\home\teachers.html:114
+msgid "Teachers name"
+msgstr "Jméno učitele"
+
+#: .\home\templates\home\teachers.html:127
+msgid "No data of teachers"
+msgstr "Žádná data o učitelích"
+
+#: .\home\templates\home\help.html:119
+msgid "Here you can find system user manuals and ways to contact for support."
+msgstr "Zde můžete najít uživatelské příručky systému a způsoby kontaktování podpory."

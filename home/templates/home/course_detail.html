@@ -1,4 +1,6 @@
 {% extends "base.html" %}
+{% load static %}
+{% load i18n %}
 {% block title %}{{ course.course_name }}{% endblock %}
 
 {% block style %}
@@ -166,18 +168,18 @@ button:hover { transform: scale(1.05); }
 
   <!-- Title -->
   <div class="page-title">
-    <h1>📚 Danh sách bài học của tôi{{ course.course_name }}</h1>
+    <h1>📚 {% trans "List of my lessons" %}{{ course.course_name }}</h1>
   </div>
 
   <!-- Search -->
   <div class="search-bar">
-    <input type="text" id="searchInput" placeholder="🔍 Tìm kiếm bài học...">
+    <input type="text" id="searchInput" placeholder="🔍 {% trans "Find lessons you want..." %}">
   </div>
 
   <!-- Search YouTube -->
   <div class="search-bar" style="margin-top: 16px;">
-    <input type="text" id="youtubeSearchInput" placeholder="🔍 Tìm kiếm video YouTube...">
-    <button id="youtubeSearchBtn" class="bg-success-btn" style="margin-left: 10px;">Tìm kiếm</button>
+    <input type="text" id="youtubeSearchInput" placeholder="🔍 {% trans "Youtube search" %}">
+    <button id="youtubeSearchBtn" class="bg-success-btn" style="margin-left: 10px;">{% trans "Search" %}</button>
   </div>
 
   <!-- YouTube results -->
@@ -191,18 +193,18 @@ button:hover { transform: scale(1.05); }
         <h2>{{ lesson.lesson_name }}</h2>
       </div>
       <div class="card-body">
-        <p><strong>📖 Mô tả:</strong> {{ lesson.description|default:"Chưa có mô tả" }}</p>
-        <p><strong>📅 Ngày khai giảng:</strong> {{ lesson.start_date|date:"d/m/Y" }}</p>
+        <p><strong>📖 {% trans "Description:" %}</strong> {{ lesson.description|default:"Chưa có mô tả" }}</p>
+        <p><strong>📅 {% trans " Starting date: " %}</strong> {{ lesson.start_date|date:"d/m/Y" }}</p>
       </div>
       <div class="card-footer">
         <form method="POST" action="{% url 'home:lessons_page' lesson.id %}">
           {% csrf_token %}
-          <button type="submit" class="bg-danger">🚀 Vào học ngay</button>
+          <button type="submit" class="bg-danger">🚀 {% trans "Learn now" %}</button>
         </form>
       </div>
     </div>
     {% empty %}
-    <p class="text-center text-muted">Chưa có bài học nào cho khóa học này.</p>
+    <p class="text-center text-muted">{% trans "There are no lessons for this course." %}</p>
     {% endfor %}
   </div>
 </div>

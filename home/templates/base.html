@@ -1,6 +1,6 @@
-{% load static %}
+{% load static i18n %}
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="{{ LANGUAGE_CODE }}">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -12,120 +12,148 @@
     :root{
       --primary:#007aff;
       --secondary:#00cfff;
-      --bg:#f4f6fa;
-      --bg-dark:#12161d;
-      --text:#111;
-      --text-dark:#eaeaea;
-      --card:rgba(255,255,255,.85);
-      --card-dark:rgba(24,27,34,.9);
-      --shadow:0 8px 24px rgba(0,0,0,.08);
-      --radius:14px;
-      --header-h:56px;
+      --bg:#f5f7fb;
+      --bg-dark:#0f1117;
+      --text:#1a1a1a;
+      --text-dark:#f1f1f1;
+      --card:rgba(255,255,255,0.85);
+      --card-dark:rgba(22,25,32,0.9);
+      --shadow:0 8px 30px rgba(0,0,0,.08);
+      --radius:16px;
+      --header-h:60px;
+      --transition: all .25s ease;
     }
 
-    html,body{height:100%}
-    html{scroll-behavior:smooth}
-    body{
-      margin:0;
-      font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;
-      background:var(--bg);
-      color:var(--text);
-      overflow-x:hidden;
-    }
+    html,body{height:100%; margin:0; font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif; background:var(--bg); color:var(--text); overflow-x:hidden; transition: var(--transition);}
     body.dark{background:var(--bg-dark); color:var(--text-dark);}
-    body.dark .topbar{background:var(--card-dark);}
-    body.dark .sidebar{background:var(--card-dark); border-right-color: rgba(255,255,255,.06);}
-    body.dark .footer{background:var(--card-dark);}
-    body.dark .top-link:hover{background:rgba(255,255,255,.08);}
-    body.dark .btn-primary-ghost{border-color:rgba(255,255,255,.15);}
-
+    
+    /* Topbar */
     .topbar{
       position:sticky; top:0; z-index:1000;
       display:flex; align-items:center; justify-content:space-between;
       height:var(--header-h);
-      padding:8px 14px;
-      width:100%;
-      background:var(--card);
-      -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px);
+      padding:8px 18px;
+      background:linear-gradient(135deg,var(--card) 0%,rgba(255,255,255,0.75) 100%);
+      backdrop-filter: blur(14px);
       box-shadow: var(--shadow);
+      transition: var(--transition);
     }
+    body.dark .topbar{background:linear-gradient(135deg,var(--card-dark) 0%,rgba(30,32,38,0.95) 100%);}
 
-    .brand{display:flex; align-items:center; gap:10px; font-weight:700;}
-    .brand .menu-btn{border:none; background:transparent; font-size:22px; line-height:1; cursor:pointer;}
-    .brand .menu-btn:focus{outline:2px solid var(--primary); outline-offset:2px;}
+    .brand{display:flex; align-items:center; gap:12px; font-weight:700; font-size:18px;}
+    .brand .menu-btn{border:none;background:transparent;font-size:24px;cursor:pointer;color:inherit;transition: var(--transition);}
+    .brand .menu-btn:hover{transform:scale(1.1);}
 
-    .top-actions{display:flex; align-items:center; gap:8px;}
-    .top-link{display:inline-flex; align-items:center; gap:8px; border:none; background:transparent; color:inherit; padding:6px 10px; border-radius:10px; text-decoration:none; cursor:pointer; transition:background .2s ease, transform .15s ease;}
-    .top-link:hover{background:rgba(0,0,0,.06); transform:translateY(-1px);}
-    .top-link .label{display:none;}
-    @media(min-width:768px){ .top-link .label{display:inline} }
+    .top-actions{display:flex;align-items:center;gap:10px;}
+    .top-link{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:var(--radius);text-decoration:none;color:inherit;cursor:pointer;transition: var(--transition);}
+    .top-link:hover{background:rgba(0,0,0,.06);transform:translateY(-2px);}
+    body.dark .top-link:hover{background:rgba(255,255,255,.08);}
 
-    .btn-primary-ghost{border:1px solid rgba(0,0,0,.12); padding:6px 12px; border-radius:999px; background:transparent;}
-    .btn-blue{background:var(--primary); color:#fff; border:none; border-radius:999px; padding:6px 12px; font-weight:600;}
-    .btn-blue:hover{filter:brightness(.95);}
-    .btn-blue:active{transform:translateY(1px);}
+    .btn-primary-ghost{border:1px solid rgba(0,0,0,.12);padding:6px 14px;border-radius:999px;background:transparent;}
+    body.dark .btn-primary-ghost{border:1px solid rgba(255,255,255,.2);}
 
-    .search-wrap{position:relative; display:none;}
-    @media(min-width:992px){ .search-wrap{display:block} }
-    .search-wrap input{padding:8px 12px 8px 36px; border:none; border-radius:999px; width:220px; background:rgba(0,0,0,.06);}
-    .search-wrap .ico{position:absolute; left:10px; top:50%; transform:translateY(-50%); opacity:.6; pointer-events:none;}
+    /* Layout */
+    .layout{display:flex;min-height:calc(100vh - var(--header-h) - 50px);}
+    .sidebar{width:260px;flex-shrink:0;background:var(--card);backdrop-filter: blur(18px);border-right:1px solid rgba(0,0,0,.06);box-shadow: var(--shadow);transition: var(--transition);}
+    body.dark .sidebar{background:var(--card-dark);border-right:1px solid rgba(255,255,255,.06);}
+    .sidebar-inner{display:flex;flex-direction:column;height:100%;padding:16px 0;}
 
-    .layout{display:flex; min-height:calc(100vh - var(--header-h) - 48px);}
-    .sidebar{width:260px; flex-shrink:0; background: var(--card); -webkit-backdrop-filter: blur(18px); backdrop-filter: blur(18px); border-right: 1px solid rgba(0,0,0,.06); box-shadow: var(--shadow); transition: transform .3s ease, background .3s ease;}
-    .sidebar-inner{display:flex; flex-direction:column; height:100%; padding:14px 0;}
-    .side-nav{list-style:none; margin:0; padding:0;}
-    .side-nav li{margin:4px 12px;}
-    .side-nav a{display:flex; align-items:center; gap:12px; padding:10px 14px; border-radius:var(--radius); color:inherit; font-weight:500; text-decoration:none; transition: background .25s ease, transform .15s ease;}
-    .side-nav a:hover{background: rgba(0,0,0,.06); transform: translateX(4px);}
-    .side-nav .exit a{color:#ff3b30; font-weight:600;}
-    .side-nav .exit a:hover{background: rgba(255,59,48,.15);}
-    .main{flex:1; padding:20px; width:100%; max-width:100%;}
-    .container-limit{max-width:1100px; margin-inline:auto;}
-    .overlay{position:fixed; left:0; top:var(--header-h); width:100%; height:calc(100vh - var(--header-h)); background:rgba(0,0,0,.35); opacity:0; visibility:hidden; transition:opacity .25s ease, visibility .25s ease; z-index:900;}
-    .overlay.show{opacity:1; visibility:visible;}
-    .footer{width:100%; padding:12px 16px; text-align:center; background:var(--card); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); box-shadow: var(--shadow);}
-    .logo-icon{width:32px; height:32px; margin:0 8px;}
-    @media(max-width:991.98px){.sidebar{position:fixed; top:var(--header-h); left:0; height:calc(100vh - var(--header-h)); transform:translateX(-100%); transition: transform .3s ease; z-index:1200;}.sidebar.active{transform:translateX(0);}.overlay{transition:opacity .3s ease, visibility .3s ease;}}
-    @media(min-width:992px){.sidebar{position:relative !important; transform:none !important;}.overlay{display:none !important;}}
+    /* Sidebar nav */
+    .side-nav{list-style:none;margin:0;padding:0;}
+    .side-nav li{margin:6px 14px;font-weight:600;}
+    .side-nav a{display:flex;align-items:center;gap:12px;padding:12px 16px;border-radius:var(--radius);color:inherit;text-decoration:none;transition: var(--transition);}
+    .side-nav a:hover{background:rgba(0,0,0,.06);transform:translateX(6px);}
+    body.dark .side-nav a:hover{background:rgba(255,255,255,.08);}
+    .side-nav .exit a{color:#ff3b30;font-weight:600;}
+    .side-nav .exit a:hover{background:rgba(255,59,48,.15);}
+
+    /* Language switcher */
+    .language-switcher{margin:6px 8px;padding:10px;font-weight:bold;border-radius:var(--radius);rgba(255,255,255,.08);}
+    body.dark .language-switcher{background:rgba(255,255,255,.08);}
+    .language-switcher:hover{background:rgba(0,0,0,.06);transform:translateX(6px);}
+    body.dark .language-switcher:hover{background:rgba(255,255,255,.08);}
+    .language-switcher select{width:100%;padding:8px 12px;border-radius:var(--radius);border:1px solid rgba(255,255,255,.08);background:transparent;color:inherit;cursor:pointer;transition: var(--transition);}
+    body.dark .language-switcher select{border:1px solid rgba(255,255,255,.25);}
+
+    /* Main content */
+    .main{flex:1;padding:24px;width:100%;max-width:100%;}
+    .container-limit{max-width:1100px;margin-inline:auto;}
+    .content-card{background:var(--card);padding:20px;border-radius:var(--radius);box-shadow: var(--shadow);transition: var(--transition);}
+    body.dark .content-card{background:var(--card-dark);}
+
+    /* Footer */
+    .footer{width:100%;padding:14px;text-align:center;background:var(--card);backdrop-filter: blur(12px);box-shadow: var(--shadow);transition: var(--transition);}
+    body.dark .footer{background:var(--card-dark);}
+    .footer span{opacity:.8;font-size:14px;}
+
+    /* Responsive */
+    @media(max-width:991.98px){
+      .sidebar{position:fixed;top:var(--header-h);left:0;height:calc(100vh - var(--header-h));transform:translateX(-100%);z-index:1200;}
+      .sidebar.active{transform:translateX(0);}
+      .overlay{display:block;}
+    }
+    @media(min-width:992px){.overlay{display:none !important;}}
+    .overlay{position:fixed;left:0;top:var(--header-h);width:100%;height:calc(100vh - var(--header-h));background:rgba(0,0,0,.35);opacity:0;visibility:hidden;transition:var(--transition);z-index:900;}
+    .overlay.show{opacity:1;visibility:visible;}
   </style>
 
   {% block style %}{% endblock %}
 </head>
 <body>
+  <!-- Topbar -->
   <header class="topbar">
     <div class="brand">
-      <button class="menu-btn" id="menuBtn" aria-label="Mở menu">☰</button>
-      <img src="{% static 'home/images/Image_logo.png' %}" alt="FutureHands Logo" class="logo-icon">
+      <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+      <img src="{% static 'home/images/Image_logo.png' %}" alt="Logo" class="logo-icon" style="width:34px;height:34px;">
       <span>Edu System</span>
     </div>
     <div class="top-actions">
-      <a class="top-link" href="{% url 'home:teachers' %}">👩‍🏫 <span class="label">Giáo viên</span></a>
-      <a class="top-link" href="{% url 'home:courses_current' %}">📚 <span class="label">Khóa học</span></a>
-      <a class="top-link" href="{% url 'home:help' %}">❓ <span class="label">Trợ giúp</span></a>
-      <button id="themeBtn" class="top-link btn-primary-ghost" type="button">🌙 <span class="label">Chế độ</span></button>
-      <div class="search-wrap">
-        <span class="ico">🔍</span>
-        <input type="search" placeholder="Tìm nhanh..." />
-      </div>
+      <a class="top-link" href="{% url 'home:teachers' %}">👩‍🏫 <span class="label">{% trans "Teachers" %}</span></a>
+      <a class="top-link" href="{% url 'home:courses_current' %}">📚 <span class="label">{% trans "Courses" %}</span></a>
+      <a class="top-link" href="{% url 'home:help' %}">❓ <span class="label">{% trans "Help" %}</span></a>
+      <button id="themeBtn" class="top-link btn-primary-ghost" type="button">🌙 <span class="label">{% trans "Theme" %}</span></button>
     </div>
   </header>
 
+  <!-- Layout -->
   <div class="layout">
+    <!-- Sidebar -->
     <aside class="sidebar" id="sidebar">
       <div class="sidebar-inner">
         <ul class="side-nav">
-          <li><a href="{% url 'home:dashboard' %}">🏠 Trang chủ</a></li>
-          <li><a href="{% url 'home:courses' %}">📚 Khóa học</a></li>
-          <li><a href="{% url 'home:results' %}">📊 Kết quả</a></li>
-          <li><a href="{% url 'home:documents' %}">📄 Tài liệu</a></li>
-          <li><a href="{% url 'home:calendar' %}">📅 Lịch</a></li>
-          <li><a href="{% url 'home:chat' %}">💬 Chat</a></li>
-          <li><a href="{% url 'home:notifications' %}">🔔 Thông báo</a></li>
-          <li><a href="{% url 'home:account' %}">👤 Tài khoản</a></li>
-          <li class="exit"><a href="{% url 'home:exit' %}" id="logout-link">🚪 Đăng xuất</a></li>
+          <li><a href="{% url 'home:dashboard' %}">🏠 {% trans "Home" %}</a></li>
+          <li><a href="{% url 'home:courses' %}">📚 {% trans "Courses" %}</a></li>
+          <li><a href="{% url 'home:results' %}">📊 {% trans "Results" %}</a></li>
+          <li><a href="{% url 'home:documents' %}">📄 {% trans "Documents" %}</a></li>
+          <li><a href="{% url 'home:calendar' %}">📅 {% trans "Calendar" %}</a></li>
+          <li><a href="{% url 'home:chat' %}">💬 {% trans "Chat" %}</a></li>
+          <li><a href="{% url 'home:notifications' %}">🔔 {% trans "Notifications" %}</a></li>
+          <li><a href="{% url 'home:account' %}">👤 {% trans "Account" %}</a></li>
+
+          <!-- Language Switcher as li -->
+          <li>
+            <form action="{% url 'set_language' %}" method="post" class="language-switcher">
+              {% csrf_token %}
+              <label for="language" style="font-size:14px;font-weight:600;display:block;margin-bottom:6px;">
+                🌐 {% trans "Language" %}
+              </label>
+              <select name="language" id="language" onchange="this.form.submit()">
+                {% get_current_language as LANGUAGE_CODE %}
+                {% get_available_languages as LANGUAGES %}
+                {% for code, name in LANGUAGES %}
+                  <option value="{{ code }}" {% if LANGUAGE_CODE == code %}selected{% endif %}>{{ name }}</option>
+                {% endfor %}
+              </select>
+            </form>
+
+          </li>
+          <li class="exit"><a href="{% url 'home:exit' %}" id="logout-link">🚪 {% trans "Logout" %}</a></li>
         </ul>
+
       </div>
     </aside>
+
+    <!-- Main -->
     <main class="main">
       <div class="container-limit">
         {% block content %}{% endblock %}
@@ -133,16 +161,21 @@
     </main>
   </div>
 
+  <!-- Overlay -->
   <div class="overlay" id="overlay"></div>
 
+  <!-- Footer -->
   <footer class="footer">
     <div class="container-limit">
-      &copy; 2025 Đàm Đức Dũng - lớp 25Python01 - 24
+      <span>&copy; 2025 Đàm Đức Dũng - lớp 25Python01 - 24</span>
     </div>
   </footer>
 
-  {% block script %}
-  <script>
+  {% block script %}{% endblock %}
+</body>
+</html>
+
+<script>
 document.addEventListener('DOMContentLoaded', function(){
   const body = document.body;
   const sidebar = document.getElementById('sidebar');
@@ -152,19 +185,17 @@ document.addEventListener('DOMContentLoaded', function(){
 
   const isMobile = () => window.innerWidth < 992;
 
-  // Dark mode lưu localStorage
+  // Dark mode
   const savedTheme = localStorage.getItem('theme');
   if(savedTheme==='dark'){ body.classList.add('dark'); }
-  menuBtn.addEventListener('click', ()=>{ sidebar.classList.toggle('active'); overlay.classList.toggle('show'); });
 
+  menuBtn.addEventListener('click', ()=>{ sidebar.classList.toggle('active'); overlay.classList.toggle('show'); });
   overlay.addEventListener('click', ()=>{ sidebar.classList.remove('active'); overlay.classList.remove('show'); });
 
   window.addEventListener('resize', ()=>{ if(!isMobile()){ sidebar.classList.remove('active'); overlay.classList.remove('show'); } });
 
   document.querySelectorAll('.side-nav a').forEach(link=>{
-    link.addEventListener('click', ()=>{
-      if(isMobile()){ sidebar.classList.remove('active'); overlay.classList.remove('show'); }
-    });
+    link.addEventListener('click', ()=>{ if(isMobile()){ sidebar.classList.remove('active'); overlay.classList.remove('show'); } });
   });
 
   // Dark mode toggle
@@ -176,15 +207,12 @@ document.addEventListener('DOMContentLoaded', function(){
 
   // Confirm logout
   logoutLink.addEventListener('click', function(e){
-    if(!confirm("Bạn có chắc muốn đăng xuất không?")) e.preventDefault();
+    if(!confirm("{% trans 'Are you sure you want to log out?' %}")) e.preventDefault();
   });
 
-  // Escape key đóng sidebar
+  // Escape key closes sidebar
   window.addEventListener('keydown', e=>{
-    if(e.key==='Escape') sidebar.classList.remove('active'); overlay.classList.remove('show');
+    if(e.key==='Escape'){ sidebar.classList.remove('active'); overlay.classList.remove('show'); }
   });
 });
-  </script>
-  {% endblock %}
-</body>
-</html>
+</script>

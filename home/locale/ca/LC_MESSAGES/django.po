@@ -1,0 +1,416 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 15:26+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Catalan\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\home\templates\base.html:111 .\home\templates\home\account.html:221
+msgid "Teachers"
+msgstr "Professors"
+
+#: .\home\templates\base.html:112 .\home\templates\base.html:125
+#: .\home\templates\home\centers.html:5 .\home\templates\home\teachers.html:115
+msgid "Courses"
+msgstr "Cursos"
+
+#: .\home\templates\base.html:113
+msgid "Help"
+msgstr "Ajuda"
+
+#: .\home\templates\base.html:114
+msgid "Theme"
+msgstr "Tema"
+
+#: .\home\templates\base.html:124
+msgid "Home"
+msgstr "Inici"
+
+#: .\home\templates\base.html:126 .\home\templates\home\home.html:121
+#: .\home\templates\home\results.html:4
+msgid "Results"
+msgstr "Resultats"
+
+#: .\home\templates\base.html:127 .\home\templates\home\home.html:125
+msgid "Documents"
+msgstr "Documents"
+
+#: .\home\templates\base.html:128 .\home\templates\home\calendar.html:5
+msgid "Calendar"
+msgstr "Calendari"
+
+#: .\home\templates\base.html:129
+msgid "Chat"
+msgstr "Xat"
+
+#: .\home\templates\base.html:130 .\home\templates\home\notification.html:4
+msgid "Notifications"
+msgstr "Notificacions"
+
+#: .\home\templates\base.html:131
+msgid "Account"
+msgstr "Compte"
+
+#: .\home\templates\base.html:138
+msgid "Language"
+msgstr "Idioma"
+
+#: .\home\templates\base.html:150
+msgid "Logout"
+msgstr "Tanca sessió"
+
+#: .\home\templates\base.html:210
+msgid "Are you sure you want to log out?"
+msgstr "Estàs segur que vols tancar la sessió?"
+
+#: .\home\templates\home\account.html:180
+msgid "My account information"
+msgstr "La meva informació del compte"
+
+#: .\home\templates\home\account.html:187
+msgid "Name"
+msgstr "Nom"
+
+#: .\home\templates\home\account.html:192
+msgid "Student id"
+msgstr "Identificador d'estudiant"
+
+#: .\home\templates\home\account.html:197
+msgid "Personal"
+msgstr "Personal"
+
+#: .\home\templates\home\account.html:198
+msgid "Company"
+msgstr "Empresa"
+
+#: .\home\templates\home\account.html:200
+msgid "Type of your account"
+msgstr "Tipus de compte"
+
+#: .\home\templates\home\account.html:205
+msgid "Phone number"
+msgstr "Número de telèfon"
+
+#: .\home\templates\home\account.html:210
+msgid "Your email"
+msgstr "El teu correu electrònic"
+
+#: .\home\templates\home\account.html:215
+msgid "Your date of birth"
+msgstr "La teva data de naixement"
+
+#: .\home\templates\home\account.html:220
+msgid "Students"
+msgstr "Estudiants"
+
+#: .\home\templates\home\account.html:222
+msgid "Others"
+msgstr "Altres"
+
+#: .\home\templates\home\account.html:224
+msgid "Jobs"
+msgstr "Feines"
+
+#: .\home\templates\home\account.html:229
+msgid "Description"
+msgstr "Descripció"
+
+#: .\home\templates\home\account.html:233
+msgid "Update your information"
+msgstr "Actualitza la teva informació"
+
+#: .\home\templates\home\calendar.html:194
+#: .\home\templates\home\notification.html:144
+#: .\home\templates\home\notification.html:151
+msgid "Today"
+msgstr "Avui"
+
+#: .\home\templates\home\centers.html:131
+msgid "Courses at the center now"
+msgstr "Cursos actuals al centre"
+
+#: .\home\templates\home\centers.html:139
+#: .\home\templates\home\courses.html:117
+#: .\home\templates\home\results.html:118
+msgid "Subject code"
+msgstr "Codi de l'assignatura"
+
+#: .\home\templates\home\centers.html:140
+#: .\home\templates\home\courses.html:118
+#: .\home\templates\home\results.html:119
+msgid "Subject name"
+msgstr "Nom de l'assignatura"
+
+#: .\home\templates\home\centers.html:141
+#: .\home\templates\home\courses.html:119
+#: .\home\templates\home\results.html:120
+msgid "Study month"
+msgstr "Mes d'estudi"
+
+#: .\home\templates\home\centers.html:142
+msgid "Register"
+msgstr "Registrar-se"
+
+#: .\home\templates\home\centers.html:160
+msgid "There are no courses yet"
+msgstr "Encara no hi ha cursos"
+
+#: .\home\templates\home\chat.html:4
+msgid "Chat assistant"
+msgstr "Assistent de xat"
+
+#: .\home\templates\home\chat.html:141
+msgid "Hi! I'm your virtual assistant. Please enter your question below 👋"
+msgstr "Hola! Sóc el teu assistent virtual. Introdueix la teva pregunta a sota 👋"
+
+#: .\home\templates\home\course_detail.html:171
+msgid "List of my lessons"
+msgstr "Llista de les meves lliçons"
+
+#: .\home\templates\home\course_detail.html:176
+msgid "Find lessons you want..."
+msgstr "Troba les lliçons que vols..."
+
+#: .\home\templates\home\course_detail.html:181
+msgid "Youtube search"
+msgstr "Cerca a YouTube"
+
+#: .\home\templates\home\course_detail.html:182
+msgid "Search"
+msgstr "Cerca"
+
+#: .\home\templates\home\course_detail.html:196
+msgid "Description:"
+msgstr "Descripció:"
+
+#: .\home\templates\home\course_detail.html:197
+msgid "Starting date: "
+msgstr "Data d'inici: "
+
+#: .\home\templates\home\course_detail.html:202
+msgid "Learn now"
+msgstr "Aprèn ara"
+
+#: .\home\templates\home\course_detail.html:207
+msgid "There are no lessons for this course."
+msgstr "No hi ha lliçons per a aquest curs."
+
+#: .\home\templates\home\courses.html:110
+msgid "My course"
+msgstr "El meu curs"
+
+#: .\home\templates\home\courses.html:150
+msgid "Current courses at our center"
+msgstr "Cursos actuals al nostre centre"
+
+#: .\home\templates\home\courses.html:120
+#: .\home\templates\home\results.html:121
+msgid "Static"
+msgstr "Estàtic"
+
+#: .\home\templates\home\courses.html:121
+#: .\home\templates\home\results.html:122
+msgid "Optional"
+msgstr "Opcional"
+
+#: .\home\templates\home\courses.html:134
+msgid "Learn about the course"
+msgstr "Informa't sobre el curs"
+
+#: .\home\templates\home\courses.html:143
+msgid "You have not any courses now"
+msgstr "Ara mateix no tens cap curs"
+
+#: .\home\templates\home\documents.html:4
+msgid "Library"
+msgstr "Biblioteca"
+
+#: .\home\templates\home\documents.html:57
+msgid "My library"
+msgstr "La meva biblioteca"
+
+#: .\home\templates\home\documents.html:59
+msgid "Add"
+msgstr "Afegeix"
+
+#: .\home\templates\home\documents.html:60
+msgid "Delete"
+msgstr "Elimina"
+
+#: .\home\templates\home\documents.html:62
+msgid "List"
+msgstr "Llista"
+
+#: .\home\templates\home\documents.html:63
+msgid "Column"
+msgstr "Columna"
+
+#: .\home\templates\home\documents.html:66
+msgid "The amount of books currently"
+msgstr "Quantitat de llibres actualment"
+
+#: .\home\templates\home\documents.html:76
+#: .\home\templates\home\documents.html:129
+#: .\home\templates\home\documents.html:133
+msgid "Read now"
+msgstr "Llegeix ara"
+
+#: .\home\templates\home\documents.html:80
+msgid "None of books"
+msgstr "Cap llibre"
+
+#: .\home\templates\home\documents.html:88
+msgid "Books you read recently"
+msgstr "Llibres llegits recentment"
+
+#: .\home\templates\home\documents.html:99
+msgid "Open"
+msgstr "Obre"
+
+#: .\home\templates\home\documents.html:105
+msgid "None of books are reading"
+msgstr "No estàs llegint cap llibre"
+
+#: .\home\templates\home\documents.html:112
+msgid "Top of books"
+msgstr "Millors llibres"
+
+#: .\home\templates\home\documents.html:114
+msgid "The number of books"
+msgstr "Nombre de llibres"
+
+#: .\home\templates\home\documents.html:138
+msgid "None of books here"
+msgstr "Cap llibre aquí"
+
+#: .\home\templates\home\documents.html:143
+msgid "Previous"
+msgstr "Anterior"
+
+#: .\home\templates\home\documents.html:145
+msgid "Page"
+msgstr "Pàgina"
+
+#: .\home\templates\home\documents.html:147
+msgid "Next page"
+msgstr "Pàgina següent"
+
+#: .\home\templates\home\help.html:4
+msgid "Help center"
+msgstr "Centre d'ajuda"
+
+#: .\home\templates\home\help.html:116
+msgid "Frequently asked questions"
+msgstr "Preguntes freqüents"
+
+#: .\home\templates\home\help.html:117
+msgid "Contact support"
+msgstr "Contacta amb suport"
+
+#: .\home\templates\home\help.html:118
+msgid "System user manual"
+msgstr "Manual d'usuari del sistema"
+
+#: .\home\templates\home\help.html:119
+msgid "Tips"
+msgstr "Consells"
+
+#: .\home\templates\home\home.html:109
+msgid "Welcome to the Dashboard 👋"
+msgstr "Benvingut al Tauler 👋"
+
+#: .\home\templates\home\home.html:110
+msgid "Hi"
+msgstr "Hola"
+
+#: .\home\templates\home\home.html:110
+msgid "explore your account and activities here."
+msgstr "explora el teu compte i activitats aquí."
+
+#: .\home\templates\home\home.html:114
+msgid "Quick Stats"
+msgstr "Estadístiques ràpides"
+
+#: .\home\templates\home\home.html:117
+msgid "Studying Courses"
+msgstr "Cursos en estudi"
+
+#: .\home\templates\home\home.html:129
+msgid "Progress"
+msgstr "Progrés"
+
+#: .\home\templates\home\home.html:136
+msgid "Learning Progress"
+msgstr "Progrés d'aprenentatge"
+
+#: .\home\templates\home\home.html:139
+msgid "User Activities"
+msgstr "Activitats d'usuari"
+
+#: .\home\templates\home\lessons.html:5
+msgid "Lesson"
+msgstr "Lliçó"
+
+#: .\home\templates\home\lessons.html:99
+msgid "Your browswer does not support videos"
+msgstr "El teu navegador no suporta vídeos"
+
+#: .\home\templates\home\lessons.html:104
+msgid "Back"
+msgstr "Enrere"
+
+#: .\home\templates\home\lessons.html:105
+msgid "Done"
+msgstr "Fet"
+
+#: .\home\templates\home\notification.html:142
+msgid "All"
+msgstr "Tot"
+
+#: .\home\templates\home\notification.html:143
+msgid "Unread"
+msgstr "No llegit"
+
+#: .\home\templates\home\notification.html:145
+msgid "This week"
+msgstr "Aquesta setmana"
+
+#: .\home\templates\home\notification.html:171
+msgid "See older notifications"
+msgstr "Veure notificacions antigues"
+
+#: .\home\templates\home\results.html:138
+msgid "You have no recorded learning outcomes."
+msgstr "No tens resultats d'aprenentatge registrats."
+
+#: .\home\templates\home\teachers.html:4
+msgid "List of teachers"
+msgstr "Llista de professors"
+
+#: .\home\templates\home\teachers.html:113
+msgid "STT"
+msgstr "Núm."
+
+#: .\home\templates\home\teachers.html:114
+msgid "Teachers name"
+msgstr "Nom del professor"
+
+#: .\home\templates\home\teachers.html:127
+msgid "No data of teachers"
+msgstr "No hi ha dades de professors"
+
+#: .\home\templates\home\help.html:119
+msgid "Here you can find system user manuals and ways to contact for support."
+msgstr "Aquí podeu trobar manuals d'usuari del sistema i maneres de contactar amb el suport."

@@ -1,0 +1,416 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 15:26+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Swedish\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\home\templates\base.html:111 .\home\templates\home\account.html:221
+msgid "Teachers"
+msgstr "Lärare"
+
+#: .\home\templates\base.html:112 .\home\templates\base.html:125
+#: .\home\templates\home\centers.html:5 .\home\templates\home\teachers.html:115
+msgid "Courses"
+msgstr "Kurser"
+
+#: .\home\templates\base.html:113
+msgid "Help"
+msgstr "Hjälp"
+
+#: .\home\templates\base.html:114
+msgid "Theme"
+msgstr "Tema"
+
+#: .\home\templates\base.html:124
+msgid "Home"
+msgstr "Hem"
+
+#: .\home\templates\base.html:126 .\home\templates\home\home.html:121
+#: .\home\templates\home\results.html:4
+msgid "Results"
+msgstr "Resultat"
+
+#: .\home\templates\base.html:127 .\home\templates\home\home.html:125
+msgid "Documents"
+msgstr "Dokument"
+
+#: .\home\templates\base.html:128 .\home\templates\home\calendar.html:5
+msgid "Calendar"
+msgstr "Kalender"
+
+#: .\home\templates\base.html:129
+msgid "Chat"
+msgstr "Chatt"
+
+#: .\home\templates\base.html:130 .\home\templates\home\notification.html:4
+msgid "Notifications"
+msgstr "Aviseringar"
+
+#: .\home\templates\base.html:131
+msgid "Account"
+msgstr "Konto"
+
+#: .\home\templates\base.html:138
+msgid "Language"
+msgstr "Språk"
+
+#: .\home\templates\base.html:150
+msgid "Logout"
+msgstr "Logga ut"
+
+#: .\home\templates\base.html:210
+msgid "Are you sure you want to log out?"
+msgstr "Är du säker på att du vill logga ut?"
+
+#: .\home\templates\home\account.html:180
+msgid "My account information"
+msgstr "Min kontoinformation"
+
+#: .\home\templates\home\account.html:187
+msgid "Name"
+msgstr "Namn"
+
+#: .\home\templates\home\account.html:192
+msgid "Student id"
+msgstr "Student-ID"
+
+#: .\home\templates\home\account.html:197
+msgid "Personal"
+msgstr "Personlig"
+
+#: .\home\templates\home\account.html:198
+msgid "Company"
+msgstr "Företag"
+
+#: .\home\templates\home\account.html:200
+msgid "Type of your account"
+msgstr "Typ av ditt konto"
+
+#: .\home\templates\home\account.html:205
+msgid "Phone number"
+msgstr "Telefonnummer"
+
+#: .\home\templates\home\account.html:210
+msgid "Your email"
+msgstr "Din e-post"
+
+#: .\home\templates\home\account.html:215
+msgid "Your date of birth"
+msgstr "Ditt födelsedatum"
+
+#: .\home\templates\home\account.html:220
+msgid "Students"
+msgstr "Studenter"
+
+#: .\home\templates\home\account.html:222
+msgid "Others"
+msgstr "Andra"
+
+#: .\home\templates\home\account.html:224
+msgid "Jobs"
+msgstr "Jobb"
+
+#: .\home\templates\home\account.html:229
+msgid "Description"
+msgstr "Beskrivning"
+
+#: .\home\templates\home\account.html:233
+msgid "Update your information"
+msgstr "Uppdatera din information"
+
+#: .\home\templates\home\calendar.html:194
+#: .\home\templates\home\notification.html:144
+#: .\home\templates\home\notification.html:151
+msgid "Today"
+msgstr "Idag"
+
+#: .\home\templates\home\centers.html:131
+msgid "Courses at the center now"
+msgstr "Kurser på centret nu"
+
+#: .\home\templates\home\centers.html:139
+#: .\home\templates\home\courses.html:117
+#: .\home\templates\home\results.html:118
+msgid "Subject code"
+msgstr "Ämneskod"
+
+#: .\home\templates\home\centers.html:140
+#: .\home\templates\home\courses.html:118
+#: .\home\templates\home\results.html:119
+msgid "Subject name"
+msgstr "Ämnesnamn"
+
+#: .\home\templates\home\centers.html:141
+#: .\home\templates\home\courses.html:119
+#: .\home\templates\home\results.html:120
+msgid "Study month"
+msgstr "Studie månad"
+
+#: .\home\templates\home\centers.html:142
+msgid "Register"
+msgstr "Registrera"
+
+#: .\home\templates\home\centers.html:160
+msgid "There are no courses yet"
+msgstr "Det finns inga kurser ännu"
+
+#: .\home\templates\home\chat.html:4
+msgid "Chat assistant"
+msgstr "Chattassistent"
+
+#: .\home\templates\home\chat.html:141
+msgid "Hi! I'm your virtual assistant. Please enter your question below 👋"
+msgstr "Hej! Jag är din virtuella assistent. Vänligen skriv din fråga nedan 👋"
+
+#: .\home\templates\home\course_detail.html:171
+msgid "List of my lessons"
+msgstr "Lista över mina lektioner"
+
+#: .\home\templates\home\course_detail.html:176
+msgid "Find lessons you want..."
+msgstr "Hitta lektioner du vill ha..."
+
+#: .\home\templates\home\course_detail.html:181
+msgid "Youtube search"
+msgstr "Youtube-sökning"
+
+#: .\home\templates\home\course_detail.html:182
+msgid "Search"
+msgstr "Sök"
+
+#: .\home\templates\home\course_detail.html:196
+msgid "Description:"
+msgstr "Beskrivning:"
+
+#: .\home\templates\home\course_detail.html:197
+msgid "Starting date: "
+msgstr "Startdatum: "
+
+#: .\home\templates\home\course_detail.html:202
+msgid "Learn now"
+msgstr "Lär dig nu"
+
+#: .\home\templates\home\course_detail.html:207
+msgid "There are no lessons for this course."
+msgstr "Det finns inga lektioner för denna kurs."
+
+#: .\home\templates\home\courses.html:110
+msgid "My course"
+msgstr "Min kurs"
+
+#: .\home\templates\home\courses.html:150
+msgid "Current courses at our center"
+msgstr "Nuvarande kurser på vårt center"
+
+#: .\home\templates\home\courses.html:120
+#: .\home\templates\home\results.html:121
+msgid "Static"
+msgstr "Statisk"
+
+#: .\home\templates\home\courses.html:121
+#: .\home\templates\home\results.html:122
+msgid "Optional"
+msgstr "Valfri"
+
+#: .\home\templates\home\courses.html:134
+msgid "Learn about the course"
+msgstr "Lär dig om kursen"
+
+#: .\home\templates\home\courses.html:143
+msgid "You have not any courses now"
+msgstr "Du har inga kurser just nu"
+
+#: .\home\templates\home\documents.html:4
+msgid "Library"
+msgstr "Bibliotek"
+
+#: .\home\templates\home\documents.html:57
+msgid "My library"
+msgstr "Mitt bibliotek"
+
+#: .\home\templates\home\documents.html:59
+msgid "Add"
+msgstr "Lägg till"
+
+#: .\home\templates\home\documents.html:60
+msgid "Delete"
+msgstr "Radera"
+
+#: .\home\templates\home\documents.html:62
+msgid "List"
+msgstr "Lista"
+
+#: .\home\templates\home\documents.html:63
+msgid "Column"
+msgstr "Kolumn"
+
+#: .\home\templates\home\documents.html:66
+msgid "The amount of books currently"
+msgstr "Antal böcker just nu"
+
+#: .\home\templates\home\documents.html:76
+#: .\home\templates\home\documents.html:129
+#: .\home\templates\home\documents.html:133
+msgid "Read now"
+msgstr "Läs nu"
+
+#: .\home\templates\home\documents.html:80
+msgid "None of books"
+msgstr "Inga böcker"
+
+#: .\home\templates\home\documents.html:88
+msgid "Books you read recently"
+msgstr "Böcker du läst nyligen"
+
+#: .\home\templates\home\documents.html:99
+msgid "Open"
+msgstr "Öppna"
+
+#: .\home\templates\home\documents.html:105
+msgid "None of books are reading"
+msgstr "Inga böcker läses"
+
+#: .\home\templates\home\documents.html:112
+msgid "Top of books"
+msgstr "Toppen av böcker"
+
+#: .\home\templates\home\documents.html:114
+msgid "The number of books"
+msgstr "Antal böcker"
+
+#: .\home\templates\home\documents.html:138
+msgid "None of books here"
+msgstr "Inga böcker här"
+
+#: .\home\templates\home\documents.html:143
+msgid "Previous"
+msgstr "Föregående"
+
+#: .\home\templates\home\documents.html:145
+msgid "Page"
+msgstr "Sida"
+
+#: .\home\templates\home\documents.html:147
+msgid "Next page"
+msgstr "Nästa sida"
+
+#: .\home\templates\home\help.html:4
+msgid "Help center"
+msgstr "Hjälpcenter"
+
+#: .\home\templates\home\help.html:116
+msgid "Frequently asked questions"
+msgstr "Vanliga frågor"
+
+#: .\home\templates\home\help.html:117
+msgid "Contact support"
+msgstr "Kontakta support"
+
+#: .\home\templates\home\help.html:118
+msgid "System user manual"
+msgstr "Systemanvändarmanual"
+
+#: .\home\templates\home\help.html:119
+msgid "Tips"
+msgstr "Tips"
+
+#: .\home\templates\home\home.html:109
+msgid "Welcome to the Dashboard 👋"
+msgstr "Välkommen till instrumentpanelen 👋"
+
+#: .\home\templates\home\home.html:110
+msgid "Hi"
+msgstr "Hej"
+
+#: .\home\templates\home\home.html:110
+msgid "explore your account and activities here."
+msgstr "utforska ditt konto och aktiviteter här."
+
+#: .\home\templates\home\home.html:114
+msgid "Quick Stats"
+msgstr "Snabba statistik"
+
+#: .\home\templates\home\home.html:117
+msgid "Studying Courses"
+msgstr "Studiekurser"
+
+#: .\home\templates\home\home.html:129
+msgid "Progress"
+msgstr "Framsteg"
+
+#: .\home\templates\home\home.html:136
+msgid "Learning Progress"
+msgstr "Inlärningsframsteg"
+
+#: .\home\templates\home\home.html:139
+msgid "User Activities"
+msgstr "Användaraktiviteter"
+
+#: .\home\templates\home\lessons.html:5
+msgid "Lesson"
+msgstr "Lektion"
+
+#: .\home\templates\home\lessons.html:99
+msgid "Your browswer does not support videos"
+msgstr "Din webbläsare stöder inte videor"
+
+#: .\home\templates\home\lessons.html:104
+msgid "Back"
+msgstr "Tillbaka"
+
+#: .\home\templates\home\lessons.html:105
+msgid "Done"
+msgstr "Klar"
+
+#: .\home\templates\home\notification.html:142
+msgid "All"
+msgstr "Alla"
+
+#: .\home\templates\home\notification.html:143
+msgid "Unread"
+msgstr "Olästa"
+
+#: .\home\templates\home\notification.html:145
+msgid "This week"
+msgstr "Denna vecka"
+
+#: .\home\templates\home\notification.html:171
+msgid "See older notifications"
+msgstr "Se äldre aviseringar"
+
+#: .\home\templates\home\results.html:138
+msgid "You have no recorded learning outcomes."
+msgstr "Du har inga registrerade läranderesultat"
+
+#: .\home\templates\home\teachers.html:4
+msgid "List of teachers"
+msgstr "Lista över lärare"
+
+#: .\home\templates\home\teachers.html:113
+msgid "STT"
+msgstr "STT"
+
+#: .\home\templates\home\teachers.html:114
+msgid "Teachers name"
+msgstr "Lärarens namn"
+
+#: .\home\templates\home\teachers.html:127
+msgid "No data of teachers"
+msgstr "Ingen data om lärare"
+
+#: .\home\templates\home\help.html:119
+msgid "Here you can find system user manuals and ways to contact for support."
+msgstr "Här hittar du systemanvändarmanualer och sätt att kontakta supporten."

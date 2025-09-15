@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% load static %}
-
-{% block title %}Chat Assistant{% endblock %}
+{% load i18n %}
+{% block title %}{% trans "Chat assistant" %}{% endblock %}
 
 {% block style %}
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -134,11 +134,11 @@
 
 {% block content %}
 <div class="chat-container">
-  <div class="chat-header"><i class="fa-solid fa-robot"></i> Trợ lý ảo</div>
+  <div class="chat-header"><i class="fa-solid fa-robot"></i> {% trans "Assistant" %}</div>
 
   <div class="chat-messages" id="chat-messages">
     <div class="chat-message assistant">
-      <p>Xin chào! Tôi là trợ lý ảo của bạn. Hãy nhập câu hỏi phía dưới 👋</p>
+      <p>{% trans "Hi! I'm your virtual assistant. Please enter your question below 👋" %}</p>
     </div>
   </div>
 

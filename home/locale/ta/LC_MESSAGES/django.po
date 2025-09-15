@@ -1,0 +1,272 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 15:26+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Tamil\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\home\templates\base.html:111 .\home\templates\home\account.html:221
+msgid "Teachers"
+msgstr "ஆசிரியர்கள்"
+
+#: .\home\templates\base.html:112 .\home\templates\base.html:125
+#: .\home\templates\home\centers.html:5 .\home\templates\home\teachers.html:115
+msgid "Courses"
+msgstr "பாடங்கள்"
+
+#: .\home\templates\base.html:113
+msgid "Help"
+msgstr "உதவி"
+
+#: .\home\templates\base.html:114
+msgid "Theme"
+msgstr "தீம்"
+
+#: .\home\templates\base.html:124
+msgid "Home"
+msgstr "முகப்பு"
+
+#: .\home\templates\base.html:126 .\home\templates\home\home.html:121
+#: .\home\templates\home\results.html:4
+msgid "Results"
+msgstr "முடிவுகள்"
+
+#: .\home\templates\base.html:127 .\home\templates\home\home.html:125
+msgid "Documents"
+msgstr "பதிவுகள்"
+
+#: .\home\templates\base.html:128 .\home\templates\home\calendar.html:5
+msgid "Calendar"
+msgstr "கேலண்டர்"
+
+#: .\home\templates\base.html:129
+msgid "Chat"
+msgstr "அரட்டை"
+
+#: .\home\templates\base.html:130 .\home\templates\home\notification.html:4
+msgid "Notifications"
+msgstr "அறிவிப்புகள்"
+
+#: .\home\templates\base.html:131
+msgid "Account"
+msgstr "கணக்கு"
+
+#: .\home\templates\base.html:138
+msgid "Language"
+msgstr "மொழி"
+
+#: .\home\templates\base.html:150
+msgid "Logout"
+msgstr "வெளியேறு"
+
+#: .\home\templates\base.html:210
+msgid "Are you sure you want to log out?"
+msgstr "நீங்கள் வெளியேற உறுதியாக இருக்கிறீர்களா?"
+
+#: .\home\templates\home\account.html:180
+msgid "My account information"
+msgstr "என் கணக்கு தகவல்கள்"
+
+#: .\home\templates\home\account.html:187
+msgid "Name"
+msgstr "பெயர்"
+
+#: .\home\templates\home\account.html:192
+msgid "Student id"
+msgstr "மாணவர் ஐடி"
+
+#: .\home\templates\home\account.html:197
+msgid "Personal"
+msgstr "தனிப்பட்டது"
+
+#: .\home\templates\home\account.html:198
+msgid "Company"
+msgstr "நிறுவனம்"
+
+#: .\home\templates\home\account.html:200
+msgid "Type of your account"
+msgstr "உங்கள் கணக்கு வகை"
+
+#: .\home\templates\home\account.html:205
+msgid "Phone number"
+msgstr "தொலைபேசி எண்"
+
+#: .\home\templates\home\account.html:210
+msgid "Your email"
+msgstr "உங்கள் மின்னஞ்சல்"
+
+#: .\home\templates\home\account.html:215
+msgid "Your date of birth"
+msgstr "உங்கள் பிறந்த தேதி"
+
+#: .\home\templates\home\account.html:220
+msgid "Students"
+msgstr "மாணவர்கள்"
+
+#: .\home\templates\home\account.html:222
+msgid "Others"
+msgstr "மற்றவை"
+
+#: .\home\templates\home\account.html:224
+msgid "Jobs"
+msgstr "வேலைகள்"
+
+#: .\home\templates\home\account.html:229
+msgid "Description"
+msgstr "விளக்கம்"
+
+#: .\home\templates\home\account.html:233
+msgid "Update your information"
+msgstr "உங்கள் தகவலை புதுப்பிக்கவும்"
+
+#: .\home\templates\home\calendar.html:194
+#: .\home\templates\home\notification.html:144
+#: .\home\templates\home\notification.html:151
+msgid "Today"
+msgstr "இன்று"
+
+#: .\home\templates\home\centers.html:131
+msgid "Courses at the center now"
+msgstr "மையத்தில் தற்போது உள்ள பாடங்கள்"
+
+#: .\home\templates\home\centers.html:139
+#: .\home\templates\home\courses.html:117
+#: .\home\templates\home\results.html:118
+msgid "Subject code"
+msgstr "பாட விஷய குறியீடு"
+
+#: .\home\templates\home\centers.html:140
+#: .\home\templates\home\courses.html:118
+#: .\home\templates\home\results.html:119
+msgid "Subject name"
+msgstr "பாட பெயர்"
+
+#: .\home\templates\home\centers.html:141
+#: .\home\templates\home\courses.html:119
+#: .\home\templates\home\results.html:120
+msgid "Study month"
+msgstr "அறிக்கை மாதம்"
+
+#: .\home\templates\home\centers.html:142
+msgid "Register"
+msgstr "பதிவு செய்க"
+
+#: .\home\templates\home\centers.html:160
+msgid "There are no courses yet"
+msgstr "இன்னும் பாடங்கள் இல்லை"
+
+#: .\home\templates\home\chat.html:4
+msgid "Chat assistant"
+msgstr "அரட்டை உதவியாளர்"
+
+#: .\home\templates\home\chat.html:141
+msgid "Hi! I'm your virtual assistant. Please enter your question below 👋"
+msgstr "ஹாய்! நான் உங்கள் மெய்நிகர் உதவியாளர். கீழே உங்கள் கேள்வியை உள்ளிடவும் 👋"
+
+#: .\home\templates\home\course_detail.html:171
+msgid "List of my lessons"
+msgstr "என் பாடங்களின் பட்டியல்"
+
+#: .\home\templates\home\course_detail.html:176
+msgid "Find lessons you want..."
+msgstr "நீங்கள் விரும்பும் பாடங்களை கண்டுபிடிக்கவும்..."
+
+#: .\home\templates\home\course_detail.html:181
+msgid "Youtube search"
+msgstr "YouTube தேடல்"
+
+#: .\home\templates\home\course_detail.html:182
+msgid "Search"
+msgstr "தேடல்"
+
+#: .\home\templates\home\course_detail.html:196
+msgid "Description:"
+msgstr "விளக்கம்:"
+
+#: .\home\templates\home\course_detail.html:197
+msgid "Starting date: "
+msgstr "துவங்கும் தேதி: "
+
+#: .\home\templates\home\course_detail.html:202
+msgid "Learn now"
+msgstr "இப்போது கற்றுக்கொள்ளவும்"
+
+#: .\home\templates\home\course_detail.html:207
+msgid "There are no lessons for this course."
+msgstr "இந்த பாடத்துக்கான பாடங்கள் இல்லை"
+
+#: .\home\templates\home\courses.html:110
+msgid "My course"
+msgstr "என் பாடநெறி"
+
+#: .\home\templates\home\courses.html:150
+msgid "Current courses at our center"
+msgstr "எங்கள் மையத்தில் நடப்பு பாடநெறிகள்"
+
+#: .\home\templates\home\courses.html:120
+#: .\home\templates\home\results.html:121
+msgid "Static"
+msgstr "நிலையானது"
+
+#: .\home\templates\home\courses.html:121
+#: .\home\templates\home\results.html:122
+msgid "Optional"
+msgstr "விருப்பம்"
+
+#: .\home\templates\home\courses.html:134
+msgid "Learn about the course"
+msgstr "பாடத்தைப் பற்றி கற்றுக்கொள்ளவும்"
+
+#: .\home\templates\home\courses.html:143
+msgid "You have not any courses now"
+msgstr "நீங்கள் தற்போது எந்த பாடங்களும் இல்லை"
+
+#: .\home\templates\home\documents.html:4
+msgid "Library"
+msgstr "நூலகம்"
+
+#: .\home\templates\home\documents.html:57
+msgid "My library"
+msgstr "என் நூலகம்"
+
+#: .\home\templates\home\documents.html:59
+msgid "Add"
+msgstr "சேர்க்கவும்"
+
+#: .\home\templates\home\documents.html:60
+msgid "Delete"
+msgstr "நீக்கவும்"
+
+#: .\home\templates\home\documents.html:62
+msgid "List"
+msgstr "பட்டியல்"
+
+#: .\home\templates\home\documents.html:63
+msgid "Column"
+msgstr "பத்தி"
+
+#: .\home\templates\home\documents.html:66
+msgid "The amount of books currently"
+msgstr "தற்போது உள்ள புத்தகங்கள்"
+
+#: .\home\templates\home\documents.html:76
+#: .\home\templates\home\documents.html:129
+#: .\home\templates\home\documents.html:133
+msgid "Read now"
+msgstr "இப்போது படிக்கவும்"
+
+#: .\home\templates\home\help.html:119
+msgid "Here you can find system user manuals and ways to contact for support."
+msgstr "இங்கே நீங்கள் கணினி பயனர் கையேடுகள் மற்றும் ஆதரவுக்கான தொடர்பு வழிகளை காணலாம்."

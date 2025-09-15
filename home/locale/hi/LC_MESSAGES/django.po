@@ -1,0 +1,416 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 15:26+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Hindi\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\home\templates\base.html:111 .\home\templates\home\account.html:221
+msgid "Teachers"
+msgstr "शिक्षक"
+
+#: .\home\templates\base.html:112 .\home\templates\base.html:125
+#: .\home\templates\home\centers.html:5 .\home\templates\home\teachers.html:115
+msgid "Courses"
+msgstr "पाठ्यक्रम"
+
+#: .\home\templates\base.html:113
+msgid "Help"
+msgstr "मदद"
+
+#: .\home\templates\base.html:114
+msgid "Theme"
+msgstr "थीम"
+
+#: .\home\templates\base.html:124
+msgid "Home"
+msgstr "मुखपृष्ठ"
+
+#: .\home\templates\base.html:126 .\home\templates\home\home.html:121
+#: .\home\templates\home\results.html:4
+msgid "Results"
+msgstr "परिणाम"
+
+#: .\home\templates\base.html:127 .\home\templates\home\home.html:125
+msgid "Documents"
+msgstr "दस्तावेज़"
+
+#: .\home\templates\base.html:128 .\home\templates\home\calendar.html:5
+msgid "Calendar"
+msgstr "कैलेंडर"
+
+#: .\home\templates\base.html:129
+msgid "Chat"
+msgstr "चैट"
+
+#: .\home\templates\base.html:130 .\home\templates\home\notification.html:4
+msgid "Notifications"
+msgstr "सूचनाएँ"
+
+#: .\home\templates\base.html:131
+msgid "Account"
+msgstr "खाता"
+
+#: .\home\templates\base.html:138
+msgid "Language"
+msgstr "भाषा"
+
+#: .\home\templates\base.html:150
+msgid "Logout"
+msgstr "लॉगआउट"
+
+#: .\home\templates\base.html:210
+msgid "Are you sure you want to log out?"
+msgstr "क्या आप वाकई लॉग आउट करना चाहते हैं?"
+
+#: .\home\templates\home\account.html:180
+msgid "My account information"
+msgstr "मेरे खाते की जानकारी"
+
+#: .\home\templates\home\account.html:187
+msgid "Name"
+msgstr "नाम"
+
+#: .\home\templates\home\account.html:192
+msgid "Student id"
+msgstr "छात्र पहचान"
+
+#: .\home\templates\home\account.html:197
+msgid "Personal"
+msgstr "व्यक्तिगत"
+
+#: .\home\templates\home\account.html:198
+msgid "Company"
+msgstr "कंपनी"
+
+#: .\home\templates\home\account.html:200
+msgid "Type of your account"
+msgstr "आपके खाते का प्रकार"
+
+#: .\home\templates\home\account.html:205
+msgid "Phone number"
+msgstr "फ़ोन नंबर"
+
+#: .\home\templates\home\account.html:210
+msgid "Your email"
+msgstr "आपका ईमेल"
+
+#: .\home\templates\home\account.html:215
+msgid "Your date of birth"
+msgstr "आपकी जन्मतिथि"
+
+#: .\home\templates\home\account.html:220
+msgid "Students"
+msgstr "छात्र"
+
+#: .\home\templates\home\account.html:222
+msgid "Others"
+msgstr "अन्य"
+
+#: .\home\templates\home\account.html:224
+msgid "Jobs"
+msgstr "नौकरियाँ"
+
+#: .\home\templates\home\account.html:229
+msgid "Description"
+msgstr "विवरण"
+
+#: .\home\templates\home\account.html:233
+msgid "Update your information"
+msgstr "अपनी जानकारी अपडेट करें"
+
+#: .\home\templates\home\calendar.html:194
+#: .\home\templates\home\notification.html:144
+#: .\home\templates\home\notification.html:151
+msgid "Today"
+msgstr "आज"
+
+#: .\home\templates\home\centers.html:131
+msgid "Courses at the center now"
+msgstr "वर्तमान में केंद्र पर पाठ्यक्रम"
+
+#: .\home\templates\home\centers.html:139
+#: .\home\templates\home\courses.html:117
+#: .\home\templates\home\results.html:118
+msgid "Subject code"
+msgstr "विषय कोड"
+
+#: .\home\templates\home\centers.html:140
+#: .\home\templates\home\courses.html:118
+#: .\home\templates\home\results.html:119
+msgid "Subject name"
+msgstr "विषय का नाम"
+
+#: .\home\templates\home\centers.html:141
+#: .\home\templates\home\courses.html:119
+#: .\home\templates\home\results.html:120
+msgid "Study month"
+msgstr "अध्ययन माह"
+
+#: .\home\templates\home\centers.html:142
+msgid "Register"
+msgstr "पंजीकरण"
+
+#: .\home\templates\home\centers.html:160
+msgid "There are no courses yet"
+msgstr "अभी तक कोई पाठ्यक्रम नहीं है"
+
+#: .\home\templates\home\chat.html:4
+msgid "Chat assistant"
+msgstr "चैट सहायक"
+
+#: .\home\templates\home\chat.html:141
+msgid "Hi! I'm your virtual assistant. Please enter your question below 👋"
+msgstr "नमस्ते! मैं आपका वर्चुअल सहायक हूँ। कृपया नीचे अपना प्रश्न दर्ज करें 👋"
+
+#: .\home\templates\home\course_detail.html:171
+msgid "List of my lessons"
+msgstr "मेरे पाठों की सूची"
+
+#: .\home\templates\home\course_detail.html:176
+msgid "Find lessons you want..."
+msgstr "वे पाठ खोजें जो आप चाहते हैं..."
+
+#: .\home\templates\home\course_detail.html:181
+msgid "Youtube search"
+msgstr "यूट्यूब खोज"
+
+#: .\home\templates\home\course_detail.html:182
+msgid "Search"
+msgstr "खोजें"
+
+#: .\home\templates\home\course_detail.html:196
+msgid "Description:"
+msgstr "विवरण:"
+
+#: .\home\templates\home\course_detail.html:197
+msgid "Starting date: "
+msgstr "प्रारंभ तिथि: "
+
+#: .\home\templates\home\course_detail.html:202
+msgid "Learn now"
+msgstr "अभी सीखें"
+
+#: .\home\templates\home\course_detail.html:207
+msgid "There are no lessons for this course."
+msgstr "इस पाठ्यक्रम के लिए कोई पाठ नहीं हैं।"
+
+#: .\home\templates\home\courses.html:110
+msgid "My course"
+msgstr "मेरा पाठ्यक्रम"
+
+#: .\home\templates\home\courses.html:150
+msgid "Current courses at our center"
+msgstr "हमारे केंद्र में वर्तमान पाठ्यक्रम"
+
+#: .\home\templates\home\courses.html:120
+#: .\home\templates\home\results.html:121
+msgid "Static"
+msgstr "स्थिर"
+
+#: .\home\templates\home\courses.html:121
+#: .\home\templates\home\results.html:122
+msgid "Optional"
+msgstr "वैकल्पिक"
+
+#: .\home\templates\home\courses.html:134
+msgid "Learn about the course"
+msgstr "पाठ्यक्रम के बारे में जानें"
+
+#: .\home\templates\home\courses.html:143
+msgid "You have not any courses now"
+msgstr "आपके पास अभी कोई पाठ्यक्रम नहीं है"
+
+#: .\home\templates\home\documents.html:4
+msgid "Library"
+msgstr "पुस्तकालय"
+
+#: .\home\templates\home\documents.html:57
+msgid "My library"
+msgstr "मेरा पुस्तकालय"
+
+#: .\home\templates\home\documents.html:59
+msgid "Add"
+msgstr "जोड़ें"
+
+#: .\home\templates\home\documents.html:60
+msgid "Delete"
+msgstr "हटाएँ"
+
+#: .\home\templates\home\documents.html:62
+msgid "List"
+msgstr "सूची"
+
+#: .\home\templates\home\documents.html:63
+msgid "Column"
+msgstr "स्तंभ"
+
+#: .\home\templates\home\documents.html:66
+msgid "The amount of books currently"
+msgstr "वर्तमान पुस्तकों की संख्या"
+
+#: .\home\templates\home\documents.html:76
+#: .\home\templates\home\documents.html:129
+#: .\home\templates\home\documents.html:133
+msgid "Read now"
+msgstr "अभी पढ़ें"
+
+#: .\home\templates\home\documents.html:80
+msgid "None of books"
+msgstr "कोई पुस्तक नहीं"
+
+#: .\home\templates\home\documents.html:88
+msgid "Books you read recently"
+msgstr "हाल ही में पढ़ी गई पुस्तकें"
+
+#: .\home\templates\home\documents.html:99
+msgid "Open"
+msgstr "खोलें"
+
+#: .\home\templates\home\documents.html:105
+msgid "None of books are reading"
+msgstr "कोई पुस्तक नहीं पढ़ी जा रही है"
+
+#: .\home\templates\home\documents.html:112
+msgid "Top of books"
+msgstr "शीर्ष पुस्तकें"
+
+#: .\home\templates\home\documents.html:114
+msgid "The number of books"
+msgstr "पुस्तकों की संख्या"
+
+#: .\home\templates\home\documents.html:138
+msgid "None of books here"
+msgstr "यहाँ कोई पुस्तक नहीं है"
+
+#: .\home\templates\home\documents.html:143
+msgid "Previous"
+msgstr "पिछला"
+
+#: .\home\templates\home\documents.html:145
+msgid "Page"
+msgstr "पृष्ठ"
+
+#: .\home\templates\home\documents.html:147
+msgid "Next page"
+msgstr "अगला पृष्ठ"
+
+#: .\home\templates\home\help.html:4
+msgid "Help center"
+msgstr "सहायता केंद्र"
+
+#: .\home\templates\home\help.html:116
+msgid "Frequently asked questions"
+msgstr "अक्सर पूछे जाने वाले प्रश्न"
+
+#: .\home\templates\home\help.html:117
+msgid "Contact support"
+msgstr "समर्थन से संपर्क करें"
+
+#: .\home\templates\home\help.html:118
+msgid "System user manual"
+msgstr "सिस्टम उपयोगकर्ता मार्गदर्शिका"
+
+#: .\home\templates\home\help.html:119
+msgid "Tips"
+msgstr "सुझाव"
+
+#: .\home\templates\home\home.html:109
+msgid "Welcome to the Dashboard 👋"
+msgstr "डैशबोर्ड पर आपका स्वागत है 👋"
+
+#: .\home\templates\home\home.html:110
+msgid "Hi"
+msgstr "नमस्ते"
+
+#: .\home\templates\home\home.html:110
+msgid "explore your account and activities here."
+msgstr "यहाँ अपना खाता और गतिविधियाँ देखें।"
+
+#: .\home\templates\home\home.html:114
+msgid "Quick Stats"
+msgstr "त्वरित आँकड़े"
+
+#: .\home\templates\home\home.html:117
+msgid "Studying Courses"
+msgstr "अध्ययन पाठ्यक्रम"
+
+#: .\home\templates\home\home.html:129
+msgid "Progress"
+msgstr "प्रगति"
+
+#: .\home\templates\home\home.html:136
+msgid "Learning Progress"
+msgstr "सीखने की प्रगति"
+
+#: .\home\templates\home\home.html:139
+msgid "User Activities"
+msgstr "उपयोगकर्ता गतिविधियाँ"
+
+#: .\home\templates\home\lessons.html:5
+msgid "Lesson"
+msgstr "पाठ"
+
+#: .\home\templates\home\lessons.html:99
+msgid "Your browswer does not support videos"
+msgstr "आपका ब्राउज़र वीडियो का समर्थन नहीं करता है"
+
+#: .\home\templates\home\lessons.html:104
+msgid "Back"
+msgstr "वापस"
+
+#: .\home\templates\home\lessons.html:105
+msgid "Done"
+msgstr "पूर्ण"
+
+#: .\home\templates\home\notification.html:142
+msgid "All"
+msgstr "सभी"
+
+#: .\home\templates\home\notification.html:143
+msgid "Unread"
+msgstr "अपठित"
+
+#: .\home\templates\home\notification.html:145
+msgid "This week"
+msgstr "इस सप्ताह"
+
+#: .\home\templates\home\notification.html:171
+msgid "See older notifications"
+msgstr "पुरानी सूचनाएँ देखें"
+
+#: .\home\templates\home\results.html:138
+msgid "You have no recorded learning outcomes."
+msgstr "आपके पास कोई दर्ज सीखने का परिणाम नहीं है।"
+
+#: .\home\templates\home\teachers.html:4
+msgid "List of teachers"
+msgstr "शिक्षकों की सूची"
+
+#: .\home\templates\home\teachers.html:113
+msgid "STT"
+msgstr "क्रमांक"
+
+#: .\home\templates\home\teachers.html:114
+msgid "Teachers name"
+msgstr "शिक्षक का नाम"
+
+#: .\home\templates\home\teachers.html:127
+msgid "No data of teachers"
+msgstr "शिक्षकों का कोई डेटा नहीं"
+
+#: .\home\templates\home\help.html:119
+msgid "Here you can find system user manuals and ways to contact for support."
+msgstr "यहाँ आप सिस्टम उपयोगकर्ता मैनुअल और सहायता से संपर्क करने के तरीके पा सकते हैं।"

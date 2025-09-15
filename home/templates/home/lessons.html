@@ -1,7 +1,8 @@
 {% extends "base.html" %}
 {% load static %}
+{% load i18n %}
 
-{% block title %}Bài học video{% endblock %}
+{% block title %}{% trans "Lesson" %}{% endblock %}
 
 {% block style %}
 <style>
@@ -95,13 +96,13 @@
   <div class="video-wrapper">
     <video id="lesson-video" controls playsinline class="lesson-video">
       <source src="{{ video_url }}" type="video/mp4">
-      Trình duyệt của bạn không hỗ trợ video.
+      {% trans "Your browswer does not support videos" %}
     </video>
   </div>
 
   <div class="lesson-actions">
-    <button onclick="goBack()" class="btn-back">⬅️ Quay lại</button>
-    <button onclick="markDone()" class="btn-done">✅ Hoàn thành</button>
+    <button onclick="goBack()" class="btn-back">⬅️ {% trans "Back" %}</button>
+    <button onclick="markDone()" class="btn-done">✅ {% trans "Done" %}</button>
   </div>
 </div>
 {% endblock %}

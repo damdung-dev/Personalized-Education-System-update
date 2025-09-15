@@ -1,0 +1,412 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 15:26+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Basque\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\home\templates\base.html:111 .\home\templates\home\account.html:221
+msgid "Teachers"
+msgstr "Irakasleak"
+
+#: .\home\templates\base.html:112 .\home\templates\base.html:125
+#: .\home\templates\home\centers.html:5 .\home\templates\home\teachers.html:115
+msgid "Courses"
+msgstr "Ikastaroak"
+
+#: .\home\templates\base.html:113
+msgid "Help"
+msgstr "Laguntza"
+
+#: .\home\templates\base.html:114
+msgid "Theme"
+msgstr "Gaia"
+
+#: .\home\templates\base.html:124
+msgid "Home"
+msgstr "Hasiera"
+
+#: .\home\templates\base.html:126 .\home\templates\home\home.html:121
+#: .\home\templates\home\results.html:4
+msgid "Results"
+msgstr "Emaitzak"
+
+#: .\home\templates\base.html:127 .\home\templates\home\home.html:125
+msgid "Documents"
+msgstr "Dokumentuak"
+
+#: .\home\templates\base.html:128 .\home\templates\home\calendar.html:5
+msgid "Calendar"
+msgstr "Egutegia"
+
+#: .\home\templates\base.html:129
+msgid "Chat"
+msgstr "Txata"
+
+#: .\home\templates\base.html:130 .\home\templates\home\notification.html:4
+msgid "Notifications"
+msgstr "Jakinarazpenak"
+
+#: .\home\templates\base.html:131
+msgid "Account"
+msgstr "Kontua"
+
+#: .\home\templates\base.html:138
+msgid "Language"
+msgstr "Hizkuntza"
+
+#: .\home\templates\base.html:150
+msgid "Logout"
+msgstr "Saioa itxi"
+
+#: .\home\templates\base.html:210
+msgid "Are you sure you want to log out?"
+msgstr "Ziur zaude saioa itxi nahi duzula?"
+
+#: .\home\templates\home\account.html:180
+msgid "My account information"
+msgstr "Nire kontuaren informazioa"
+
+#: .\home\templates\home\account.html:187
+msgid "Name"
+msgstr "Izena"
+
+#: .\home\templates\home\account.html:192
+msgid "Student id"
+msgstr "Ikasle IDa"
+
+#: .\home\templates\home\account.html:197
+msgid "Personal"
+msgstr "Pertsonala"
+
+#: .\home\templates\home\account.html:198
+msgid "Company"
+msgstr "Enpresa"
+
+#: .\home\templates\home\account.html:200
+msgid "Type of your account"
+msgstr "Zure kontu mota"
+
+#: .\home\templates\home\account.html:205
+msgid "Phone number"
+msgstr "Telefono zenbakia"
+
+#: .\home\templates\home\account.html:210
+msgid "Your email"
+msgstr "Zure posta elektronikoa"
+
+#: .\home\templates\home\account.html:215
+msgid "Your date of birth"
+msgstr "Zure jaiotze data"
+
+#: .\home\templates\home\account.html:220
+msgid "Students"
+msgstr "Ikasleak"
+
+#: .\home\templates\home\account.html:222
+msgid "Others"
+msgstr "Besteak"
+
+#: .\home\templates\home\account.html:224
+msgid "Jobs"
+msgstr "Lanpostuak"
+
+#: .\home\templates\home\account.html:229
+msgid "Description"
+msgstr "Deskribapena"
+
+#: .\home\templates\home\account.html:233
+msgid "Update your information"
+msgstr "Eguneratu zure informazioa"
+
+#: .\home\templates\home\calendar.html:194
+#: .\home\templates\home\notification.html:144
+#: .\home\templates\home\notification.html:151
+msgid "Today"
+msgstr "Gaur"
+
+#: .\home\templates\home\centers.html:131
+msgid "Courses at the center now"
+msgstr "Ikastaroak zentroan orain"
+
+#: .\home\templates\home\centers.html:139
+#: .\home\templates\home\courses.html:117
+#: .\home\templates\home\results.html:118
+msgid "Subject code"
+msgstr "Gaien kodea"
+
+#: .\home\templates\home\centers.html:140
+#: .\home\templates\home\courses.html:118
+#: .\home\templates\home\results.html:119
+msgid "Subject name"
+msgstr "Gaien izena"
+
+#: .\home\templates\home\centers.html:141
+#: .\home\templates\home\courses.html:119
+#: .\home\templates\home\results.html:120
+msgid "Study month"
+msgstr "Ikaste hilabetea"
+
+#: .\home\templates\home\centers.html:142
+msgid "Register"
+msgstr "Izena eman"
+
+#: .\home\templates\home\centers.html:160
+msgid "There are no courses yet"
+msgstr "Oraindik ez dago ikastarorik"
+
+#: .\home\templates\home\chat.html:4
+msgid "Chat assistant"
+msgstr "Txat laguntzailea"
+
+#: .\home\templates\home\chat.html:141
+msgid "Hi! I'm your virtual assistant. Please enter your question below 👋"
+msgstr "Kaixo! Zure laguntzaile birtuala naiz. Mesedez, sartu zure galdera behean 👋"
+
+#: .\home\templates\home\course_detail.html:171
+msgid "📚 List of my lessons"
+msgstr "📚 Nire ikasgaiak"
+
+#: .\home\templates\home\course_detail.html:176
+msgid "🔍 Find lessons you want..."
+msgstr "🔍 Aurkitu nahi dituzun ikasgaiak..."
+
+#: .\home\templates\home\course_detail.html:181
+msgid "🔍 Youtube search"
+msgstr "🔍 YouTube bilaketa"
+
+#: .\home\templates\home\course_detail.html:182
+msgid "Search"
+msgstr "Bilatu"
+
+#: .\home\templates\home\course_detail.html:196
+msgid "📖 Description:"
+msgstr "📖 Deskribapena:"
+
+#: .\home\templates\home\course_detail.html:197
+msgid "📅 Starting date: "
+msgstr "📅 Hasiera data: "
+
+#: .\home\templates\home\course_detail.html:202
+msgid "🚀 Learn now"
+msgstr "🚀 Ikasi orain"
+
+#: .\home\templates\home\course_detail.html:207
+msgid "There are no lessons for this course."
+msgstr "Ez dago ikasgairik ikastaro honetarako."
+
+#: .\home\templates\home\courses.html:110
+msgid "📘 My course"
+msgstr "📘 Nire ikastaroa"
+
+#: .\home\templates\home\courses.html:120
+#: .\home\templates\home\results.html:121
+msgid "Static"
+msgstr "Estatikoa"
+
+#: .\home\templates\home\courses.html:121
+#: .\home\templates\home\results.html:122
+msgid "Optional"
+msgstr "Aukerakoa"
+
+#: .\home\templates\home\courses.html:134
+msgid "Learn about the course"
+msgstr "Ikasi ikastaroari buruz"
+
+#: .\home\templates\home\courses.html:143
+msgid "You have not any courses now"
+msgstr "Ez duzu ikastarorik une honetan"
+
+#: .\home\templates\home\documents.html:4
+msgid "Library"
+msgstr "Liburutegia"
+
+#: .\home\templates\home\documents.html:57
+msgid "My library"
+msgstr "Nire liburutegia"
+
+#: .\home\templates\home\documents.html:59
+msgid "Add"
+msgstr "Gehitu"
+
+#: .\home\templates\home\documents.html:60
+msgid "Delete"
+msgstr "Ezabatu"
+
+#: .\home\templates\home\documents.html:62
+msgid "List"
+msgstr "Zerrenda"
+
+#: .\home\templates\home\documents.html:63
+msgid "Column"
+msgstr "Zutabea"
+
+#: .\home\templates\home\documents.html:66
+msgid "The amount of books currently"
+msgstr "Liburuen kopurua orain"
+
+#: .\home\templates\home\documents.html:76
+#: .\home\templates\home\documents.html:129
+#: .\home\templates\home\documents.html:133
+msgid "Read now"
+msgstr "Irakurri orain"
+
+#: .\home\templates\home\documents.html:80
+msgid "None of books"
+msgstr "Ez dago libururik"
+
+#: .\home\templates\home\documents.html:88
+msgid "Books you read recently"
+msgstr "Azkenaldian irakurritako liburuak"
+
+#: .\home\templates\home\documents.html:99
+msgid "Open"
+msgstr "Ireki"
+
+#: .\home\templates\home\documents.html:105
+msgid "None of books are reading"
+msgstr "Ez dago libururik irakurtzen"
+
+#: .\home\templates\home\documents.html:112
+msgid "Top of books"
+msgstr "Liburu onenak"
+
+#: .\home\templates\home\documents.html:114
+msgid "The number of books"
+msgstr "Liburuen kopurua"
+
+#: .\home\templates\home\documents.html:138
+msgid "None of books here"
+msgstr "Ez dago libururik hemen"
+
+#: .\home\templates\home\documents.html:143
+msgid "Previous"
+msgstr "Aurrekoa"
+
+#: .\home\templates\home\documents.html:145
+msgid "Page"
+msgstr "Orrialdea"
+
+#: .\home\templates\home\documents.html:147
+msgid "Next page"
+msgstr "Hurrengo orrialdea"
+
+#: .\home\templates\home\help.html:4
+msgid "Help center"
+msgstr "Laguntza zentroa"
+
+#: .\home\templates\home\help.html:116
+msgid "Frequently asked questions"
+msgstr "Maiz egiten diren galderak"
+
+#: .\home\templates\home\help.html:117
+msgid "Contact support"
+msgstr "Jarri harremanetan laguntzarekin"
+
+#: .\home\templates\home\help.html:118
+msgid "System user manual"
+msgstr "Sistemaren eskuliburua"
+
+#: .\home\templates\home\help.html:119
+msgid "Tips"
+msgstr "Aholkuak"
+
+#: .\home\templates\home\home.html:109
+msgid "Welcome to the Dashboard 👋"
+msgstr "Ongi etorri Panelera 👋"
+
+#: .\home\templates\home\home.html:110
+msgid "Hi"
+msgstr "Kaixo"
+
+#: .\home\templates\home\home.html:110
+msgid "explore your account and activities here."
+msgstr "aztertu zure kontua eta jarduerak hemen."
+
+#: .\home\templates\home\home.html:114
+msgid "Quick Stats"
+msgstr "Estatistika azkarrak"
+
+#: .\home\templates\home\home.html:117
+msgid "Studying Courses"
+msgstr "Ikasten ari diren ikastaroak"
+
+#: .\home\templates\home\home.html:129
+msgid "Progress"
+msgstr "Aurrerapena"
+
+#: .\home\templates\home\home.html:136
+msgid "Learning Progress"
+msgstr "Ikasketa aurrerapena"
+
+#: .\home\templates\home\home.html:139
+msgid "User Activities"
+msgstr "Erabiltzaile jarduerak"
+
+#: .\home\templates\home\lessons.html:5
+msgid "Lesson"
+msgstr "Ikasgaia"
+
+#: .\home\templates\home\lessons.html:99
+msgid "Your browswer does not support videos"
+msgstr "Zure nabigatzaileak ez du bideoak onartzen"
+
+#: .\home\templates\home\lessons.html:104
+msgid "Back"
+msgstr "Atzera"
+
+#: .\home\templates\home\lessons.html:105
+msgid "Done"
+msgstr "Eginda"
+
+#: .\home\templates\home\notification.html:142
+msgid "All"
+msgstr "Guztiak"
+
+#: .\home\templates\home\notification.html:143
+msgid "Unread"
+msgstr "Irakurri gabe"
+
+#: .\home\templates\home\notification.html:145
+msgid "This week"
+msgstr "Aste honetan"
+
+#: .\home\templates\home\notification.html:171
+msgid "See older notifications"
+msgstr "Ikusi jakinarazpen zaharragoak"
+
+#: .\home\templates\home\results.html:138
+msgid "You have no recorded learning outcomes."
+msgstr "Ez duzu ikasketa emaitzarik grabatuta."
+
+#: .\home\templates\home\teachers.html:4
+msgid "List of teachers"
+msgstr "Irakasleen zerrenda"
+
+#: .\home\templates\home\teachers.html:113
+msgid "STT"
+msgstr "STT"
+
+#: .\home\templates\home\teachers.html:114
+msgid "Teachers name"
+msgstr "Irakaslearen izena"
+
+#: .\home\templates\home\teachers.html:127
+msgid "No data of teachers"
+msgstr "Ez dago irakasleen daturik"
+
+#: .\home\templates\home\help.html:119
+msgid "Here you can find system user manuals and ways to contact for support."
+msgstr "Hemen sistemaren erabiltzailearen eskuliburuak eta laguntza jasotzeko harreman bideak aurki ditzakezu."

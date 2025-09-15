@@ -1,5 +1,7 @@
 {% extends "base.html" %}
-{% block title %}Trung tâm trợ giúp{% endblock %}
+{% load static %}
+{% load i18n %}
+{% block title %}{% trans "Help center" %}{% endblock %}
 
 {% block style %}
 <style>
@@ -106,15 +108,15 @@
 {% block content %}
 <div class="container">
   <div class="card">
-    <h2>📖 Trung tâm trợ giúp</h2>
+    <h2>📖 {% trans "Help center" %}</h2>
     <p class="sub">
       Tại đây bạn có thể tìm thấy hướng dẫn sử dụng hệ thống và các cách liên hệ để được hỗ trợ.
     </p>
     <ul>
-      <li>❓ Câu hỏi thường gặp</li>
-      <li>📞 Liên hệ bộ phận hỗ trợ</li>
-      <li>📚 Hướng dẫn sử dụng hệ thống</li>
-      <li>💡 Mẹo & thủ thuật</li>
+      <li>❓ {% trans "Frequently asked questions" %}</li>
+      <li>📞 {% trans "Contact support" %}</li>
+      <li>📚 {% trans "System user manual" %}</li>
+      <li>💡 {% trans "Tips" %}</li>
     </ul>
   </div>
 </div>

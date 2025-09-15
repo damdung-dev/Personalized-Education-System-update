@@ -1,0 +1,416 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 15:26+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Uzbek\n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\home\templates\base.html:111 .\home\templates\home\account.html:221
+msgid "Teachers"
+msgstr "O'qituvchilar"
+
+#: .\home\templates\base.html:112 .\home\templates\base.html:125
+#: .\home\templates\home\centers.html:5 .\home\templates\home\teachers.html:115
+msgid "Courses"
+msgstr "Kurslar"
+
+#: .\home\templates\base.html:113
+msgid "Help"
+msgstr "Yordam"
+
+#: .\home\templates\base.html:114
+msgid "Theme"
+msgstr "Mavzu"
+
+#: .\home\templates\base.html:124
+msgid "Home"
+msgstr "Bosh sahifa"
+
+#: .\home\templates\base.html:126 .\home\templates\home\home.html:121
+#: .\home\templates\home\results.html:4
+msgid "Results"
+msgstr "Natijalar"
+
+#: .\home\templates\base.html:127 .\home\templates\home\home.html:125
+msgid "Documents"
+msgstr "Hujjatlar"
+
+#: .\home\templates\base.html:128 .\home\templates\home\calendar.html:5
+msgid "Calendar"
+msgstr "Taqvim"
+
+#: .\home\templates\base.html:129
+msgid "Chat"
+msgstr "Chat"
+
+#: .\home\templates\base.html:130 .\home\templates\home\notification.html:4
+msgid "Notifications"
+msgstr "Bildirishnomalar"
+
+#: .\home\templates\base.html:131
+msgid "Account"
+msgstr "Hisob"
+
+#: .\home\templates\base.html:138
+msgid "Language"
+msgstr "Til"
+
+#: .\home\templates\base.html:150
+msgid "Logout"
+msgstr "Chiqish"
+
+#: .\home\templates\base.html:210
+msgid "Are you sure you want to log out?"
+msgstr "Chiqishni xohlaysizmi?"
+
+#: .\home\templates\home\account.html:180
+msgid "My account information"
+msgstr "Mening hisob ma'lumotlarim"
+
+#: .\home\templates\home\account.html:187
+msgid "Name"
+msgstr "Ism"
+
+#: .\home\templates\home\account.html:192
+msgid "Student id"
+msgstr "Talaba ID"
+
+#: .\home\templates\home\account.html:197
+msgid "Personal"
+msgstr "Shaxsiy"
+
+#: .\home\templates\home\account.html:198
+msgid "Company"
+msgstr "Kompaniya"
+
+#: .\home\templates\home\account.html:200
+msgid "Type of your account"
+msgstr "Hisob turi"
+
+#: .\home\templates\home\account.html:205
+msgid "Phone number"
+msgstr "Telefon raqami"
+
+#: .\home\templates\home\account.html:210
+msgid "Your email"
+msgstr "Sizning elektron pochtangiz"
+
+#: .\home\templates\home\account.html:215
+msgid "Your date of birth"
+msgstr "Tug'ilgan kuningiz"
+
+#: .\home\templates\home\account.html:220
+msgid "Students"
+msgstr "Talabalar"
+
+#: .\home\templates\home\account.html:222
+msgid "Others"
+msgstr "Boshqalar"
+
+#: .\home\templates\home\account.html:224
+msgid "Jobs"
+msgstr "Ishlar"
+
+#: .\home\templates\home\account.html:229
+msgid "Description"
+msgstr "Tavsif"
+
+#: .\home\templates\home\account.html:233
+msgid "Update your information"
+msgstr "Ma'lumotlaringizni yangilang"
+
+#: .\home\templates\home\calendar.html:194
+#: .\home\templates\home\notification.html:144
+#: .\home\templates\home\notification.html:151
+msgid "Today"
+msgstr "Bugun"
+
+#: .\home\templates\home\centers.html:131
+msgid "Courses at the center now"
+msgstr "Markazdagi kurslar"
+
+#: .\home\templates\home\centers.html:139
+#: .\home\templates\home\courses.html:117
+#: .\home\templates\home\results.html:118
+msgid "Subject code"
+msgstr "Fan kodi"
+
+#: .\home\templates\home\centers.html:140
+#: .\home\templates\home\courses.html:118
+#: .\home\templates\home\results.html:119
+msgid "Subject name"
+msgstr "Fan nomi"
+
+#: .\home\templates\home\centers.html:141
+#: .\home\templates\home\courses.html:119
+#: .\home\templates\home\results.html:120
+msgid "Study month"
+msgstr "O'qish oy"
+
+#: .\home\templates\home\centers.html:142
+msgid "Register"
+msgstr "Ro'yxatdan o'tish"
+
+#: .\home\templates\home\centers.html:160
+msgid "There are no courses yet"
+msgstr "Hozircha kurslar mavjud emas"
+
+#: .\home\templates\home\chat.html:4
+msgid "Chat assistant"
+msgstr "Chat yordamchisi"
+
+#: .\home\templates\home\chat.html:141
+msgid "Hi! I'm your virtual assistant. Please enter your question below 👋"
+msgstr "Salom! Men sizning virtual yordamchingizman. Iltimos, savolingizni pastga kiriting 👋"
+
+#: .\home\templates\home\course_detail.html:171
+msgid "List of my lessons"
+msgstr "Mening darslarim ro'yxati"
+
+#: .\home\templates\home\course_detail.html:176
+msgid "Find lessons you want..."
+msgstr "Kerakli darslarni toping..."
+
+#: .\home\templates\home\course_detail.html:181
+msgid "Youtube search"
+msgstr "YouTube qidiruv"
+
+#: .\home\templates\home\course_detail.html:182
+msgid "Search"
+msgstr "Qidirish"
+
+#: .\home\templates\home\course_detail.html:196
+msgid "Description:"
+msgstr "Tavsif:"
+
+#: .\home\templates\home\course_detail.html:197
+msgid "Starting date: "
+msgstr "Boshlanish sanasi: "
+
+#: .\home\templates\home\course_detail.html:202
+msgid "Learn now"
+msgstr "Hozir o'rganing"
+
+#: .\home\templates\home\course_detail.html:207
+msgid "There are no lessons for this course."
+msgstr "Ushbu kurs uchun darslar mavjud emas"
+
+#: .\home\templates\home\courses.html:110
+msgid "My course"
+msgstr "Mening kursim"
+
+#: .\home\templates\home\courses.html:150
+msgid "Current courses at our center"
+msgstr "Markazimizdagi joriy kurslar"
+
+#: .\home\templates\home\courses.html:120
+#: .\home\templates\home\results.html:121
+msgid "Static"
+msgstr "Statik"
+
+#: .\home\templates\home\courses.html:121
+#: .\home\templates\home\results.html:122
+msgid "Optional"
+msgstr "Ixtiyoriy"
+
+#: .\home\templates\home\courses.html:134
+msgid "Learn about the course"
+msgstr "Kurs haqida ma'lumot"
+
+#: .\home\templates\home\courses.html:143
+msgid "You have not any courses now"
+msgstr "Hozircha kurslaringiz yo'q"
+
+#: .\home\templates\home\documents.html:4
+msgid "Library"
+msgstr "Kutubxona"
+
+#: .\home\templates\home\documents.html:57
+msgid "My library"
+msgstr "Mening kutubxonam"
+
+#: .\home\templates\home\documents.html:59
+msgid "Add"
+msgstr "Qo'shish"
+
+#: .\home\templates\home\documents.html:60
+msgid "Delete"
+msgstr "O'chirish"
+
+#: .\home\templates\home\documents.html:62
+msgid "List"
+msgstr "Ro'yxat"
+
+#: .\home\templates\home\documents.html:63
+msgid "Column"
+msgstr "Ustun"
+
+#: .\home\templates\home\documents.html:66
+msgid "The amount of books currently"
+msgstr "Hozirgi kitoblar soni"
+
+#: .\home\templates\home\documents.html:76
+#: .\home\templates\home\documents.html:129
+#: .\home\templates\home\documents.html:133
+msgid "Read now"
+msgstr "Hozir o'qish"
+
+#: .\home\templates\home\documents.html:80
+msgid "None of books"
+msgstr "Kitoblar mavjud emas"
+
+#: .\home\templates\home\documents.html:88
+msgid "Books you read recently"
+msgstr "So'nggi o'qigan kitoblaringiz"
+
+#: .\home\templates\home\documents.html:99
+msgid "Open"
+msgstr "Ochilish"
+
+#: .\home\templates\home\documents.html:105
+msgid "None of books are reading"
+msgstr "Hech qanday kitob o'qilmayapti"
+
+#: .\home\templates\home\documents.html:112
+msgid "Top of books"
+msgstr "Kitoblar reytingi"
+
+#: .\home\templates\home\documents.html:114
+msgid "The number of books"
+msgstr "Kitoblar soni"
+
+#: .\home\templates\home\documents.html:138
+msgid "None of books here"
+msgstr "Bu yerda kitoblar yo'q"
+
+#: .\home\templates\home\documents.html:143
+msgid "Previous"
+msgstr "Oldingi"
+
+#: .\home\templates\home\documents.html:145
+msgid "Page"
+msgstr "Sahifa"
+
+#: .\home\templates\home\documents.html:147
+msgid "Next page"
+msgstr "Keyingi sahifa"
+
+#: .\home\templates\home\help.html:4
+msgid "Help center"
+msgstr "Yordam markazi"
+
+#: .\home\templates\home\help.html:116
+msgid "Frequently asked questions"
+msgstr "Tez-tez beriladigan savollar"
+
+#: .\home\templates\home\help.html:117
+msgid "Contact support"
+msgstr "Qo'llab-quvvatlash bilan bog'lanish"
+
+#: .\home\templates\home\help.html:118
+msgid "System user manual"
+msgstr "Tizim foydalanuvchi qo'llanmasi"
+
+#: .\home\templates\home\help.html:119
+msgid "Tips"
+msgstr "Maslahatlar"
+
+#: .\home\templates\home\home.html:109
+msgid "Welcome to the Dashboard 👋"
+msgstr "Dashboardga xush kelibsiz 👋"
+
+#: .\home\templates\home\home.html:110
+msgid "Hi"
+msgstr "Salom"
+
+#: .\home\templates\home\home.html:110
+msgid "explore your account and activities here."
+msgstr "Hisobingiz va faoliyatlaringizni shu yerda ko'ring."
+
+#: .\home\templates\home\home.html:114
+msgid "Quick Stats"
+msgstr "Tezkor statistikalar"
+
+#: .\home\templates\home\home.html:117
+msgid "Studying Courses"
+msgstr "O'qilayotgan kurslar"
+
+#: .\home\templates\home\home.html:129
+msgid "Progress"
+msgstr "Rivojlanish"
+
+#: .\home\templates\home\home.html:136
+msgid "Learning Progress"
+msgstr "O'rganish jarayoni"
+
+#: .\home\templates\home\home.html:139
+msgid "User Activities"
+msgstr "Foydalanuvchi faoliyatlari"
+
+#: .\home\templates\home\lessons.html:5
+msgid "Lesson"
+msgstr "Dars"
+
+#: .\home\templates\home\lessons.html:99
+msgid "Your browswer does not support videos"
+msgstr "Sizning brauzeringiz videolarni qo'llab-quvvatlamaydi"
+
+#: .\home\templates\home\lessons.html:104
+msgid "Back"
+msgstr "Orqaga"
+
+#: .\home\templates\home\lessons.html:105
+msgid "Done"
+msgstr "Tayyor"
+
+#: .\home\templates\home\notification.html:142
+msgid "All"
+msgstr "Barchasi"
+
+#: .\home\templates\home\notification.html:143
+msgid "Unread"
+msgstr "O'qilmagan"
+
+#: .\home\templates\home\notification.html:145
+msgid "This week"
+msgstr "Bu hafta"
+
+#: .\home\templates\home\notification.html:171
+msgid "See older notifications"
+msgstr "Eski bildirishnomalarni ko'rish"
+
+#: .\home\templates\home\results.html:138
+msgid "You have no recorded learning outcomes."
+msgstr "Sizda yozilgan o'quv natijalari yo'q"
+
+#: .\home\templates\home\teachers.html:4
+msgid "List of teachers"
+msgstr "O'qituvchilar ro'yxati"
+
+#: .\home\templates\home\teachers.html:113
+msgid "STT"
+msgstr "STT"
+
+#: .\home\templates\home\teachers.html:114
+msgid "Teachers name"
+msgstr "O'qituvchilar ismi"
+
+#: .\home\templates\home\teachers.html:127
+msgid "No data of teachers"
+msgstr "O'qituvchilar haqida ma'lumot mavjud emas"
+
+#: .\home\templates\home\help.html:119
+msgid "Here you can find system user manuals and ways to contact for support."
+msgstr "Bu yerda siz tizim foydalanuvchi qoʻllanmalarini va yordam uchun bogʻlanish usullarini topishingiz mumkin."

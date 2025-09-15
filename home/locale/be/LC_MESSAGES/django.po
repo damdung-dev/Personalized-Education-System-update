@@ -1,0 +1,420 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 15:26+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Belarusian\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: .\home\templates\base.html:111 .\home\templates\home\account.html:221
+msgid "Teachers"
+msgstr "Настаўнікі"
+
+#: .\home\templates\base.html:112 .\home\templates\base.html:125
+#: .\home\templates\home\centers.html:5 .\home\templates\home\teachers.html:115
+msgid "Courses"
+msgstr "Курсы"
+
+#: .\home\templates\base.html:113
+msgid "Help"
+msgstr "Дапамога"
+
+#: .\home\templates\base.html:114
+msgid "Theme"
+msgstr "Тэма"
+
+#: .\home\templates\base.html:124
+msgid "Home"
+msgstr "Галоўная"
+
+#: .\home\templates\base.html:126 .\home\templates\home\home.html:121
+#: .\home\templates\home\results.html:4
+msgid "Results"
+msgstr "Вынікі"
+
+#: .\home\templates\base.html:127 .\home\templates\home\home.html:125
+msgid "Documents"
+msgstr "Дакументы"
+
+#: .\home\templates\base.html:128 .\home\templates\home\calendar.html:5
+msgid "Calendar"
+msgstr "Каляндар"
+
+#: .\home\templates\base.html:129
+msgid "Chat"
+msgstr "Чат"
+
+#: .\home\templates\base.html:130 .\home\templates\home\notification.html:4
+msgid "Notifications"
+msgstr "Апавяшчэнні"
+
+#: .\home\templates\base.html:131
+msgid "Account"
+msgstr "Уліковы запіс"
+
+#: .\home\templates\base.html:138
+msgid "Language"
+msgstr "Мова"
+
+#: .\home\templates\base.html:150
+msgid "Logout"
+msgstr "Выйсці"
+
+#: .\home\templates\base.html:210
+msgid "Are you sure you want to log out?"
+msgstr "Вы ўпэўнены, што хочаце выйсці?"
+
+#: .\home\templates\home\account.html:180
+msgid "My account information"
+msgstr "Інфармацыя аб маім уліковым запісе"
+
+#: .\home\templates\home\account.html:187
+msgid "Name"
+msgstr "Імя"
+
+#: .\home\templates\home\account.html:192
+msgid "Student id"
+msgstr "ID студэнта"
+
+#: .\home\templates\home\account.html:197
+msgid "Personal"
+msgstr "Асабісты"
+
+#: .\home\templates\home\account.html:198
+msgid "Company"
+msgstr "Кампанія"
+
+#: .\home\templates\home\account.html:200
+msgid "Type of your account"
+msgstr "Тып вашага ўліковага запісу"
+
+#: .\home\templates\home\account.html:205
+msgid "Phone number"
+msgstr "Нумар тэлефона"
+
+#: .\home\templates\home\account.html:210
+msgid "Your email"
+msgstr "Ваш email"
+
+#: .\home\templates\home\account.html:215
+msgid "Your date of birth"
+msgstr "Ваша дата нараджэння"
+
+#: .\home\templates\home\account.html:220
+msgid "Students"
+msgstr "Студэнты"
+
+#: .\home\templates\home\account.html:222
+msgid "Others"
+msgstr "Іншыя"
+
+#: .\home\templates\home\account.html:224
+msgid "Jobs"
+msgstr "Працы"
+
+#: .\home\templates\home\account.html:229
+msgid "Description"
+msgstr "Апісанне"
+
+#: .\home\templates\home\account.html:233
+msgid "Update your information"
+msgstr "Абнавіце вашу інфармацыю"
+
+#: .\home\templates\home\calendar.html:194
+#: .\home\templates\home\notification.html:144
+#: .\home\templates\home\notification.html:151
+msgid "Today"
+msgstr "Сёння"
+
+#: .\home\templates\home\centers.html:131
+msgid "Courses at the center now"
+msgstr "Курсы ў цэнтры зараз"
+
+#: .\home\templates\home\centers.html:139
+#: .\home\templates\home\courses.html:117
+#: .\home\templates\home\results.html:118
+msgid "Subject code"
+msgstr "Код прадмета"
+
+#: .\home\templates\home\centers.html:140
+#: .\home\templates\home\courses.html:118
+#: .\home\templates\home\results.html:119
+msgid "Subject name"
+msgstr "Назва прадмета"
+
+#: .\home\templates\home\centers.html:141
+#: .\home\templates\home\courses.html:119
+#: .\home\templates\home\results.html:120
+msgid "Study month"
+msgstr "Месяц навучання"
+
+#: .\home\templates\home\centers.html:142
+msgid "Register"
+msgstr "Рэгістрацыя"
+
+#: .\home\templates\home\centers.html:160
+msgid "There are no courses yet"
+msgstr "Курсаў пакуль няма"
+
+#: .\home\templates\home\chat.html:4
+msgid "Chat assistant"
+msgstr "Памочнік чата"
+
+#: .\home\templates\home\chat.html:141
+msgid "Hi! I'm your virtual assistant. Please enter your question below 👋"
+msgstr "Прывітанне! Я ваш віртуальны памочнік. Калі ласка, увядзіце сваё пытанне ніжэй 👋"
+
+#: .\home\templates\home\course_detail.html:171
+msgid "List of my lessons"
+msgstr "Спіс маіх урокаў"
+
+#: .\home\templates\home\course_detail.html:176
+msgid "Find lessons you want..."
+msgstr "Знайдзіце ўрокі, якія вы хочаце..."
+
+#: .\home\templates\home\course_detail.html:181
+msgid "Youtube search"
+msgstr "Пошук у Youtube"
+
+#: .\home\templates\home\course_detail.html:182
+msgid "Search"
+msgstr "Пошук"
+
+#: .\home\templates\home\course_detail.html:196
+msgid "Description:"
+msgstr "Апісанне:"
+
+#: .\home\templates\home\course_detail.html:197
+msgid "Starting date: "
+msgstr "Дата пачатку: "
+
+#: .\home\templates\home\course_detail.html:202
+msgid "Learn now"
+msgstr "Вучыцца зараз"
+
+#: .\home\templates\home\course_detail.html:207
+msgid "There are no lessons for this course."
+msgstr "Для гэтага курса няма ўрокаў."
+
+#: .\home\templates\home\courses.html:110
+msgid "My course"
+msgstr "Мой курс"
+
+#: .\home\templates\home\courses.html:150
+msgid "Current courses at our center"
+msgstr "Бягучыя курсы ў нашым цэнтры"
+
+#: .\home\templates\home\courses.html:120
+#: .\home\templates\home\results.html:121
+msgid "Static"
+msgstr "Абавязковы"
+
+#: .\home\templates\home\courses.html:121
+#: .\home\templates\home\results.html:122
+msgid "Optional"
+msgstr "Факультатыўны"
+
+#: .\home\templates\home\courses.html:134
+msgid "Learn about the course"
+msgstr "Даведайцеся пра курс"
+
+#: .\home\templates\home\courses.html:143
+msgid "You have not any courses now"
+msgstr "У вас пакуль няма курсаў"
+
+#: .\home\templates\home\documents.html:4
+msgid "Library"
+msgstr "Бібліятэка"
+
+#: .\home\templates\home\documents.html:57
+msgid "My library"
+msgstr "Мая бібліятэка"
+
+#: .\home\templates\home\documents.html:59
+msgid "Add"
+msgstr "Дадаць"
+
+#: .\home\templates\home\documents.html:60
+msgid "Delete"
+msgstr "Выдаліць"
+
+#: .\home\templates\home\documents.html:62
+msgid "List"
+msgstr "Спіс"
+
+#: .\home\templates\home\documents.html:63
+msgid "Column"
+msgstr "Слупок"
+
+#: .\home\templates\home\documents.html:66
+msgid "The amount of books currently"
+msgstr "Колькасць кніг у цяперашні час"
+
+#: .\home\templates\home\documents.html:76
+#: .\home\templates\home\documents.html:129
+#: .\home\templates\home\documents.html:133
+msgid "Read now"
+msgstr "Чытаць зараз"
+
+#: .\home\templates\home\documents.html:80
+msgid "None of books"
+msgstr "Няма кніг"
+
+#: .\home\templates\home\documents.html:88
+msgid "Books you read recently"
+msgstr "Кнігі, якія вы чыталі нядаўна"
+
+#: .\home\templates\home\documents.html:99
+msgid "Open"
+msgstr "Адкрыць"
+
+#: .\home\templates\home\documents.html:105
+msgid "None of books are reading"
+msgstr "Няма кніг для чытання"
+
+#: .\home\templates\home\documents.html:112
+msgid "Top of books"
+msgstr "Лепшыя кнігі"
+
+#: .\home\templates\home\documents.html:114
+msgid "The number of books"
+msgstr "Колькасць кніг"
+
+#: .\home\templates\home\documents.html:138
+msgid "None of books here"
+msgstr "Няма кніг тут"
+
+#: .\home\templates\home\documents.html:143
+msgid "Previous"
+msgstr "Папярэдні"
+
+#: .\home\templates\home\documents.html:145
+msgid "Page"
+msgstr "Старонка"
+
+#: .\home\templates\home\documents.html:147
+msgid "Next page"
+msgstr "Наступная старонка"
+
+#: .\home\templates\home\help.html:4
+msgid "Help center"
+msgstr "Цэнтр дапамогі"
+
+#: .\home\templates\home\help.html:116
+msgid "Frequently asked questions"
+msgstr "Часта задаваныя пытанні"
+
+#: .\home\templates\home\help.html:117
+msgid "Contact support"
+msgstr "Звяжыцеся з падтрымкай"
+
+#: .\home\templates\home\help.html:118
+msgid "System user manual"
+msgstr "Кіраўніцтва карыстальніка сістэмы"
+
+#: .\home\templates\home\help.html:119
+msgid "Tips"
+msgstr "Парады"
+
+#: .\home\templates\home\help.html:119
+msgid "Here you can find system user manuals and ways to contact for support."
+msgstr "Тут вы можаце знайсці кіраўніцтвы карыстальніка сістэмы і спосабы сувязі для падтрымкі."
+
+#: .\home\templates\home\home.html:109
+msgid "Welcome to the Dashboard 👋"
+msgstr "Сардэчна запрашаем на панэль кіравання 👋"
+
+#: .\home\templates\home\home.html:110
+msgid "Hi"
+msgstr "Прывітанне"
+
+#: .\home\templates\home\home.html:110
+msgid "explore your account and activities here."
+msgstr "даследуйце ваш уліковы запіс і дзейнасць тут."
+
+#: .\home\templates\home\home.html:114
+msgid "Quick Stats"
+msgstr "Хуткая статыстыка"
+
+#: .\home\templates\home\home.html:117
+msgid "Studying Courses"
+msgstr "Курсы, якія вывучаюцца"
+
+#: .\home\templates\home\home.html:129
+msgid "Progress"
+msgstr "Прагрэс"
+
+#: .\home\templates\home\home.html:136
+msgid "Learning Progress"
+msgstr "Прагрэс навучання"
+
+#: .\home\templates\home\home.html:139
+msgid "User Activities"
+msgstr "Дзейнасць карыстальнікаў"
+
+#: .\home\templates\home\lessons.html:5
+msgid "Lesson"
+msgstr "Урок"
+
+#: .\home\templates\home\lessons.html:99
+msgid "Your browswer does not support videos"
+msgstr "Ваш браўзер не падтрымлівае відэа"
+
+#: .\home\templates\home\lessons.html:104
+msgid "Back"
+msgstr "Назад"
+
+#: .\home\templates\home\lessons.html:105
+msgid "Done"
+msgstr "Гатова"
+
+#: .\home\templates\home\notification.html:142
+msgid "All"
+msgstr "Усе"
+
+#: .\home\templates\home\notification.html:143
+msgid "Unread"
+msgstr "Непрачытаныя"
+
+#: .\home\templates\home\notification.html:145
+msgid "This week"
+msgstr "На гэтым тыдні"
+
+#: .\home\templates\home\notification.html:171
+msgid "See older notifications"
+msgstr "Глядзець старыя апавяшчэнні"
+
+#: .\home\templates\home\results.html:110
+msgid "My results"
+msgstr "Мае вынікі"
+
+#: .\home\templates\home\results.html:138
+msgid "You have no recorded learning outcomes."
+msgstr "У вас няма запісаных вынікаў навучання."
+
+#: .\home\templates\home\teachers.html:4
+msgid "List of teachers"
+msgstr "Спіс настаўнікаў"
+
+#: .\home\templates\home\teachers.html:113
+msgid "STT"
+msgstr "Нумар"
+
+#: .\home\templates\home\teachers.html:114
+msgid "Teachers name"
+msgstr "Імя настаўніка"
+
+#: .\home\templates\home\teachers.html:127
+msgid "No data of teachers"
+msgstr "Няма дадзеных аб настаўніках"

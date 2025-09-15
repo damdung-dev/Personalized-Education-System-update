@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% load static %}
-{% block title %}Thư viện sách{% endblock %}
+{% load i18n %}
+{% block title %}{% trans "Library" %}{% endblock %}
 
 {% block style %}
 <style>
@@ -53,16 +54,16 @@ body { background: linear-gradient(135deg, #f0f4f9, #e6edf5); margin: 0; font-fa
   <!-- Thư viện của tôi -->
   <div class="card">
     <div class="header-row">
-      <h2>📘 Thư viện của tôi</h2>
+      <h2>📘 {% trans "My library" %}</h2>
       <div class="btn-group">
-        <button class="btn"><svg fill="currentColor"><use href="#icon-plus"/></svg> Thêm</button>
-        <button class="btn btn-danger"><svg fill="currentColor"><use href="#icon-trash"/></svg> Xóa</button>
+        <button class="btn"><svg fill="currentColor"><use href="#icon-plus"/></svg>{% trans "Add" %}</button>
+        <button class="btn btn-danger"><svg fill="currentColor"><use href="#icon-trash"/></svg>{% trans "Delete" %}</button>
         <div class="divider"></div>
-        <button class="btn btn-alt"><svg fill="currentColor"><use href="#icon-list"/></svg> List</button>
-        <button class="btn btn-alt"><svg fill="currentColor"><use href="#icon-grid"/></svg> Cột</button>
+        <button class="btn btn-alt"><svg fill="currentColor"><use href="#icon-list"/></svg>{% trans "List" %}</button>
+        <button class="btn btn-alt"><svg fill="currentColor"><use href="#icon-grid"/></svg>{% trans "Column" %}</button>
       </div>
     </div>
-    <label class="count-label">Số lượng sách: {{ my_documents_count|default:0 }}</label>
+    <label class="count-label">{% trans "The amount of books currently" %} {{ my_documents_count|default:0 }}</label>
     <ul id="myDocs" class="book-list">
       {% if documents %}
         {% for doc in documents %}
@@ -72,12 +73,11 @@ body { background: linear-gradient(135deg, #f0f4f9, #e6edf5); margin: 0; font-fa
             <span style="font-size:12px;color:gray;">({{ doc.action|default:"" }})</span>
           </div>
           <button class="btn-read" onclick="logAndOpen('{{ doc.id }}', '{{ doc.get_link }}')">
-            <svg fill="currentColor"><use href="#icon-eye"/></svg> Đọc ngay
-          </button>
+            <svg fill="currentColor"><use href="#icon-eye"/></svg> {% trans "Read now" %}
         </li>
         {% endfor %}
       {% else %}
-        <li>📘 Danh sách trống</li>
+        <li>{% trans "None of books" %}</li>
       {% endif %}
     </ul>
   </div>
@@ -85,7 +85,7 @@ body { background: linear-gradient(135deg, #f0f4f9, #e6edf5); margin: 0; font-fa
   <!-- Sách đã đọc gần đây -->
   <div class="card">
     <div class="header-row">
-      <h2>📘 Sách đã đọc gần đây</h2>
+      <h2>📘 {% trans "Books you read recently" %}</h2>
     </div>
     {% if recent_books %}
       <ul class="book-list">
@@ -96,22 +96,22 @@ body { background: linear-gradient(135deg, #f0f4f9, #e6edf5); margin: 0; font-fa
               <small style="color:gray;"> — {{ book.author|default:"Unknown" }}</small>
             </div>
             <div style="min-width:120px; text-align:right;">
-              <button class="btn-read" onclick="logAndOpen('{{ book.id }}', '{{ book.get_link }}')">Mở</button>
+              <button class="btn-read" onclick="logAndOpen('{{ book.id }}', '{{ book.get_link }}')">{% trans "Open" %}</button>
             </div>
           </li>
         {% endfor %}
       </ul>
     {% else %}
-      <p>Chưa có sách nào được đọc.</p>
+      <p>{% trans "None of books are reading" %}</p>
     {% endif %}
   </div>
 
   <!-- Đầu sách tuyển chọn -->
   <div class="card">
     <div class="header-row">
-        <h2>📖 Đầu sách tuyển chọn</h2>
+        <h2>📖 {% trans "Top of books" %}</h2>
     </div>
-    <label class="count-label">Số lượng sách: {{ recommend_count }}</label>
+    <label class="count-label">{% trans "The number of books" %} {{ recommend_count }}</label>
     <ul class="book-list list-view">
         {% for recommend in page_obj %}
           <li>
@@ -126,25 +126,25 @@ body { background: linear-gradient(135deg, #f0f4f9, #e6edf5); margin: 0; font-fa
                 <button class="btn-read"
                         onclick="logAndOpen('{{ recommend.id }}', '{{ recommend.get_link }}')">
                   <svg fill="currentColor"><use href="#icon-eye"/></svg>
-                  {% if recommend.is_pdf %} Đọc (PDF) {% else %} Đọc ngay {% endif %}
+                  {% if recommend.is_pdf %}{% trans "Read now" %} {% else %} {% trans "Read now" %} {% endif %}
                 </button>
             {% else %}
                 <button class="btn-read" onclick="alert('❌ Chưa có file hoặc URL để đọc!')">
-                  Đọc ngay
+                  {% trans "Read now" %}
                 </button>
             {% endif %}
           </li>
         {% empty %}
-            <li>📖 Danh sách trống</li>
+            <li>📖 {% trans "None of books here" %}</li>
         {% endfor %}
     </ul>
     <div class="pagination">
         {% if page_obj.has_previous %}
-            <a href="?page={{ page_obj.previous_page_number }}">⬅ Trang trước</a>
+            <a href="?page={{ page_obj.previous_page_number }}">⬅ {% trans "Previous" %}</a>
         {% endif %}
-        <span>Trang {{ page_obj.number }} / {{ page_obj.paginator.num_pages }}</span>
+        <span>{% trans "Page" %} {{ page_obj.number }} / {{ page_obj.paginator.num_pages }}</span>
         {% if page_obj.has_next %}
-            <a href="?page={{ page_obj.next_page_number }}">Trang sau ➡</a>
+            <a href="?page={{ page_obj.next_page_number }}">{% trans "Next page" %} ➡</a>
         {% endif %}
     </div>
   </div>

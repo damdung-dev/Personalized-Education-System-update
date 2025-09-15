@@ -1,0 +1,416 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 15:26+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Slovenian\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\home\templates\base.html:111 .\home\templates\home\account.html:221
+msgid "Teachers"
+msgstr "Učitelji"
+
+#: .\home\templates\base.html:112 .\home\templates\base.html:125
+#: .\home\templates\home\centers.html:5 .\home\templates\home\teachers.html:115
+msgid "Courses"
+msgstr "Tečaji"
+
+#: .\home\templates\base.html:113
+msgid "Help"
+msgstr "Pomoč"
+
+#: .\home\templates\base.html:114
+msgid "Theme"
+msgstr "Tema"
+
+#: .\home\templates\base.html:124
+msgid "Home"
+msgstr "Domov"
+
+#: .\home\templates\base.html:126 .\home\templates\home\home.html:121
+#: .\home\templates\home\results.html:4
+msgid "Results"
+msgstr "Rezultati"
+
+#: .\home\templates\base.html:127 .\home\templates\home\home.html:125
+msgid "Documents"
+msgstr "Dokumenti"
+
+#: .\home\templates\base.html:128 .\home\templates\home\calendar.html:5
+msgid "Calendar"
+msgstr "Koledar"
+
+#: .\home\templates\base.html:129
+msgid "Chat"
+msgstr "Klepet"
+
+#: .\home\templates\base.html:130 .\home\templates\home\notification.html:4
+msgid "Notifications"
+msgstr "Obvestila"
+
+#: .\home\templates\base.html:131
+msgid "Account"
+msgstr "Račun"
+
+#: .\home\templates\base.html:138
+msgid "Language"
+msgstr "Jezik"
+
+#: .\home\templates\base.html:150
+msgid "Logout"
+msgstr "Odjava"
+
+#: .\home\templates\base.html:210
+msgid "Are you sure you want to log out?"
+msgstr "Ali ste prepričani, da se želite odjaviti?"
+
+#: .\home\templates\home\account.html:180
+msgid "My account information"
+msgstr "Moje informacije o računu"
+
+#: .\home\templates\home\account.html:187
+msgid "Name"
+msgstr "Ime"
+
+#: .\home\templates\home\account.html:192
+msgid "Student id"
+msgstr "Študentska številka"
+
+#: .\home\templates\home\account.html:197
+msgid "Personal"
+msgstr "Osebno"
+
+#: .\home\templates\home\account.html:198
+msgid "Company"
+msgstr "Podjetje"
+
+#: .\home\templates\home\account.html:200
+msgid "Type of your account"
+msgstr "Vrsta vašega računa"
+
+#: .\home\templates\home\account.html:205
+msgid "Phone number"
+msgstr "Telefonska številka"
+
+#: .\home\templates\home\account.html:210
+msgid "Your email"
+msgstr "Vaš e-poštni naslov"
+
+#: .\home\templates\home\account.html:215
+msgid "Your date of birth"
+msgstr "Vaš datum rojstva"
+
+#: .\home\templates\home\account.html:220
+msgid "Students"
+msgstr "Študenti"
+
+#: .\home\templates\home\account.html:222
+msgid "Others"
+msgstr "Drugi"
+
+#: .\home\templates\home\account.html:224
+msgid "Jobs"
+msgstr "Delo"
+
+#: .\home\templates\home\account.html:229
+msgid "Description"
+msgstr "Opis"
+
+#: .\home\templates\home\account.html:233
+msgid "Update your information"
+msgstr "Posodobi svoje podatke"
+
+#: .\home\templates\home\calendar.html:194
+#: .\home\templates\home\notification.html:144
+#: .\home\templates\home\notification.html:151
+msgid "Today"
+msgstr "Danes"
+
+#: .\home\templates\home\centers.html:131
+msgid "Courses at the center now"
+msgstr "Trenutni tečaji v centru"
+
+#: .\home\templates\home\centers.html:139
+#: .\home\templates\home\courses.html:117
+#: .\home\templates\home\results.html:118
+msgid "Subject code"
+msgstr "Šifra predmeta"
+
+#: .\home\templates\home\centers.html:140
+#: .\home\templates\home\courses.html:118
+#: .\home\templates\home\results.html:119
+msgid "Subject name"
+msgstr "Ime predmeta"
+
+#: .\home\templates\home\centers.html:141
+#: .\home\templates\home\courses.html:119
+#: .\home\templates\home\results.html:120
+msgid "Study month"
+msgstr "Mesec študija"
+
+#: .\home\templates\home\centers.html:142
+msgid "Register"
+msgstr "Registracija"
+
+#: .\home\templates\home\centers.html:160
+msgid "There are no courses yet"
+msgstr "Tečaji še niso na voljo"
+
+#: .\home\templates\home\chat.html:4
+msgid "Chat assistant"
+msgstr "Pomočnik za klepet"
+
+#: .\home\templates\home\chat.html:141
+msgid "Hi! I'm your virtual assistant. Please enter your question below 👋"
+msgstr "Živjo! Sem vaš virtualni pomočnik. Vnesite svoje vprašanje spodaj 👋"
+
+#: .\home\templates\home\course_detail.html:171
+msgid "List of my lessons"
+msgstr "Seznam mojih lekcij"
+
+#: .\home\templates\home\course_detail.html:176
+msgid "Find lessons you want..."
+msgstr "Poiščite lekcije, ki jih želite..."
+
+#: .\home\templates\home\course_detail.html:181
+msgid "Youtube search"
+msgstr "Iskanje na YouTube"
+
+#: .\home\templates\home\course_detail.html:182
+msgid "Search"
+msgstr "Iskanje"
+
+#: .\home\templates\home\course_detail.html:196
+msgid "Description:"
+msgstr "Opis:"
+
+#: .\home\templates\home\course_detail.html:197
+msgid "Starting date: "
+msgstr "Začetni datum: "
+
+#: .\home\templates\home\course_detail.html:202
+msgid "Learn now"
+msgstr "Začni učiti zdaj"
+
+#: .\home\templates\home\course_detail.html:207
+msgid "There are no lessons for this course."
+msgstr "Za ta tečaj ni lekcij"
+
+#: .\home\templates\home\courses.html:110
+msgid "My course"
+msgstr "Moj tečaj"
+
+#: .\home\templates\home\courses.html:150
+msgid "Current courses at our center"
+msgstr "Trenutni tečaji v našem centru"
+
+#: .\home\templates\home\courses.html:120
+#: .\home\templates\home\results.html:121
+msgid "Static"
+msgstr "Statično"
+
+#: .\home\templates\home\courses.html:121
+#: .\home\templates\home\results.html:122
+msgid "Optional"
+msgstr "Izbirno"
+
+#: .\home\templates\home\courses.html:134
+msgid "Learn about the course"
+msgstr "Spoznajte tečaj"
+
+#: .\home\templates\home\courses.html:143
+msgid "You have not any courses now"
+msgstr "Trenutno nimate tečajev"
+
+#: .\home\templates\home\documents.html:4
+msgid "Library"
+msgstr "Knjižnica"
+
+#: .\home\templates\home\documents.html:57
+msgid "My library"
+msgstr "Moja knjižnica"
+
+#: .\home\templates\home\documents.html:59
+msgid "Add"
+msgstr "Dodaj"
+
+#: .\home\templates\home\documents.html:60
+msgid "Delete"
+msgstr "Izbriši"
+
+#: .\home\templates\home\documents.html:62
+msgid "List"
+msgstr "Seznam"
+
+#: .\home\templates\home\documents.html:63
+msgid "Column"
+msgstr "Stolpec"
+
+#: .\home\templates\home\documents.html:66
+msgid "The amount of books currently"
+msgstr "Trenutno število knjig"
+
+#: .\home\templates\home\documents.html:76
+#: .\home\templates\home\documents.html:129
+#: .\home\templates\home\documents.html:133
+msgid "Read now"
+msgstr "Preberi zdaj"
+
+#: .\home\templates\home\documents.html:80
+msgid "None of books"
+msgstr "Ni knjig"
+
+#: .\home\templates\home\documents.html:88
+msgid "Books you read recently"
+msgstr "Knjige, ki ste jih nedavno prebrali"
+
+#: .\home\templates\home\documents.html:99
+msgid "Open"
+msgstr "Odpri"
+
+#: .\home\templates\home\documents.html:105
+msgid "None of books are reading"
+msgstr "Nobena knjiga ni v branju"
+
+#: .\home\templates\home\documents.html:112
+msgid "Top of books"
+msgstr "Najboljše knjige"
+
+#: .\home\templates\home\documents.html:114
+msgid "The number of books"
+msgstr "Število knjig"
+
+#: .\home\templates\home\documents.html:138
+msgid "None of books here"
+msgstr "Tukaj ni knjig"
+
+#: .\home\templates\home\documents.html:143
+msgid "Previous"
+msgstr "Prejšnja"
+
+#: .\home\templates\home\documents.html:145
+msgid "Page"
+msgstr "Stran"
+
+#: .\home\templates\home\documents.html:147
+msgid "Next page"
+msgstr "Naslednja stran"
+
+#: .\home\templates\home\help.html:4
+msgid "Help center"
+msgstr "Center za pomoč"
+
+#: .\home\templates\home\help.html:116
+msgid "Frequently asked questions"
+msgstr "Pogosto zastavljena vprašanja"
+
+#: .\home\templates\home\help.html:117
+msgid "Contact support"
+msgstr "Kontaktirajte podporo"
+
+#: .\home\templates\home\help.html:118
+msgid "System user manual"
+msgstr "Uporabniški priročnik sistema"
+
+#: .\home\templates\home\help.html:119
+msgid "Tips"
+msgstr "Nasveti"
+
+#: .\home\templates\home\home.html:109
+msgid "Welcome to the Dashboard 👋"
+msgstr "Dobrodošli na nadzorni plošči 👋"
+
+#: .\home\templates\home\home.html:110
+msgid "Hi"
+msgstr "Živjo"
+
+#: .\home\templates\home\home.html:110
+msgid "explore your account and activities here."
+msgstr "Raziskujte svoj račun in dejavnosti tukaj."
+
+#: .\home\templates\home\home.html:114
+msgid "Quick Stats"
+msgstr "Hitri statistični podatki"
+
+#: .\home\templates\home\home.html:117
+msgid "Studying Courses"
+msgstr "Tečaji v študiju"
+
+#: .\home\templates\home\home.html:129
+msgid "Progress"
+msgstr "Napredek"
+
+#: .\home\templates\home\home.html:136
+msgid "Learning Progress"
+msgstr "Napredek učenja"
+
+#: .\home\templates\home\home.html:139
+msgid "User Activities"
+msgstr "Uporabniške dejavnosti"
+
+#: .\home\templates\home\lessons.html:5
+msgid "Lesson"
+msgstr "Lekcija"
+
+#: .\home\templates\home\lessons.html:99
+msgid "Your browswer does not support videos"
+msgstr "Vaš brskalnik ne podpira videoposnetkov"
+
+#: .\home\templates\home\lessons.html:104
+msgid "Back"
+msgstr "Nazaj"
+
+#: .\home\templates\home\lessons.html:105
+msgid "Done"
+msgstr "Končano"
+
+#: .\home\templates\home\notification.html:142
+msgid "All"
+msgstr "Vse"
+
+#: .\home\templates\home\notification.html:143
+msgid "Unread"
+msgstr "Neprebrano"
+
+#: .\home\templates\home\notification.html:145
+msgid "This week"
+msgstr "Ta teden"
+
+#: .\home\templates\home\notification.html:171
+msgid "See older notifications"
+msgstr "Oglejte si starejša obvestila"
+
+#: .\home\templates\home\results.html:138
+msgid "You have no recorded learning outcomes."
+msgstr "Nimate zabeleženih učnih rezultatov"
+
+#: .\home\templates\home\teachers.html:4
+msgid "List of teachers"
+msgstr "Seznam učiteljev"
+
+#: .\home\templates\home\teachers.html:113
+msgid "STT"
+msgstr "STT"
+
+#: .\home\templates\home\teachers.html:114
+msgid "Teachers name"
+msgstr "Ime učitelja"
+
+#: .\home\templates\home\teachers.html:127
+msgid "No data of teachers"
+msgstr "Ni podatkov o učiteljih"
+
+#: .\home\templates\home\help.html:119
+msgid "Here you can find system user manuals and ways to contact for support."
+msgstr "Tukaj lahko najdete priročnike za uporabnike sistema in načine za stik s podporo."

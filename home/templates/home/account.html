@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
+{% load i18n %}
 
 {% block title %}Thông tin tài khoản{% endblock %}
 
@@ -176,60 +177,60 @@ body.dark .form-group select:not([value=""]) + label {
 <div class="profile-container">
   <div class="profile-header">
     <img src="{% static 'home/images/avatar-fb-mac-dinh-1.jpg' %}" alt="Avatar" class="profile-avatar">
-    <h2>Thông tin tài khoản</h2>
+    <h2>{% trans "My account information" %}</h2>
   </div>
 
   <form method="post" id="profileForm">
     {% csrf_token %}
     <div class="form-group">
       <input type="text" id="name" name="first_name" value="{{ user.first_name }}" disabled placeholder=" ">
-      <label for="name">Tên</label>
+      <label for="name">{% trans "Name" %}</label>
     </div>
 
     <div class="form-group">
       <input type="text" id="student_id" name="student_id" value="{{ user.student_id }}" disabled placeholder=" ">
-      <label for="student_id">Mã Sinh viên</label>
+      <label for="student_id">{% trans "Student id" %}</label>
     </div>
 
     <div class="form-group">
       <select id="account_type" name="account_type" disabled>
-        <option value="Cá nhân" {% if user.account_type == 'Cá nhân' %}selected{% endif %}>Cá nhân</option>
-        <option value="Tổ chức" {% if user.account_type == 'Tổ chức' %}selected{% endif %}>Tổ chức</option>
+        <option value="Cá nhân" {% if user.account_type == 'Cá nhân' %}selected{% endif %}>{% trans "Personal" %}</option>
+        <option value="Tổ chức" {% if user.account_type == 'Tổ chức' %}selected{% endif %}>{% trans "Company" %}</option>
       </select>
-      <label for="account_type">Loại tài khoản</label>
+      <label for="account_type">{% trans "Type of your account" %}</label>
     </div>
 
     <div class="form-group">
       <input type="text" id="phone" name="phone" value="{{ user.phone }}" required disabled placeholder=" ">
-      <label for="phone">Số điện thoại</label>
+      <label for="phone">{% trans "Phone number" %}</label>
     </div>
 
     <div class="form-group">
       <input type="email" id="email" name="email" value="{{ user.email }}" required disabled placeholder=" ">
-      <label for="email">Email liên hệ</label>
+      <label for="email">{% trans "Your email" %}</label>
     </div>
 
     <div class="form-group">
       <input type="text" id="dob" name="dob" value="{{ user.birthday|date:'m/d/Y' }}" disabled placeholder=" ">
-      <label for="dob">Ngày sinh</label>
+      <label for="dob">{% trans "Your date of birth" %}</label>
     </div>
 
     <div class="form-group">
       <select id="career" name="career" disabled>
-        <option value="Sinh viên" {% if user.job == 'Sinh viên' %}selected{% endif %}>Sinh viên</option>
-        <option value="Giáo viên" {% if user.job == 'Giáo viên' %}selected{% endif %}>Giáo viên</option>
-        <option value="Khác" {% if user.job == 'Khác' %}selected{% endif %}>Khác</option>
+        <option value="Sinh viên" {% if user.job == 'Sinh viên' %}selected{% endif %}>{% trans "Students" %}</option>
+        <option value="Giáo viên" {% if user.job == 'Giáo viên' %}selected{% endif %}>{% trans "Teachers" %}</option>
+        <option value="Khác" {% if user.job == 'Khác' %}selected{% endif %}>{% trans "Others" %}</option>
       </select>
-      <label for="career">Nghề nghiệp</label>
+      <label for="career">{% trans "Jobs" %}</label>
     </div>
 
     <div class="form-group">
       <input type="text" id="other" name="other" value="{{ user.other }}" disabled placeholder=" ">
-      <label for="other">Mô tả</label>
+      <label for="other">{% trans "Description" %}</label>
     </div>
 
     <div class="action-buttons" id="actionButtons">
-      <button type="button" class="edit-btn" id="editBtn">Cập nhật thông tin</button>
+      <button type="button" class="edit-btn" id="editBtn">{% trans "Update your information" %}</button>
     </div>
   </form>
 </div>

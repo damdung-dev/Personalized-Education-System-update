@@ -1,0 +1,412 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 15:26+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Hungarian\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\home\templates\base.html:111 .\home\templates\home\account.html:221
+msgid "Teachers"
+msgstr "Tanárok"
+
+#: .\home\templates\base.html:112 .\home\templates\base.html:125
+#: .\home\templates\home\centers.html:5 .\home\templates\home\teachers.html:115
+msgid "Courses"
+msgstr "Kurzusok"
+
+#: .\home\templates\base.html:113
+msgid "Help"
+msgstr "Súgó"
+
+#: .\home\templates\base.html:114
+msgid "Theme"
+msgstr "Téma"
+
+#: .\home\templates\base.html:124
+msgid "Home"
+msgstr "Főoldal"
+
+#: .\home\templates\base.html:126 .\home\templates\home\home.html:121
+#: .\home\templates\home\results.html:4
+msgid "Results"
+msgstr "Eredmények"
+
+#: .\home\templates\base.html:127 .\home\templates\home\home.html:125
+msgid "Documents"
+msgstr "Dokumentumok"
+
+#: .\home\templates\base.html:128 .\home\templates\home\calendar.html:5
+msgid "Calendar"
+msgstr "Naptár"
+
+#: .\home\templates\base.html:129
+msgid "Chat"
+msgstr "Chat"
+
+#: .\home\templates\base.html:130 .\home\templates\home\notification.html:4
+msgid "Notifications"
+msgstr "Értesítések"
+
+#: .\home\templates\base.html:131
+msgid "Account"
+msgstr "Fiók"
+
+#: .\home\templates\base.html:138
+msgid "Language"
+msgstr "Nyelv"
+
+#: .\home\templates\base.html:150
+msgid "Logout"
+msgstr "Kijelentkezés"
+
+#: .\home\templates\base.html:210
+msgid "Are you sure you want to log out?"
+msgstr "Biztosan ki szeretnél jelentkezni?"
+
+#: .\home\templates\home\account.html:180
+msgid "My account information"
+msgstr "Fiókom adatai"
+
+#: .\home\templates\home\account.html:187
+msgid "Name"
+msgstr "Név"
+
+#: .\home\templates\home\account.html:192
+msgid "Student id"
+msgstr "Diákazonosító"
+
+#: .\home\templates\home\account.html:197
+msgid "Personal"
+msgstr "Személyes"
+
+#: .\home\templates\home\account.html:198
+msgid "Company"
+msgstr "Cég"
+
+#: .\home\templates\home\account.html:200
+msgid "Type of your account"
+msgstr "Fiók típusa"
+
+#: .\home\templates\home\account.html:205
+msgid "Phone number"
+msgstr "Telefonszám"
+
+#: .\home\templates\home\account.html:210
+msgid "Your email"
+msgstr "Email címed"
+
+#: .\home\templates\home\account.html:215
+msgid "Your date of birth"
+msgstr "Születési dátum"
+
+#: .\home\templates\home\account.html:220
+msgid "Students"
+msgstr "Diákok"
+
+#: .\home\templates\home\account.html:222
+msgid "Others"
+msgstr "Egyéb"
+
+#: .\home\templates\home\account.html:224
+msgid "Jobs"
+msgstr "Munkahelyek"
+
+#: .\home\templates\home\account.html:229
+msgid "Description"
+msgstr "Leírás"
+
+#: .\home\templates\home\account.html:233
+msgid "Update your information"
+msgstr "Adatok frissítése"
+
+#: .\home\templates\home\calendar.html:194
+#: .\home\templates\home\notification.html:144
+#: .\home\templates\home\notification.html:151
+msgid "Today"
+msgstr "Ma"
+
+#: .\home\templates\home\centers.html:131
+msgid "Courses at the center now"
+msgstr "Kurzusok a központban"
+
+#: .\home\templates\home\centers.html:139
+#: .\home\templates\home\courses.html:117
+#: .\home\templates\home\results.html:118
+msgid "Subject code"
+msgstr "Tantárgykód"
+
+#: .\home\templates\home\centers.html:140
+#: .\home\templates\home\courses.html:118
+#: .\home\templates\home\results.html:119
+msgid "Subject name"
+msgstr "Tantárgy neve"
+
+#: .\home\templates\home\centers.html:141
+#: .\home\templates\home\courses.html:119
+#: .\home\templates\home\results.html:120
+msgid "Study month"
+msgstr "Tanulmányi hónap"
+
+#: .\home\templates\home\centers.html:142
+msgid "Register"
+msgstr "Regisztráció"
+
+#: .\home\templates\home\centers.html:160
+msgid "There are no courses yet"
+msgstr "Még nincsenek kurzusok"
+
+#: .\home\templates\home\chat.html:4
+msgid "Chat assistant"
+msgstr "Chat asszisztens"
+
+#: .\home\templates\home\chat.html:141
+msgid "Hi! I'm your virtual assistant. Please enter your question below 👋"
+msgstr "Szia! Én vagyok a virtuális asszisztensed. Írd be a kérdésed lent 👋"
+
+#: .\home\templates\home\course_detail.html:171
+msgid "List of my lessons"
+msgstr "Óráim listája"
+
+#: .\home\templates\home\course_detail.html:176
+msgid "Find lessons you want..."
+msgstr "Keresd meg a kívánt órákat..."
+
+#: .\home\templates\home\course_detail.html:181
+msgid "Youtube search"
+msgstr "YouTube keresés"
+
+#: .\home\templates\home\course_detail.html:182
+msgid "Search"
+msgstr "Keresés"
+
+#: .\home\templates\home\course_detail.html:196
+msgid "Description:"
+msgstr "Leírás:"
+
+#: .\home\templates\home\course_detail.html:197
+msgid "Starting date: "
+msgstr "Kezdési dátum: "
+
+#: .\home\templates\home\course_detail.html:202
+msgid "Learn now"
+msgstr "Tanulj most"
+
+#: .\home\templates\home\course_detail.html:207
+msgid "There are no lessons for this course."
+msgstr "Nincsenek órák ehhez a kurzushoz."
+
+#: .\home\templates\home\courses.html:110
+msgid "My course"
+msgstr "Saját kurzus"
+
+#: .\home\templates\home\courses.html:120
+#: .\home\templates\home\results.html:121
+msgid "Static"
+msgstr "Statikus"
+
+#: .\home\templates\home\courses.html:121
+#: .\home\templates\home\results.html:122
+msgid "Optional"
+msgstr "Választható"
+
+#: .\home\templates\home\courses.html:134
+msgid "Learn about the course"
+msgstr "Kurzus részletei"
+
+#: .\home\templates\home\courses.html:143
+msgid "You have not any courses now"
+msgstr "Jelenleg nincs kurzusod"
+
+#: .\home\templates\home\documents.html:4
+msgid "Library"
+msgstr "Könyvtár"
+
+#: .\home\templates\home\documents.html:57
+msgid "My library"
+msgstr "Könyvtáram"
+
+#: .\home\templates\home\documents.html:59
+msgid "Add"
+msgstr "Hozzáadás"
+
+#: .\home\templates\home\documents.html:60
+msgid "Delete"
+msgstr "Törlés"
+
+#: .\home\templates\home\documents.html:62
+msgid "List"
+msgstr "Lista"
+
+#: .\home\templates\home\documents.html:63
+msgid "Column"
+msgstr "Oszlop"
+
+#: .\home\templates\home\documents.html:66
+msgid "The amount of books currently"
+msgstr "Jelenlegi könyvek száma"
+
+#: .\home\templates\home\documents.html:76
+#: .\home\templates\home\documents.html:129
+#: .\home\templates\home\documents.html:133
+msgid "Read now"
+msgstr "Olvasd most"
+
+#: .\home\templates\home\documents.html:80
+msgid "None of books"
+msgstr "Nincsenek könyvek"
+
+#: .\home\templates\home\documents.html:88
+msgid "Books you read recently"
+msgstr "Nemrég olvasott könyvek"
+
+#: .\home\templates\home\documents.html:99
+msgid "Open"
+msgstr "Megnyitás"
+
+#: .\home\templates\home\documents.html:105
+msgid "None of books are reading"
+msgstr "Jelenleg nincs olvasott könyv"
+
+#: .\home\templates\home\documents.html:112
+msgid "Top of books"
+msgstr "Legjobb könyvek"
+
+#: .\home\templates\home\documents.html:114
+msgid "The number of books"
+msgstr "Könyvek száma"
+
+#: .\home\templates\home\documents.html:138
+msgid "None of books here"
+msgstr "Nincsenek könyvek itt"
+
+#: .\home\templates\home\documents.html:143
+msgid "Previous"
+msgstr "Előző"
+
+#: .\home\templates\home\documents.html:145
+msgid "Page"
+msgstr "Oldal"
+
+#: .\home\templates\home\documents.html:147
+msgid "Next page"
+msgstr "Következő oldal"
+
+#: .\home\templates\home\help.html:4
+msgid "Help center"
+msgstr "Súgóközpont"
+
+#: .\home\templates\home\help.html:116
+msgid "Frequently asked questions"
+msgstr "Gyakran ismételt kérdések"
+
+#: .\home\templates\home\help.html:117
+msgid "Contact support"
+msgstr "Kapcsolatfelvétel a támogatással"
+
+#: .\home\templates\home\help.html:118
+msgid "System user manual"
+msgstr "Rendszer kézikönyv"
+
+#: .\home\templates\home\help.html:119
+msgid "Tips"
+msgstr "Tippek"
+
+#: .\home\templates\home\home.html:109
+msgid "Welcome to the Dashboard 👋"
+msgstr "Üdvözlünk a Vezérlőpulton 👋"
+
+#: .\home\templates\home\home.html:110
+msgid "Hi"
+msgstr "Szia"
+
+#: .\home\templates\home\home.html:110
+msgid "explore your account and activities here."
+msgstr "fedezd fel a fiókodat és tevékenységeidet itt."
+
+#: .\home\templates\home\home.html:114
+msgid "Quick Stats"
+msgstr "Gyors statisztikák"
+
+#: .\home\templates\home\home.html:117
+msgid "Studying Courses"
+msgstr "Folyamatban lévő kurzusok"
+
+#: .\home\templates\home\home.html:129
+msgid "Progress"
+msgstr "Haladás"
+
+#: .\home\templates\home\home.html:136
+msgid "Learning Progress"
+msgstr "Tanulási előrehaladás"
+
+#: .\home\templates\home\home.html:139
+msgid "User Activities"
+msgstr "Felhasználói tevékenységek"
+
+#: .\home\templates\home\lessons.html:5
+msgid "Lesson"
+msgstr "Lecke"
+
+#: .\home\templates\home\lessons.html:99
+msgid "Your browswer does not support videos"
+msgstr "A böngésződ nem támogatja a videókat"
+
+#: .\home\templates\home\lessons.html:104
+msgid "Back"
+msgstr "Vissza"
+
+#: .\home\templates\home\lessons.html:105
+msgid "Done"
+msgstr "Kész"
+
+#: .\home\templates\home\notification.html:142
+msgid "All"
+msgstr "Összes"
+
+#: .\home\templates\home\notification.html:143
+msgid "Unread"
+msgstr "Olvasatlan"
+
+#: .\home\templates\home\notification.html:145
+msgid "This week"
+msgstr "Ezen a héten"
+
+#: .\home\templates\home\notification.html:171
+msgid "See older notifications"
+msgstr "Régebbi értesítések megtekintése"
+
+#: .\home\templates\home\results.html:138
+msgid "You have no recorded learning outcomes."
+msgstr "Nincsenek rögzített tanulási eredményeid."
+
+#: .\home\templates\home\teachers.html:4
+msgid "List of teachers"
+msgstr "Tanárok listája"
+
+#: .\home\templates\home\teachers.html:113
+msgid "STT"
+msgstr "Sorszám"
+
+#: .\home\templates\home\teachers.html:114
+msgid "Teachers name"
+msgstr "Tanár neve"
+
+#: .\home\templates\home\teachers.html:127
+msgid "No data of teachers"
+msgstr "Nincs adat a tanárokról"
+
+#: .\home\templates\home\help.html:119
+msgid "Here you can find system user manuals and ways to contact for support."
+msgstr "Itt találhatók a rendszer felhasználói kézikönyvei és a támogatással való kapcsolatfelvétel módjai."

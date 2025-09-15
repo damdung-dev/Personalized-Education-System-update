@@ -1,0 +1,417 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 15:26+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Lithuanian\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: .\home\templates\base.html:111 .\home\templates\home\account.html:221
+msgid "Teachers"
+msgstr "Mokytojai"
+
+#: .\home\templates\base.html:112 .\home\templates\base.html:125
+#: .\home\templates\home\centers.html:5 .\home\templates\home\teachers.html:115
+msgid "Courses"
+msgstr "Kursai"
+
+#: .\home\templates\base.html:113
+msgid "Help"
+msgstr "Pagalba"
+
+#: .\home\templates\base.html:114
+msgid "Theme"
+msgstr "Tema"
+
+#: .\home\templates\base.html:124
+msgid "Home"
+msgstr "Pradžia"
+
+#: .\home\templates\base.html:126 .\home\templates\home\home.html:121
+#: .\home\templates\home\results.html:4
+msgid "Results"
+msgstr "Rezultatai"
+
+#: .\home\templates\base.html:127 .\home\templates\home\home.html:125
+msgid "Documents"
+msgstr "Dokumentai"
+
+#: .\home\templates\base.html:128 .\home\templates\home\calendar.html:5
+msgid "Calendar"
+msgstr "Kalendorius"
+
+#: .\home\templates\base.html:129
+msgid "Chat"
+msgstr "Pokalbiai"
+
+#: .\home\templates\base.html:130 .\home\templates\home\notification.html:4
+msgid "Notifications"
+msgstr "Pranešimai"
+
+#: .\home\templates\base.html:131
+msgid "Account"
+msgstr "Paskyra"
+
+#: .\home\templates\base.html:138
+msgid "Language"
+msgstr "Kalba"
+
+#: .\home\templates\base.html:150
+msgid "Logout"
+msgstr "Atsijungti"
+
+#: .\home\templates\base.html:210
+msgid "Are you sure you want to log out?"
+msgstr "Ar tikrai norite atsijungti?"
+
+#: .\home\templates\home\account.html:180
+msgid "My account information"
+msgstr "Mano paskyros informacija"
+
+#: .\home\templates\home\account.html:187
+msgid "Name"
+msgstr "Vardas"
+
+#: .\home\templates\home\account.html:192
+msgid "Student id"
+msgstr "Studento ID"
+
+#: .\home\templates\home\account.html:197
+msgid "Personal"
+msgstr "Asmeninė"
+
+#: .\home\templates\home\account.html:198
+msgid "Company"
+msgstr "Įmonė"
+
+#: .\home\templates\home\account.html:200
+msgid "Type of your account"
+msgstr "Paskyros tipas"
+
+#: .\home\templates\home\account.html:205
+msgid "Phone number"
+msgstr "Telefono numeris"
+
+#: .\home\templates\home\account.html:210
+msgid "Your email"
+msgstr "Jūsų el. paštas"
+
+#: .\home\templates\home\account.html:215
+msgid "Your date of birth"
+msgstr "Jūsų gimimo data"
+
+#: .\home\templates\home\account.html:220
+msgid "Students"
+msgstr "Studentai"
+
+#: .\home\templates\home\account.html:222
+msgid "Others"
+msgstr "Kiti"
+
+#: .\home\templates\home\account.html:224
+msgid "Jobs"
+msgstr "Darbas"
+
+#: .\home\templates\home\account.html:229
+msgid "Description"
+msgstr "Aprašymas"
+
+#: .\home\templates\home\account.html:233
+msgid "Update your information"
+msgstr "Atnaujinti informaciją"
+
+#: .\home\templates\home\calendar.html:194
+#: .\home\templates\home\notification.html:144
+#: .\home\templates\home\notification.html:151
+msgid "Today"
+msgstr "Šiandien"
+
+#: .\home\templates\home\centers.html:131
+msgid "Courses at the center now"
+msgstr "Kursai centre dabar"
+
+#: .\home\templates\home\centers.html:139
+#: .\home\templates\home\courses.html:117
+#: .\home\templates\home\results.html:118
+msgid "Subject code"
+msgstr "Dalyko kodas"
+
+#: .\home\templates\home\centers.html:140
+#: .\home\templates\home\courses.html:118
+#: .\home\templates\home\results.html:119
+msgid "Subject name"
+msgstr "Dalyko pavadinimas"
+
+#: .\home\templates\home\centers.html:141
+#: .\home\templates\home\courses.html:119
+#: .\home\templates\home\results.html:120
+msgid "Study month"
+msgstr "Mokymosi mėnuo"
+
+#: .\home\templates\home\centers.html:142
+msgid "Register"
+msgstr "Registruotis"
+
+#: .\home\templates\home\centers.html:160
+msgid "There are no courses yet"
+msgstr "Dar nėra kursų"
+
+#: .\home\templates\home\chat.html:4
+msgid "Chat assistant"
+msgstr "Pokalbių asistentas"
+
+#: .\home\templates\home\chat.html:141
+msgid "Hi! I'm your virtual assistant. Please enter your question below 👋"
+msgstr "Sveiki! Aš jūsų virtualus asistentas. Įveskite savo klausimą žemiau 👋"
+
+#: .\home\templates\home\course_detail.html:171
+msgid "List of my lessons"
+msgstr "Mano pamokų sąrašas"
+
+#: .\home\templates\home\course_detail.html:176
+msgid "Find lessons you want..."
+msgstr "Raskite norimas pamokas..."
+
+#: .\home\templates\home\course_detail.html:181
+msgid "Youtube search"
+msgstr "Youtube paieška"
+
+#: .\home\templates\home\course_detail.html:182
+msgid "Search"
+msgstr "Ieškoti"
+
+#: .\home\templates\home\course_detail.html:196
+msgid "Description:"
+msgstr "Aprašymas:"
+
+#: .\home\templates\home\course_detail.html:197
+msgid "Starting date: "
+msgstr "Pradžios data: "
+
+#: .\home\templates\home\course_detail.html:202
+msgid "Learn now"
+msgstr "Mokytis dabar"
+
+#: .\home\templates\home\course_detail.html:207
+msgid "There are no lessons for this course."
+msgstr "Šiam kursui nėra pamokų."
+
+#: .\home\templates\home\courses.html:110
+msgid "My course"
+msgstr "Mano kursas"
+
+#: .\home\templates\home\courses.html:150
+msgid "Current courses at our center"
+msgstr "Dabartiniai kursai mūsų centre"
+
+#: .\home\templates\home\courses.html:120
+#: .\home\templates\home\results.html:121
+msgid "Static"
+msgstr "Statinis"
+
+#: .\home\templates\home\courses.html:121
+#: .\home\templates\home\results.html:122
+msgid "Optional"
+msgstr "Pasirenkamasis"
+
+#: .\home\templates\home\courses.html:134
+msgid "Learn about the course"
+msgstr "Sužinoti apie kursą"
+
+#: .\home\templates\home\courses.html:143
+msgid "You have not any courses now"
+msgstr "Šiuo metu neturite kursų"
+
+#: .\home\templates\home\documents.html:4
+msgid "Library"
+msgstr "Biblioteka"
+
+#: .\home\templates\home\documents.html:57
+msgid "My library"
+msgstr "Mano biblioteka"
+
+#: .\home\templates\home\documents.html:59
+msgid "Add"
+msgstr "Pridėti"
+
+#: .\home\templates\home\documents.html:60
+msgid "Delete"
+msgstr "Ištrinti"
+
+#: .\home\templates\home\documents.html:62
+msgid "List"
+msgstr "Sąrašas"
+
+#: .\home\templates\home\documents.html:63
+msgid "Column"
+msgstr "Stulpelis"
+
+#: .\home\templates\home\documents.html:66
+msgid "The amount of books currently"
+msgstr "Knygų kiekis šiuo metu"
+
+#: .\home\templates\home\documents.html:76
+#: .\home\templates\home\documents.html:129
+#: .\home\templates\home\documents.html:133
+msgid "Read now"
+msgstr "Skaityti dabar"
+
+#: .\home\templates\home\documents.html:80
+msgid "None of books"
+msgstr "Nėra knygų"
+
+#: .\home\templates\home\documents.html:88
+msgid "Books you read recently"
+msgstr "Neseniai skaitytos knygos"
+
+#: .\home\templates\home\documents.html:99
+msgid "Open"
+msgstr "Atidaryti"
+
+#: .\home\templates\home\documents.html:105
+msgid "None of books are reading"
+msgstr "Jokių knygų neskaityta"
+
+#: .\home\templates\home\documents.html:112
+msgid "Top of books"
+msgstr "Geriausios knygos"
+
+#: .\home\templates\home\documents.html:114
+msgid "The number of books"
+msgstr "Knygų skaičius"
+
+#: .\home\templates\home\documents.html:138
+msgid "None of books here"
+msgstr "Čia nėra knygų"
+
+#: .\home\templates\home\documents.html:143
+msgid "Previous"
+msgstr "Ankstesnis"
+
+#: .\home\templates\home\documents.html:145
+msgid "Page"
+msgstr "Puslapis"
+
+#: .\home\templates\home\documents.html:147
+msgid "Next page"
+msgstr "Kitas puslapis"
+
+#: .\home\templates\home\help.html:4
+msgid "Help center"
+msgstr "Pagalbos centras"
+
+#: .\home\templates\home\help.html:116
+msgid "Frequently asked questions"
+msgstr "Dažnai užduodami klausimai"
+
+#: .\home\templates\home\help.html:117
+msgid "Contact support"
+msgstr "Susisiekti su palaikymu"
+
+#: .\home\templates\home\help.html:118
+msgid "System user manual"
+msgstr "Sistemos vartotojo vadovas"
+
+#: .\home\templates\home\help.html:119
+msgid "Tips"
+msgstr "Patarimai"
+
+#: .\home\templates\home\home.html:109
+msgid "Welcome to the Dashboard 👋"
+msgstr "Sveiki atvykę į valdymo skydelį 👋"
+
+#: .\home\templates\home\home.html:110
+msgid "Hi"
+msgstr "Sveiki"
+
+#: .\home\templates\home\home.html:110
+msgid "explore your account and activities here."
+msgstr "naršykite savo paskyrą ir veiklas čia."
+
+#: .\home\templates\home\home.html:114
+msgid "Quick Stats"
+msgstr "Greita statistika"
+
+#: .\home\templates\home\home.html:117
+msgid "Studying Courses"
+msgstr "Vykdomi kursai"
+
+#: .\home\templates\home\home.html:129
+msgid "Progress"
+msgstr "Progresas"
+
+#: .\home\templates\home\home.html:136
+msgid "Learning Progress"
+msgstr "Mokymosi progresas"
+
+#: .\home\templates\home\home.html:139
+msgid "User Activities"
+msgstr "Vartotojo veiklos"
+
+#: .\home\templates\home\lessons.html:5
+msgid "Lesson"
+msgstr "Pamoka"
+
+#: .\home\templates\home\lessons.html:99
+msgid "Your browswer does not support videos"
+msgstr "Jūsų naršyklė nepalaiko vaizdo įrašų"
+
+#: .\home\templates\home\lessons.html:104
+msgid "Back"
+msgstr "Atgal"
+
+#: .\home\templates\home\lessons.html:105
+msgid "Done"
+msgstr "Baigta"
+
+#: .\home\templates\home\notification.html:142
+msgid "All"
+msgstr "Visi"
+
+#: .\home\templates\home\notification.html:143
+msgid "Unread"
+msgstr "Neskaityti"
+
+#: .\home\templates\home\notification.html:145
+msgid "This week"
+msgstr "Šią savaitę"
+
+#: .\home\templates\home\notification.html:171
+msgid "See older notifications"
+msgstr "Žiūrėti senesnius pranešimus"
+
+#: .\home\templates\home\results.html:138
+msgid "You have no recorded learning outcomes."
+msgstr "Neturite įrašytų mokymosi rezultatų."
+
+#: .\home\templates\home\teachers.html:4
+msgid "List of teachers"
+msgstr "Mokytojų sąrašas"
+
+#: .\home\templates\home\teachers.html:113
+msgid "STT"
+msgstr "Nr."
+
+#: .\home\templates\home\teachers.html:114
+msgid "Teachers name"
+msgstr "Mokytojo vardas"
+
+#: .\home\templates\home\teachers.html:127
+msgid "No data of teachers"
+msgstr "Nėra mokytojų duomenų"
+
+#: .\home\templates\home\help.html:119
+msgid "Here you can find system user manuals and ways to contact for support."
+msgstr "Čia rasite sistemos naudotojo vadovus ir būdus, kaip susisiekti dėl pagalbos."

@@ -1,42 +1,55 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<!--
+  Created by: Dam Duc Dung
+  Date: 2025-06-20
+  Description: A modern, responsive login page template using HTML, CSS and boostrap.
+  Includuing: 
+    - Logo: Center of the page, circular with border. 
+    - Email and password fields where users can input their credentials.
+    - Login button: Prominent and styled with gradient background and hover effects.
+    - create account and forgot password links: Below the login button. Support forms to navigate to 
+    signup and password recovery pages.
+-->
+
+{% load static i18n %}
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
    <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type="text/css">
    <title>Login</title>
    <style>
         body {
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(135deg, #007bff, #00d4ff);
-            font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
+            margin: 0; /*outside the border*/
+            padding: 0;/*inside the border*/
+            background: linear-gradient(135deg, #007bff, #00d4ff);/*background color*/
+            font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; /*font style*/
+            display: flex; /*display follow the line*/
+            align-items: center;/*set the items on it at center position of the display*/
+            justify-content: center;/*set the content on it at center position of the display*/
+            min-height: 100vh;/*set the height of itself to 100 percent of the display*/
         }
 
         .login-container {
-            background: rgba(255,255,255,0.95);
-            padding: 40px 30px;
-            border-radius: 24px;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+
+            background: rgba(255,255,255,0.95);/*background color*/
+            padding: 40px 30px;/*set 40px in weight and 30px in height*/
+            border-radius: 24px;/*make the border round*/
+            box-shadow: 0 8px 32px rgba(0,0,0,0.15);/*set the shadow of the box*/
             backdrop-filter: blur(12px);
-            width: 100%;
-            max-width: 420px;
+            width: 100%;/*set the width of itself to 100 percent of the display*/
+            max-width: 420px;/*set the max width of itself to 420px*/
             animation: fadeIn 0.6s ease;
         }
 
         .login-logo {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
+            width: 120px; /*set the width of the logo*/
+            height: 120px; /*set the height of the logo*/
+            border-radius: 50%; /*round the border of logo frame*/
             object-fit: cover;
-            border: 3px solid #007bff;
-            margin-bottom: 16px;
+            border: 3px solid #007bff; /*set the border color, size, style of logo frame*/
+            margin-bottom: 16px; /*set the position of the logo compare the bottom of the page*/
         }
 
         h3 {

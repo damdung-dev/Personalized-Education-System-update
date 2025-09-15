@@ -1,4 +1,6 @@
 {% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
 
 {% block title %}Dashboard{% endblock %}
 
@@ -104,37 +106,37 @@ canvas {
 
 {% block content %}
 <div class="card welcome">
-  <h2>Welcome to the Dashboard 👋</h2>
-  <p class="sub">Hi {{ user.first_name|default:"User" }}, explore your account and activities here.</p>
+  <h2>{% trans "Welcome to the Dashboard 👋" %}</h2>
+  <p class="sub">{% trans "Hi" %} {{ user.first_name|default:"User" }}, {% trans "explore your account and activities here." %}</p>
 </div>
 
 <div class="card stats">
-  <h2>Quick Stats</h2>
+  <h2>{% trans "Quick Stats" %}</h2>
   <div class="status-boxes">
     <div class="status assigned">
-      📚 Studying Courses
+      📚 {% trans "Studying Courses" %}
       <span>{{ ongoing_courses|default:0 }}</span>
     </div>
     <div class="status sent">
-      🏆 Results
+      🏆 {% trans "Results" %}
       <span>{{ completed_courses|default:0 }}</span>
     </div>
     <div class="status signed">
-      📄 Documents
+      📄 {% trans "Documents" %}
       <span>{{ documents_count|default:0 }}</span>
     </div>
     <div class="status approved">
-      🚀 Progress
+      🚀 {% trans "Progress" %}
       <span>{{ avg_progress|default:0 }}%</span>
     </div>
   </div>
 </div>
 
 <div class="card chart">
-  <h2>Learning Progress</h2>
+  <h2>{% trans "Learning Progress" %}</h2>
   <canvas id="progressChart"></canvas>
 
-  <h2>User Activity</h2>
+  <h2>{% trans "User Activities" %}</h2>
   <canvas id="activityChart"></canvas>
 </div>
 

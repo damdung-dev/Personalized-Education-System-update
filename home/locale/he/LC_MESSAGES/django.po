@@ -1,0 +1,416 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 15:26+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Hebrew\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\home\templates\base.html:111 .\home\templates\home\account.html:221
+msgid "Teachers"
+msgstr "מורים"
+
+#: .\home\templates\base.html:112 .\home\templates\base.html:125
+#: .\home\templates\home\centers.html:5 .\home\templates\home\teachers.html:115
+msgid "Courses"
+msgstr "קורסים"
+
+#: .\home\templates\base.html:113
+msgid "Help"
+msgstr "עזרה"
+
+#: .\home\templates\base.html:114
+msgid "Theme"
+msgstr "ערכת נושא"
+
+#: .\home\templates\base.html:124
+msgid "Home"
+msgstr "בית"
+
+#: .\home\templates\base.html:126 .\home\templates\home\home.html:121
+#: .\home\templates\home\results.html:4
+msgid "Results"
+msgstr "תוצאות"
+
+#: .\home\templates\base.html:127 .\home\templates\home\home.html:125
+msgid "Documents"
+msgstr "מסמכים"
+
+#: .\home\templates\base.html:128 .\home\templates\home\calendar.html:5
+msgid "Calendar"
+msgstr "לוח שנה"
+
+#: .\home\templates\base.html:129
+msgid "Chat"
+msgstr "צ'אט"
+
+#: .\home\templates\base.html:130 .\home\templates\home\notification.html:4
+msgid "Notifications"
+msgstr "התראות"
+
+#: .\home\templates\base.html:131
+msgid "Account"
+msgstr "חשבון"
+
+#: .\home\templates\base.html:138
+msgid "Language"
+msgstr "שפה"
+
+#: .\home\templates\base.html:150
+msgid "Logout"
+msgstr "התנתקות"
+
+#: .\home\templates\base.html:210
+msgid "Are you sure you want to log out?"
+msgstr "האם אתה בטוח שברצונך להתנתק?"
+
+#: .\home\templates\home\account.html:180
+msgid "My account information"
+msgstr "מידע החשבון שלי"
+
+#: .\home\templates\home\account.html:187
+msgid "Name"
+msgstr "שם"
+
+#: .\home\templates\home\account.html:192
+msgid "Student id"
+msgstr "תעודת סטודנט"
+
+#: .\home\templates\home\account.html:197
+msgid "Personal"
+msgstr "אישי"
+
+#: .\home\templates\home\account.html:198
+msgid "Company"
+msgstr "חברה"
+
+#: .\home\templates\home\account.html:200
+msgid "Type of your account"
+msgstr "סוג החשבון שלך"
+
+#: .\home\templates\home\account.html:205
+msgid "Phone number"
+msgstr "מספר טלפון"
+
+#: .\home\templates\home\account.html:210
+msgid "Your email"
+msgstr "האימייל שלך"
+
+#: .\home\templates\home\account.html:215
+msgid "Your date of birth"
+msgstr "תאריך הלידה שלך"
+
+#: .\home\templates\home\account.html:220
+msgid "Students"
+msgstr "סטודנטים"
+
+#: .\home\templates\home\account.html:222
+msgid "Others"
+msgstr "אחרים"
+
+#: .\home\templates\home\account.html:224
+msgid "Jobs"
+msgstr "עבודות"
+
+#: .\home\templates\home\account.html:229
+msgid "Description"
+msgstr "תיאור"
+
+#: .\home\templates\home\account.html:233
+msgid "Update your information"
+msgstr "עדכן את המידע שלך"
+
+#: .\home\templates\home\calendar.html:194
+#: .\home\templates\home\notification.html:144
+#: .\home\templates\home\notification.html:151
+msgid "Today"
+msgstr "היום"
+
+#: .\home\templates\home\centers.html:131
+msgid "Courses at the center now"
+msgstr "קורסים במרכז כעת"
+
+#: .\home\templates\home\centers.html:139
+#: .\home\templates\home\courses.html:117
+#: .\home\templates\home\results.html:118
+msgid "Subject code"
+msgstr "קוד נושא"
+
+#: .\home\templates\home\centers.html:140
+#: .\home\templates\home\courses.html:118
+#: .\home\templates\home\results.html:119
+msgid "Subject name"
+msgstr "שם נושא"
+
+#: .\home\templates\home\centers.html:141
+#: .\home\templates\home\courses.html:119
+#: .\home\templates\home\results.html:120
+msgid "Study month"
+msgstr "חודש לימוד"
+
+#: .\home\templates\home\centers.html:142
+msgid "Register"
+msgstr "הרשמה"
+
+#: .\home\templates\home\centers.html:160
+msgid "There are no courses yet"
+msgstr "עדיין אין קורסים"
+
+#: .\home\templates\home\chat.html:4
+msgid "Chat assistant"
+msgstr "עוזר צ'אט"
+
+#: .\home\templates\home\chat.html:141
+msgid "Hi! I'm your virtual assistant. Please enter your question below 👋"
+msgstr "שלום! אני העוזר הווירטואלי שלך. אנא הכנס את שאלתך למטה 👋"
+
+#: .\home\templates\home\course_detail.html:171
+msgid "List of my lessons"
+msgstr "רשימת השיעורים שלי"
+
+#: .\home\templates\home\course_detail.html:176
+msgid "Find lessons you want..."
+msgstr "מצא שיעורים שתרצה..."
+
+#: .\home\templates\home\course_detail.html:181
+msgid "Youtube search"
+msgstr "חיפוש ביוטיוב"
+
+#: .\home\templates\home\course_detail.html:182
+msgid "Search"
+msgstr "חיפוש"
+
+#: .\home\templates\home\course_detail.html:196
+msgid "Description:"
+msgstr "תיאור:"
+
+#: .\home\templates\home\course_detail.html:197
+msgid "Starting date: "
+msgstr "תאריך התחלה: "
+
+#: .\home\templates\home\course_detail.html:202
+msgid "Learn now"
+msgstr "למד עכשיו"
+
+#: .\home\templates\home\course_detail.html:207
+msgid "There are no lessons for this course."
+msgstr "אין שיעורים לקורס זה."
+
+#: .\home\templates\home\courses.html:110
+msgid "My course"
+msgstr "הקורס שלי"
+
+#: .\home\templates\home\courses.html:150
+msgid "Current courses at our center"
+msgstr "הקורסים הנוכחיים במרכז שלנו"
+
+#: .\home\templates\home\courses.html:120
+#: .\home\templates\home\results.html:121
+msgid "Static"
+msgstr "סטטי"
+
+#: .\home\templates\home\courses.html:121
+#: .\home\templates\home\results.html:122
+msgid "Optional"
+msgstr "אופציונלי"
+
+#: .\home\templates\home\courses.html:134
+msgid "Learn about the course"
+msgstr "למד על הקורס"
+
+#: .\home\templates\home\courses.html:143
+msgid "You have not any courses now"
+msgstr "אין לך קורסים כרגע"
+
+#: .\home\templates\home\documents.html:4
+msgid "Library"
+msgstr "ספרייה"
+
+#: .\home\templates\home\documents.html:57
+msgid "My library"
+msgstr "הספרייה שלי"
+
+#: .\home\templates\home\documents.html:59
+msgid "Add"
+msgstr "הוסף"
+
+#: .\home\templates\home\documents.html:60
+msgid "Delete"
+msgstr "מחק"
+
+#: .\home\templates\home\documents.html:62
+msgid "List"
+msgstr "רשימה"
+
+#: .\home\templates\home\documents.html:63
+msgid "Column"
+msgstr "עמודה"
+
+#: .\home\templates\home\documents.html:66
+msgid "The amount of books currently"
+msgstr "כמות הספרים הנוכחית"
+
+#: .\home\templates\home\documents.html:76
+#: .\home\templates\home\documents.html:129
+#: .\home\templates\home\documents.html:133
+msgid "Read now"
+msgstr "קרא עכשיו"
+
+#: .\home\templates\home\documents.html:80
+msgid "None of books"
+msgstr "אין ספרים"
+
+#: .\home\templates\home\documents.html:88
+msgid "Books you read recently"
+msgstr "ספרים שקראת לאחרונה"
+
+#: .\home\templates\home\documents.html:99
+msgid "Open"
+msgstr "פתח"
+
+#: .\home\templates\home\documents.html:105
+msgid "None of books are reading"
+msgstr "אין ספרים שנקראים"
+
+#: .\home\templates\home\documents.html:112
+msgid "Top of books"
+msgstr "ספרים מובילים"
+
+#: .\home\templates\home\documents.html:114
+msgid "The number of books"
+msgstr "מספר הספרים"
+
+#: .\home\templates\home\documents.html:138
+msgid "None of books here"
+msgstr "אין ספרים כאן"
+
+#: .\home\templates\home\documents.html:143
+msgid "Previous"
+msgstr "הקודם"
+
+#: .\home\templates\home\documents.html:145
+msgid "Page"
+msgstr "עמוד"
+
+#: .\home\templates\home\documents.html:147
+msgid "Next page"
+msgstr "עמוד הבא"
+
+#: .\home\templates\home\help.html:4
+msgid "Help center"
+msgstr "מרכז עזרה"
+
+#: .\home\templates\home\help.html:116
+msgid "Frequently asked questions"
+msgstr "שאלות נפוצות"
+
+#: .\home\templates\home\help.html:117
+msgid "Contact support"
+msgstr "צור קשר עם התמיכה"
+
+#: .\home\templates\home\help.html:118
+msgid "System user manual"
+msgstr "מדריך משתמש מערכת"
+
+#: .\home\templates\home\help.html:119
+msgid "Tips"
+msgstr "טיפים"
+
+#: .\home\templates\home\home.html:109
+msgid "Welcome to the Dashboard 👋"
+msgstr "ברוך הבא ללוח הבקרה 👋"
+
+#: .\home\templates\home\home.html:110
+msgid "Hi"
+msgstr "שלום"
+
+#: .\home\templates\home\home.html:110
+msgid "explore your account and activities here."
+msgstr "גלה את החשבון והפעילויות שלך כאן."
+
+#: .\home\templates\home\home.html:114
+msgid "Quick Stats"
+msgstr "סטטיסטיקות מהירות"
+
+#: .\home\templates\home\home.html:117
+msgid "Studying Courses"
+msgstr "קורסים בלימוד"
+
+#: .\home\templates\home\home.html:129
+msgid "Progress"
+msgstr "התקדמות"
+
+#: .\home\templates\home\home.html:136
+msgid "Learning Progress"
+msgstr "התקדמות בלמידה"
+
+#: .\home\templates\home\home.html:139
+msgid "User Activities"
+msgstr "פעילויות משתמש"
+
+#: .\home\templates\home\lessons.html:5
+msgid "Lesson"
+msgstr "שיעור"
+
+#: .\home\templates\home\lessons.html:99
+msgid "Your browswer does not support videos"
+msgstr "הדפדפן שלך אינו תומך בווידאו"
+
+#: .\home\templates\home\lessons.html:104
+msgid "Back"
+msgstr "חזור"
+
+#: .\home\templates\home\lessons.html:105
+msgid "Done"
+msgstr "בוצע"
+
+#: .\home\templates\home\notification.html:142
+msgid "All"
+msgstr "הכול"
+
+#: .\home\templates\home\notification.html:143
+msgid "Unread"
+msgstr "לא נקרא"
+
+#: .\home\templates\home\notification.html:145
+msgid "This week"
+msgstr "השבוע"
+
+#: .\home\templates\home\notification.html:171
+msgid "See older notifications"
+msgstr "צפה בהתראות ישנות"
+
+#: .\home\templates\home\results.html:138
+msgid "You have no recorded learning outcomes."
+msgstr "אין לך תוצאות לימוד מתועדות."
+
+#: .\home\templates\home\teachers.html:4
+msgid "List of teachers"
+msgstr "רשימת מורים"
+
+#: .\home\templates\home\teachers.html:113
+msgid "STT"
+msgstr "מספר"
+
+#: .\home\templates\home\teachers.html:114
+msgid "Teachers name"
+msgstr "שם המורה"
+
+#: .\home\templates\home\teachers.html:127
+msgid "No data of teachers"
+msgstr "אין נתוני מורים"
+
+#: .\home\templates\home\help.html:119
+msgid "Here you can find system user manuals and ways to contact for support."
+msgstr "כאן תוכל למצוא מדריכי משתמש של המערכת ודרכים ליצור קשר לקבלת תמיכה."

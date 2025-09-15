@@ -1,5 +1,8 @@
 {% extends "base.html" %}
-{% block title %}Các khóa học{% endblock %}
+
+{% load static %}
+{% load i18n %}
+{% block title %}{% trans "Courses" %}{% endblock %}
 
 {% block style %}
 <style>
@@ -125,7 +128,7 @@ tbody td:first-child {
 <div class="container">
   <div class="card">
     <div class="card-header">
-      <h2>Các khóa học hiện có tại trung tâm</h2>
+      <h2>{% trans "Courses at the center now" %}</h2>
     </div>
 
     {% if suggested_courses %}
@@ -133,10 +136,10 @@ tbody td:first-child {
         <table>
           <thead>
             <tr>
-              <th>Mã học phần</th>
-              <th>Tên học phần</th>
-              <th>Số tín chỉ</th>
-              <th>Trung tâm</th>
+              <th>{% trans "Subject code" %}</th>
+              <th>{% trans "Subject name" %}</th>
+              <th>{% trans "Study month" %}</th>
+              <th>{% trans "Register" %}</th>
             </tr>
           </thead>
           <tbody>
@@ -154,7 +157,7 @@ tbody td:first-child {
     {% else %}
       <div class="empty-state">
         <i class="bi bi-journal-x"></i>
-        Hiện tại chưa có khóa học nào.
+        {% trans "There are no courses yet" %}
       </div>
     {% endif %}
   </div>

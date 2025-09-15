@@ -1,0 +1,416 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 15:26+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Dutch\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\home\templates\base.html:111 .\home\templates\home\account.html:221
+msgid "Teachers"
+msgstr "Docenten"
+
+#: .\home\templates\base.html:112 .\home\templates\base.html:125
+#: .\home\templates\home\centers.html:5 .\home\templates\home\teachers.html:115
+msgid "Courses"
+msgstr "Cursussen"
+
+#: .\home\templates\base.html:113
+msgid "Help"
+msgstr "Help"
+
+#: .\home\templates\base.html:114
+msgid "Theme"
+msgstr "Thema"
+
+#: .\home\templates\base.html:124
+msgid "Home"
+msgstr "Home"
+
+#: .\home\templates\base.html:126 .\home\templates\home\home.html:121
+#: .\home\templates\home\results.html:4
+msgid "Results"
+msgstr "Resultaten"
+
+#: .\home\templates\base.html:127 .\home\templates\home\home.html:125
+msgid "Documents"
+msgstr "Documenten"
+
+#: .\home\templates\base.html:128 .\home\templates\home\calendar.html:5
+msgid "Calendar"
+msgstr "Kalender"
+
+#: .\home\templates\base.html:129
+msgid "Chat"
+msgstr "Chat"
+
+#: .\home\templates\base.html:130 .\home\templates\home\notification.html:4
+msgid "Notifications"
+msgstr "Meldingen"
+
+#: .\home\templates\base.html:131
+msgid "Account"
+msgstr "Account"
+
+#: .\home\templates\base.html:138
+msgid "Language"
+msgstr "Taal"
+
+#: .\home\templates\base.html:150
+msgid "Logout"
+msgstr "Uitloggen"
+
+#: .\home\templates\base.html:210
+msgid "Are you sure you want to log out?"
+msgstr "Weet je zeker dat je wilt uitloggen?"
+
+#: .\home\templates\home\account.html:180
+msgid "My account information"
+msgstr "Mijn accountinformatie"
+
+#: .\home\templates\home\account.html:187
+msgid "Name"
+msgstr "Naam"
+
+#: .\home\templates\home\account.html:192
+msgid "Student id"
+msgstr "Studentnummer"
+
+#: .\home\templates\home\account.html:197
+msgid "Personal"
+msgstr "Persoonlijk"
+
+#: .\home\templates\home\account.html:198
+msgid "Company"
+msgstr "Bedrijf"
+
+#: .\home\templates\home\account.html:200
+msgid "Type of your account"
+msgstr "Type account"
+
+#: .\home\templates\home\account.html:205
+msgid "Phone number"
+msgstr "Telefoonnummer"
+
+#: .\home\templates\home\account.html:210
+msgid "Your email"
+msgstr "Jouw e-mail"
+
+#: .\home\templates\home\account.html:215
+msgid "Your date of birth"
+msgstr "Geboortedatum"
+
+#: .\home\templates\home\account.html:220
+msgid "Students"
+msgstr "Studenten"
+
+#: .\home\templates\home\account.html:222
+msgid "Others"
+msgstr "Anderen"
+
+#: .\home\templates\home\account.html:224
+msgid "Jobs"
+msgstr "Banen"
+
+#: .\home\templates\home\account.html:229
+msgid "Description"
+msgstr "Beschrijving"
+
+#: .\home\templates\home\account.html:233
+msgid "Update your information"
+msgstr "Werk je gegevens bij"
+
+#: .\home\templates\home\calendar.html:194
+#: .\home\templates\home\notification.html:144
+#: .\home\templates\home\notification.html:151
+msgid "Today"
+msgstr "Vandaag"
+
+#: .\home\templates\home\centers.html:131
+msgid "Courses at the center now"
+msgstr "Cursussen op het centrum nu"
+
+#: .\home\templates\home\centers.html:139
+#: .\home\templates\home\courses.html:117
+#: .\home\templates\home\results.html:118
+msgid "Subject code"
+msgstr "Vakcoder"
+
+#: .\home\templates\home\centers.html:140
+#: .\home\templates\home\courses.html:118
+#: .\home\templates\home\results.html:119
+msgid "Subject name"
+msgstr "Vakkennaam"
+
+#: .\home\templates\home\centers.html:141
+#: .\home\templates\home\courses.html:119
+#: .\home\templates\home\results.html:120
+msgid "Study month"
+msgstr "Studie maand"
+
+#: .\home\templates\home\centers.html:142
+msgid "Register"
+msgstr "Registreren"
+
+#: .\home\templates\home\centers.html:160
+msgid "There are no courses yet"
+msgstr "Er zijn nog geen cursussen"
+
+#: .\home\templates\home\chat.html:4
+msgid "Chat assistant"
+msgstr "Chatassistent"
+
+#: .\home\templates\home\chat.html:141
+msgid "Hi! I'm your virtual assistant. Please enter your question below 👋"
+msgstr "Hoi! Ik ben je virtuele assistent. Voer hieronder je vraag in 👋"
+
+#: .\home\templates\home\course_detail.html:171
+msgid "List of my lessons"
+msgstr "Lijst van mijn lessen"
+
+#: .\home\templates\home\course_detail.html:176
+msgid "Find lessons you want..."
+msgstr "Vind de lessen die je wilt..."
+
+#: .\home\templates\home\course_detail.html:181
+msgid "Youtube search"
+msgstr "YouTube zoeken"
+
+#: .\home\templates\home\course_detail.html:182
+msgid "Search"
+msgstr "Zoeken"
+
+#: .\home\templates\home\course_detail.html:196
+msgid "Description:"
+msgstr "Beschrijving:"
+
+#: .\home\templates\home\course_detail.html:197
+msgid "Starting date: "
+msgstr "Startdatum: "
+
+#: .\home\templates\home\course_detail.html:202
+msgid "Learn now"
+msgstr "Begin nu met leren"
+
+#: .\home\templates\home\course_detail.html:207
+msgid "There are no lessons for this course."
+msgstr "Er zijn geen lessen voor deze cursus"
+
+#: .\home\templates\home\courses.html:110
+msgid "My course"
+msgstr "Mijn cursus"
+
+#: .\home\templates\home\courses.html:150
+msgid "Current courses at our center"
+msgstr "Huidige cursussen in ons centrum"
+
+#: .\home\templates\home\courses.html:120
+#: .\home\templates\home\results.html:121
+msgid "Static"
+msgstr "Statisch"
+
+#: .\home\templates\home\courses.html:121
+#: .\home\templates\home\results.html:122
+msgid "Optional"
+msgstr "Optioneel"
+
+#: .\home\templates\home\courses.html:134
+msgid "Learn about the course"
+msgstr "Leer over de cursus"
+
+#: .\home\templates\home\courses.html:143
+msgid "You have not any courses now"
+msgstr "Je hebt momenteel geen cursussen"
+
+#: .\home\templates\home\documents.html:4
+msgid "Library"
+msgstr "Bibliotheek"
+
+#: .\home\templates\home\documents.html:57
+msgid "My library"
+msgstr "Mijn bibliotheek"
+
+#: .\home\templates\home\documents.html:59
+msgid "Add"
+msgstr "Toevoegen"
+
+#: .\home\templates\home\documents.html:60
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: .\home\templates\home\documents.html:62
+msgid "List"
+msgstr "Lijst"
+
+#: .\home\templates\home\documents.html:63
+msgid "Column"
+msgstr "Kolom"
+
+#: .\home\templates\home\documents.html:66
+msgid "The amount of books currently"
+msgstr "Aantal boeken momenteel"
+
+#: .\home\templates\home\documents.html:76
+#: .\home\templates\home\documents.html:129
+#: .\home\templates\home\documents.html:133
+msgid "Read now"
+msgstr "Lees nu"
+
+#: .\home\templates\home\documents.html:80
+msgid "None of books"
+msgstr "Geen boeken"
+
+#: .\home\templates\home\documents.html:88
+msgid "Books you read recently"
+msgstr "Boeken die je recent hebt gelezen"
+
+#: .\home\templates\home\documents.html:99
+msgid "Open"
+msgstr "Openen"
+
+#: .\home\templates\home\documents.html:105
+msgid "None of books are reading"
+msgstr "Geen boeken worden gelezen"
+
+#: .\home\templates\home\documents.html:112
+msgid "Top of books"
+msgstr "Top van boeken"
+
+#: .\home\templates\home\documents.html:114
+msgid "The number of books"
+msgstr "Aantal boeken"
+
+#: .\home\templates\home\documents.html:138
+msgid "None of books here"
+msgstr "Geen boeken hier"
+
+#: .\home\templates\home\documents.html:143
+msgid "Previous"
+msgstr "Vorige"
+
+#: .\home\templates\home\documents.html:145
+msgid "Page"
+msgstr "Pagina"
+
+#: .\home\templates\home\documents.html:147
+msgid "Next page"
+msgstr "Volgende pagina"
+
+#: .\home\templates\home\help.html:4
+msgid "Help center"
+msgstr "Helpcentrum"
+
+#: .\home\templates\home\help.html:116
+msgid "Frequently asked questions"
+msgstr "Veelgestelde vragen"
+
+#: .\home\templates\home\help.html:117
+msgid "Contact support"
+msgstr "Neem contact op met ondersteuning"
+
+#: .\home\templates\home\help.html:118
+msgid "System user manual"
+msgstr "Systeemgebruikershandleiding"
+
+#: .\home\templates\home\help.html:119
+msgid "Tips"
+msgstr "Tips"
+
+#: .\home\templates\home\home.html:109
+msgid "Welcome to the Dashboard 👋"
+msgstr "Welkom bij het Dashboard 👋"
+
+#: .\home\templates\home\home.html:110
+msgid "Hi"
+msgstr "Hoi"
+
+#: .\home\templates\home\home.html:110
+msgid "explore your account and activities here."
+msgstr "verken hier je account en activiteiten"
+
+#: .\home\templates\home\home.html:114
+msgid "Quick Stats"
+msgstr "Snelle statistieken"
+
+#: .\home\templates\home\home.html:117
+msgid "Studying Courses"
+msgstr "Cursussen volgen"
+
+#: .\home\templates\home\home.html:129
+msgid "Progress"
+msgstr "Voortgang"
+
+#: .\home\templates\home\home.html:136
+msgid "Learning Progress"
+msgstr "Leerprogressie"
+
+#: .\home\templates\home\home.html:139
+msgid "User Activities"
+msgstr "Gebruikersactiviteiten"
+
+#: .\home\templates\home\lessons.html:5
+msgid "Lesson"
+msgstr "Les"
+
+#: .\home\templates\home\lessons.html:99
+msgid "Your browswer does not support videos"
+msgstr "Je browser ondersteunt geen video's"
+
+#: .\home\templates\home\lessons.html:104
+msgid "Back"
+msgstr "Terug"
+
+#: .\home\templates\home\lessons.html:105
+msgid "Done"
+msgstr "Gereed"
+
+#: .\home\templates\home\notification.html:142
+msgid "All"
+msgstr "Alles"
+
+#: .\home\templates\home\notification.html:143
+msgid "Unread"
+msgstr "Ongelezen"
+
+#: .\home\templates\home\notification.html:145
+msgid "This week"
+msgstr "Deze week"
+
+#: .\home\templates\home\notification.html:171
+msgid "See older notifications"
+msgstr "Bekijk oudere meldingen"
+
+#: .\home\templates\home\results.html:138
+msgid "You have no recorded learning outcomes."
+msgstr "Je hebt geen geregistreerde leerresultaten"
+
+#: .\home\templates\home\teachers.html:4
+msgid "List of teachers"
+msgstr "Lijst van docenten"
+
+#: .\home\templates\home\teachers.html:113
+msgid "STT"
+msgstr "STT"
+
+#: .\home\templates\home\teachers.html:114
+msgid "Teachers name"
+msgstr "Naam docent"
+
+#: .\home\templates\home\teachers.html:127
+msgid "No data of teachers"
+msgstr "Geen gegevens van docenten"
+
+#: .\home\templates\home\help.html:119
+msgid "Here you can find system user manuals and ways to contact for support."
+msgstr "Hier vindt u systeemgebruikershandleidingen en manieren om contact op te nemen voor ondersteuning."

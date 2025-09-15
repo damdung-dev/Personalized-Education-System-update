@@ -1,0 +1,416 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 15:26+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Thai\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\home\templates\base.html:111 .\home\templates\home\account.html:221
+msgid "Teachers"
+msgstr "ครู"
+
+#: .\home\templates\base.html:112 .\home\templates\base.html:125
+#: .\home\templates\home\centers.html:5 .\home\templates\home\teachers.html:115
+msgid "Courses"
+msgstr "หลักสูตร"
+
+#: .\home\templates\base.html:113
+msgid "Help"
+msgstr "ช่วยเหลือ"
+
+#: .\home\templates\base.html:114
+msgid "Theme"
+msgstr "ธีม"
+
+#: .\home\templates\base.html:124
+msgid "Home"
+msgstr "หน้าหลัก"
+
+#: .\home\templates\base.html:126 .\home\templates\home\home.html:121
+#: .\home\templates\home\results.html:4
+msgid "Results"
+msgstr "ผลลัพธ์"
+
+#: .\home\templates\base.html:127 .\home\templates\home\home.html:125
+msgid "Documents"
+msgstr "เอกสาร"
+
+#: .\home\templates\base.html:128 .\home\templates\home\calendar.html:5
+msgid "Calendar"
+msgstr "ปฏิทิน"
+
+#: .\home\templates\base.html:129
+msgid "Chat"
+msgstr "แชท"
+
+#: .\home\templates\base.html:130 .\home\templates\home\notification.html:4
+msgid "Notifications"
+msgstr "การแจ้งเตือน"
+
+#: .\home\templates\base.html:131
+msgid "Account"
+msgstr "บัญชี"
+
+#: .\home\templates\base.html:138
+msgid "Language"
+msgstr "ภาษา"
+
+#: .\home\templates\base.html:150
+msgid "Logout"
+msgstr "ออกจากระบบ"
+
+#: .\home\templates\base.html:210
+msgid "Are you sure you want to log out?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการออกจากระบบ?"
+
+#: .\home\templates\home\account.html:180
+msgid "My account information"
+msgstr "ข้อมูลบัญชีของฉัน"
+
+#: .\home\templates\home\account.html:187
+msgid "Name"
+msgstr "ชื่อ"
+
+#: .\home\templates\home\account.html:192
+msgid "Student id"
+msgstr "รหัสนักเรียน"
+
+#: .\home\templates\home\account.html:197
+msgid "Personal"
+msgstr "ส่วนบุคคล"
+
+#: .\home\templates\home\account.html:198
+msgid "Company"
+msgstr "บริษัท"
+
+#: .\home\templates\home\account.html:200
+msgid "Type of your account"
+msgstr "ประเภทบัญชีของคุณ"
+
+#: .\home\templates\home\account.html:205
+msgid "Phone number"
+msgstr "หมายเลขโทรศัพท์"
+
+#: .\home\templates\home\account.html:210
+msgid "Your email"
+msgstr "อีเมลของคุณ"
+
+#: .\home\templates\home\account.html:215
+msgid "Your date of birth"
+msgstr "วันเกิดของคุณ"
+
+#: .\home\templates\home\account.html:220
+msgid "Students"
+msgstr "นักเรียน"
+
+#: .\home\templates\home\account.html:222
+msgid "Others"
+msgstr "อื่น ๆ"
+
+#: .\home\templates\home\account.html:224
+msgid "Jobs"
+msgstr "งาน"
+
+#: .\home\templates\home\account.html:229
+msgid "Description"
+msgstr "คำอธิบาย"
+
+#: .\home\templates\home\account.html:233
+msgid "Update your information"
+msgstr "อัปเดตข้อมูลของคุณ"
+
+#: .\home\templates\home\calendar.html:194
+#: .\home\templates\home\notification.html:144
+#: .\home\templates\home\notification.html:151
+msgid "Today"
+msgstr "วันนี้"
+
+#: .\home\templates\home\centers.html:131
+msgid "Courses at the center now"
+msgstr "หลักสูตรในศูนย์ปัจจุบัน"
+
+#: .\home\templates\home\centers.html:139
+#: .\home\templates\home\courses.html:117
+#: .\home\templates\home\results.html:118
+msgid "Subject code"
+msgstr "รหัสวิชา"
+
+#: .\home\templates\home\centers.html:140
+#: .\home\templates\home\courses.html:118
+#: .\home\templates\home\results.html:119
+msgid "Subject name"
+msgstr "ชื่อวิชา"
+
+#: .\home\templates\home\centers.html:141
+#: .\home\templates\home\courses.html:119
+#: .\home\templates\home\results.html:120
+msgid "Study month"
+msgstr "เดือนการศึกษา"
+
+#: .\home\templates\home\centers.html:142
+msgid "Register"
+msgstr "ลงทะเบียน"
+
+#: .\home\templates\home\centers.html:160
+msgid "There are no courses yet"
+msgstr "ยังไม่มีหลักสูตร"
+
+#: .\home\templates\home\chat.html:4
+msgid "Chat assistant"
+msgstr "ผู้ช่วยแชท"
+
+#: .\home\templates\home\chat.html:141
+msgid "Hi! I'm your virtual assistant. Please enter your question below 👋"
+msgstr "สวัสดี! ฉันคือผู้ช่วยเสมือนของคุณ กรุณาพิมพ์คำถามของคุณด้านล่าง 👋"
+
+#: .\home\templates\home\course_detail.html:171
+msgid "List of my lessons"
+msgstr "รายการบทเรียนของฉัน"
+
+#: .\home\templates\home\course_detail.html:176
+msgid "Find lessons you want..."
+msgstr "ค้นหาบทเรียนที่คุณต้องการ..."
+
+#: .\home\templates\home\course_detail.html:181
+msgid "Youtube search"
+msgstr "ค้นหาใน YouTube"
+
+#: .\home\templates\home\course_detail.html:182
+msgid "Search"
+msgstr "ค้นหา"
+
+#: .\home\templates\home\course_detail.html:196
+msgid "Description:"
+msgstr "คำอธิบาย:"
+
+#: .\home\templates\home\course_detail.html:197
+msgid "Starting date: "
+msgstr "วันที่เริ่มต้น: "
+
+#: .\home\templates\home\course_detail.html:202
+msgid "Learn now"
+msgstr "เรียนตอนนี้"
+
+#: .\home\templates\home\course_detail.html:207
+msgid "There are no lessons for this course."
+msgstr "ไม่มีบทเรียนสำหรับหลักสูตรนี้"
+
+#: .\home\templates\home\courses.html:110
+msgid "My course"
+msgstr "หลักสูตรของฉัน"
+
+#: .\home\templates\home\courses.html:150
+msgid "Current courses at our center"
+msgstr "หลักสูตรปัจจุบันที่ศูนย์ของเรา"
+
+#: .\home\templates\home\courses.html:120
+#: .\home\templates\home\results.html:121
+msgid "Static"
+msgstr "คงที่"
+
+#: .\home\templates\home\courses.html:121
+#: .\home\templates\home\results.html:122
+msgid "Optional"
+msgstr "ตัวเลือก"
+
+#: .\home\templates\home\courses.html:134
+msgid "Learn about the course"
+msgstr "เรียนรู้เกี่ยวกับหลักสูตร"
+
+#: .\home\templates\home\courses.html:143
+msgid "You have not any courses now"
+msgstr "คุณยังไม่มีหลักสูตร"
+
+#: .\home\templates\home\documents.html:4
+msgid "Library"
+msgstr "ห้องสมุด"
+
+#: .\home\templates\home\documents.html:57
+msgid "My library"
+msgstr "ห้องสมุดของฉัน"
+
+#: .\home\templates\home\documents.html:59
+msgid "Add"
+msgstr "เพิ่ม"
+
+#: .\home\templates\home\documents.html:60
+msgid "Delete"
+msgstr "ลบ"
+
+#: .\home\templates\home\documents.html:62
+msgid "List"
+msgstr "รายการ"
+
+#: .\home\templates\home\documents.html:63
+msgid "Column"
+msgstr "คอลัมน์"
+
+#: .\home\templates\home\documents.html:66
+msgid "The amount of books currently"
+msgstr "จำนวนหนังสือปัจจุบัน"
+
+#: .\home\templates\home\documents.html:76
+#: .\home\templates\home\documents.html:129
+#: .\home\templates\home\documents.html:133
+msgid "Read now"
+msgstr "อ่านตอนนี้"
+
+#: .\home\templates\home\documents.html:80
+msgid "None of books"
+msgstr "ไม่มีหนังสือ"
+
+#: .\home\templates\home\documents.html:88
+msgid "Books you read recently"
+msgstr "หนังสือที่คุณอ่านล่าสุด"
+
+#: .\home\templates\home\documents.html:99
+msgid "Open"
+msgstr "เปิด"
+
+#: .\home\templates\home\documents.html:105
+msgid "None of books are reading"
+msgstr "ไม่มีหนังสือที่กำลังอ่าน"
+
+#: .\home\templates\home\documents.html:112
+msgid "Top of books"
+msgstr "หนังสือยอดนิยม"
+
+#: .\home\templates\home\documents.html:114
+msgid "The number of books"
+msgstr "จำนวนหนังสือ"
+
+#: .\home\templates\home\documents.html:138
+msgid "None of books here"
+msgstr "ไม่มีหนังสือที่นี่"
+
+#: .\home\templates\home\documents.html:143
+msgid "Previous"
+msgstr "ก่อนหน้า"
+
+#: .\home\templates\home\documents.html:145
+msgid "Page"
+msgstr "หน้า"
+
+#: .\home\templates\home\documents.html:147
+msgid "Next page"
+msgstr "หน้าถัดไป"
+
+#: .\home\templates\home\help.html:4
+msgid "Help center"
+msgstr "ศูนย์ช่วยเหลือ"
+
+#: .\home\templates\home\help.html:116
+msgid "Frequently asked questions"
+msgstr "คำถามที่พบบ่อย"
+
+#: .\home\templates\home\help.html:117
+msgid "Contact support"
+msgstr "ติดต่อฝ่ายสนับสนุน"
+
+#: .\home\templates\home\help.html:118
+msgid "System user manual"
+msgstr "คู่มือผู้ใช้ระบบ"
+
+#: .\home\templates\home\help.html:119
+msgid "Tips"
+msgstr "เคล็ดลับ"
+
+#: .\home\templates\home\home.html:109
+msgid "Welcome to the Dashboard 👋"
+msgstr "ยินดีต้อนรับสู่แดชบอร์ด 👋"
+
+#: .\home\templates\home\home.html:110
+msgid "Hi"
+msgstr "สวัสดี"
+
+#: .\home\templates\home\home.html:110
+msgid "explore your account and activities here."
+msgstr "สำรวจบัญชีและกิจกรรมของคุณที่นี่"
+
+#: .\home\templates\home\home.html:114
+msgid "Quick Stats"
+msgstr "สถิติอย่างรวดเร็ว"
+
+#: .\home\templates\home\home.html:117
+msgid "Studying Courses"
+msgstr "หลักสูตรที่เรียน"
+
+#: .\home\templates\home\home.html:129
+msgid "Progress"
+msgstr "ความก้าวหน้า"
+
+#: .\home\templates\home\home.html:136
+msgid "Learning Progress"
+msgstr "ความก้าวหน้าในการเรียน"
+
+#: .\home\templates\home\home.html:139
+msgid "User Activities"
+msgstr "กิจกรรมของผู้ใช้"
+
+#: .\home\templates\home\lessons.html:5
+msgid "Lesson"
+msgstr "บทเรียน"
+
+#: .\home\templates\home\lessons.html:99
+msgid "Your browswer does not support videos"
+msgstr "เบราว์เซอร์ของคุณไม่รองรับวิดีโอ"
+
+#: .\home\templates\home\lessons.html:104
+msgid "Back"
+msgstr "กลับ"
+
+#: .\home\templates\home\lessons.html:105
+msgid "Done"
+msgstr "เสร็จแล้ว"
+
+#: .\home\templates\home\notification.html:142
+msgid "All"
+msgstr "ทั้งหมด"
+
+#: .\home\templates\home\notification.html:143
+msgid "Unread"
+msgstr "ยังไม่ได้อ่าน"
+
+#: .\home\templates\home\notification.html:145
+msgid "This week"
+msgstr "สัปดาห์นี้"
+
+#: .\home\templates\home\notification.html:171
+msgid "See older notifications"
+msgstr "ดูการแจ้งเตือนเก่า"
+
+#: .\home\templates\home\results.html:138
+msgid "You have no recorded learning outcomes."
+msgstr "คุณไม่มีผลลัพธ์การเรียนที่บันทึกไว้"
+
+#: .\home\templates\home\teachers.html:4
+msgid "List of teachers"
+msgstr "รายชื่อครู"
+
+#: .\home\templates\home\teachers.html:113
+msgid "STT"
+msgstr "ลำดับ"
+
+#: .\home\templates\home\teachers.html:114
+msgid "Teachers name"
+msgstr "ชื่อครู"
+
+#: .\home\templates\home\teachers.html:127
+msgid "No data of teachers"
+msgstr "ไม่มีข้อมูลครู"
+
+#: .\home\templates\home\help.html:119
+msgid "Here you can find system user manuals and ways to contact for support."
+msgstr "ที่นี่คุณสามารถหาคู่มือผู้ใช้ระบบและวิธีติดต่อเพื่อขอรับการสนับสนุนได้"

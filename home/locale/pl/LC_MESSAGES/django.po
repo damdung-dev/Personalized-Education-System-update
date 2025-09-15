@@ -1,0 +1,416 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 15:26+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Polish\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\home\templates\base.html:111 .\home\templates\home\account.html:221
+msgid "Teachers"
+msgstr "Nauczyciele"
+
+#: .\home\templates\base.html:112 .\home\templates\base.html:125
+#: .\home\templates\home\centers.html:5 .\home\templates\home\teachers.html:115
+msgid "Courses"
+msgstr "Kursy"
+
+#: .\home\templates\base.html:113
+msgid "Help"
+msgstr "Pomoc"
+
+#: .\home\templates\base.html:114
+msgid "Theme"
+msgstr "Motyw"
+
+#: .\home\templates\base.html:124
+msgid "Home"
+msgstr "Strona główna"
+
+#: .\home\templates\base.html:126 .\home\templates\home\home.html:121
+#: .\home\templates\home\results.html:4
+msgid "Results"
+msgstr "Wyniki"
+
+#: .\home\templates\base.html:127 .\home\templates\home\home.html:125
+msgid "Documents"
+msgstr "Dokumenty"
+
+#: .\home\templates\base.html:128 .\home\templates\home\calendar.html:5
+msgid "Calendar"
+msgstr "Kalendarz"
+
+#: .\home\templates\base.html:129
+msgid "Chat"
+msgstr "Czat"
+
+#: .\home\templates\base.html:130 .\home\templates\home\notification.html:4
+msgid "Notifications"
+msgstr "Powiadomienia"
+
+#: .\home\templates\base.html:131
+msgid "Account"
+msgstr "Konto"
+
+#: .\home\templates\base.html:138
+msgid "Language"
+msgstr "Język"
+
+#: .\home\templates\base.html:150
+msgid "Logout"
+msgstr "Wyloguj"
+
+#: .\home\templates\base.html:210
+msgid "Are you sure you want to log out?"
+msgstr "Czy na pewno chcesz się wylogować?"
+
+#: .\home\templates\home\account.html:180
+msgid "My account information"
+msgstr "Informacje o moim koncie"
+
+#: .\home\templates\home\account.html:187
+msgid "Name"
+msgstr "Imię"
+
+#: .\home\templates\home\account.html:192
+msgid "Student id"
+msgstr "Numer studenta"
+
+#: .\home\templates\home\account.html:197
+msgid "Personal"
+msgstr "Osobiste"
+
+#: .\home\templates\home\account.html:198
+msgid "Company"
+msgstr "Firma"
+
+#: .\home\templates\home\account.html:200
+msgid "Type of your account"
+msgstr "Typ konta"
+
+#: .\home\templates\home\account.html:205
+msgid "Phone number"
+msgstr "Numer telefonu"
+
+#: .\home\templates\home\account.html:210
+msgid "Your email"
+msgstr "Twój e-mail"
+
+#: .\home\templates\home\account.html:215
+msgid "Your date of birth"
+msgstr "Data urodzenia"
+
+#: .\home\templates\home\account.html:220
+msgid "Students"
+msgstr "Studenci"
+
+#: .\home\templates\home\account.html:222
+msgid "Others"
+msgstr "Inni"
+
+#: .\home\templates\home\account.html:224
+msgid "Jobs"
+msgstr "Praca"
+
+#: .\home\templates\home\account.html:229
+msgid "Description"
+msgstr "Opis"
+
+#: .\home\templates\home\account.html:233
+msgid "Update your information"
+msgstr "Aktualizuj informacje"
+
+#: .\home\templates\home\calendar.html:194
+#: .\home\templates\home\notification.html:144
+#: .\home\templates\home\notification.html:151
+msgid "Today"
+msgstr "Dziś"
+
+#: .\home\templates\home\centers.html:131
+msgid "Courses at the center now"
+msgstr "Kursy w centrum teraz"
+
+#: .\home\templates\home\centers.html:139
+#: .\home\templates\home\courses.html:117
+#: .\home\templates\home\results.html:118
+msgid "Subject code"
+msgstr "Kod przedmiotu"
+
+#: .\home\templates\home\centers.html:140
+#: .\home\templates\home\courses.html:118
+#: .\home\templates\home\results.html:119
+msgid "Subject name"
+msgstr "Nazwa przedmiotu"
+
+#: .\home\templates\home\centers.html:141
+#: .\home\templates\home\courses.html:119
+#: .\home\templates\home\results.html:120
+msgid "Study month"
+msgstr "Miesiąc nauki"
+
+#: .\home\templates\home\centers.html:142
+msgid "Register"
+msgstr "Zarejestruj"
+
+#: .\home\templates\home\centers.html:160
+msgid "There are no courses yet"
+msgstr "Brak kursów"
+
+#: .\home\templates\home\chat.html:4
+msgid "Chat assistant"
+msgstr "Asystent czatu"
+
+#: .\home\templates\home\chat.html:141
+msgid "Hi! I'm your virtual assistant. Please enter your question below 👋"
+msgstr "Cześć! Jestem twoim wirtualnym asystentem. Wpisz swoje pytanie poniżej 👋"
+
+#: .\home\templates\home\course_detail.html:171
+msgid "List of my lessons"
+msgstr "Lista moich lekcji"
+
+#: .\home\templates\home\course_detail.html:176
+msgid "Find lessons you want..."
+msgstr "Znajdź lekcje, które chcesz..."
+
+#: .\home\templates\home\course_detail.html:181
+msgid "Youtube search"
+msgstr "Wyszukiwanie na YouTube"
+
+#: .\home\templates\home\course_detail.html:182
+msgid "Search"
+msgstr "Szukaj"
+
+#: .\home\templates\home\course_detail.html:196
+msgid "Description:"
+msgstr "Opis:"
+
+#: .\home\templates\home\course_detail.html:197
+msgid "Starting date: "
+msgstr "Data rozpoczęcia: "
+
+#: .\home\templates\home\course_detail.html:202
+msgid "Learn now"
+msgstr "Ucz się teraz"
+
+#: .\home\templates\home\course_detail.html:207
+msgid "There are no lessons for this course."
+msgstr "Brak lekcji dla tego kursu"
+
+#: .\home\templates\home\courses.html:110
+msgid "My course"
+msgstr "Mój kurs"
+
+#: .\home\templates\home\courses.html:150
+msgid "Current courses at our center"
+msgstr "Aktualne kursy w naszym ośrodku"
+
+#: .\home\templates\home\courses.html:120
+#: .\home\templates\home\results.html:121
+msgid "Static"
+msgstr "Statyczny"
+
+#: .\home\templates\home\courses.html:121
+#: .\home\templates\home\results.html:122
+msgid "Optional"
+msgstr "Opcjonalny"
+
+#: .\home\templates\home\courses.html:134
+msgid "Learn about the course"
+msgstr "Dowiedz się o kursie"
+
+#: .\home\templates\home\courses.html:143
+msgid "You have not any courses now"
+msgstr "Nie masz żadnych kursów teraz"
+
+#: .\home\templates\home\documents.html:4
+msgid "Library"
+msgstr "Biblioteka"
+
+#: .\home\templates\home\documents.html:57
+msgid "My library"
+msgstr "Moja biblioteka"
+
+#: .\home\templates\home\documents.html:59
+msgid "Add"
+msgstr "Dodaj"
+
+#: .\home\templates\home\documents.html:60
+msgid "Delete"
+msgstr "Usuń"
+
+#: .\home\templates\home\documents.html:62
+msgid "List"
+msgstr "Lista"
+
+#: .\home\templates\home\documents.html:63
+msgid "Column"
+msgstr "Kolumna"
+
+#: .\home\templates\home\documents.html:66
+msgid "The amount of books currently"
+msgstr "Aktualna liczba książek"
+
+#: .\home\templates\home\documents.html:76
+#: .\home\templates\home\documents.html:129
+#: .\home\templates\home\documents.html:133
+msgid "Read now"
+msgstr "Czytaj teraz"
+
+#: .\home\templates\home\documents.html:80
+msgid "None of books"
+msgstr "Brak książek"
+
+#: .\home\templates\home\documents.html:88
+msgid "Books you read recently"
+msgstr "Książki przeczytane ostatnio"
+
+#: .\home\templates\home\documents.html:99
+msgid "Open"
+msgstr "Otwórz"
+
+#: .\home\templates\home\documents.html:105
+msgid "None of books are reading"
+msgstr "Żadna książka nie jest czytana"
+
+#: .\home\templates\home\documents.html:112
+msgid "Top of books"
+msgstr "Najlepsze książki"
+
+#: .\home\templates\home\documents.html:114
+msgid "The number of books"
+msgstr "Liczba książek"
+
+#: .\home\templates\home\documents.html:138
+msgid "None of books here"
+msgstr "Brak książek tutaj"
+
+#: .\home\templates\home\documents.html:143
+msgid "Previous"
+msgstr "Poprzednia"
+
+#: .\home\templates\home\documents.html:145
+msgid "Page"
+msgstr "Strona"
+
+#: .\home\templates\home\documents.html:147
+msgid "Next page"
+msgstr "Następna strona"
+
+#: .\home\templates\home\help.html:4
+msgid "Help center"
+msgstr "Centrum pomocy"
+
+#: .\home\templates\home\help.html:116
+msgid "Frequently asked questions"
+msgstr "Najczęściej zadawane pytania"
+
+#: .\home\templates\home\help.html:117
+msgid "Contact support"
+msgstr "Skontaktuj się z pomocą"
+
+#: .\home\templates\home\help.html:118
+msgid "System user manual"
+msgstr "Instrukcja obsługi systemu"
+
+#: .\home\templates\home\help.html:119
+msgid "Tips"
+msgstr "Wskazówki"
+
+#: .\home\templates\home\home.html:109
+msgid "Welcome to the Dashboard 👋"
+msgstr "Witamy w Panelu 👋"
+
+#: .\home\templates\home\home.html:110
+msgid "Hi"
+msgstr "Cześć"
+
+#: .\home\templates\home\home.html:110
+msgid "explore your account and activities here."
+msgstr "Odkryj swoje konto i aktywności tutaj."
+
+#: .\home\templates\home\home.html:114
+msgid "Quick Stats"
+msgstr "Szybkie statystyki"
+
+#: .\home\templates\home\home.html:117
+msgid "Studying Courses"
+msgstr "Kursy w nauce"
+
+#: .\home\templates\home\home.html:129
+msgid "Progress"
+msgstr "Postęp"
+
+#: .\home\templates\home\home.html:136
+msgid "Learning Progress"
+msgstr "Postęp nauki"
+
+#: .\home\templates\home\home.html:139
+msgid "User Activities"
+msgstr "Aktywności użytkownika"
+
+#: .\home\templates\home\lessons.html:5
+msgid "Lesson"
+msgstr "Lekcja"
+
+#: .\home\templates\home\lessons.html:99
+msgid "Your browswer does not support videos"
+msgstr "Twoja przeglądarka nie obsługuje wideo"
+
+#: .\home\templates\home\lessons.html:104
+msgid "Back"
+msgstr "Wstecz"
+
+#: .\home\templates\home\lessons.html:105
+msgid "Done"
+msgstr "Gotowe"
+
+#: .\home\templates\home\notification.html:142
+msgid "All"
+msgstr "Wszystkie"
+
+#: .\home\templates\home\notification.html:143
+msgid "Unread"
+msgstr "Nieprzeczytane"
+
+#: .\home\templates\home\notification.html:145
+msgid "This week"
+msgstr "W tym tygodniu"
+
+#: .\home\templates\home\notification.html:171
+msgid "See older notifications"
+msgstr "Zobacz starsze powiadomienia"
+
+#: .\home\templates\home\results.html:138
+msgid "You have no recorded learning outcomes."
+msgstr "Nie masz zapisanych wyników nauki"
+
+#: .\home\templates\home\teachers.html:4
+msgid "List of teachers"
+msgstr "Lista nauczycieli"
+
+#: .\home\templates\home\teachers.html:113
+msgid "STT"
+msgstr "STT"
+
+#: .\home\templates\home\teachers.html:114
+msgid "Teachers name"
+msgstr "Nazwisko nauczyciela"
+
+#: .\home\templates\home\teachers.html:127
+msgid "No data of teachers"
+msgstr "Brak danych o nauczycielach"
+
+#: .\home\templates\home\help.html:119
+msgid "Here you can find system user manuals and ways to contact for support."
+msgstr "Tutaj znajdziesz instrukcje obsługi systemu i sposoby kontaktu z pomocą techniczną."

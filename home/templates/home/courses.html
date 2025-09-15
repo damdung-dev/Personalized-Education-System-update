@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
-
+{% load i18n %}
 {% block style %}
 <style>
 :root {
@@ -107,18 +107,18 @@ button:hover { transform: scale(1.05); }
 
   <!-- Khóa học của tôi -->
   <div class="card">
-    <div class="card-header bg-primary">📘 Khóa học của tôi</div>
+    <div class="card-header bg-primary">📘 {% trans "My course" %}</div>
     <div class="card-body">
       {% if my_courses %}
       <div class="table-responsive">
         <table>
           <thead>
             <tr>
-              <th>Mã học phần</th>
-              <th>Tên học phần</th>
-              <th>Số tín chỉ</th>
-              <th>Trạng thái</th>
-              <th>Tùy chọn</th>
+              <th>{% trans "Subject code" %}</th>
+              <th>{% trans "Subject name" %}</th>
+              <th>{% trans "Study month" %}</th>
+              <th>{% trans "Static" %}</th>
+              <th>{% trans "Optional" %}</th>
             </tr>
           </thead>
           <tbody>
@@ -131,7 +131,7 @@ button:hover { transform: scale(1.05); }
               <td>
                 <form method="POST" action="{% url 'home:course_detail' course.code %}">
                   {% csrf_token %}
-                  <button type="submit" class="bg-danger">Xem khóa học</button>
+                  <button type="submit" class="bg-danger">{% trans "Learn about the course" %}</button>
                 </form>
               </td>
             </tr>
@@ -140,25 +140,25 @@ button:hover { transform: scale(1.05); }
         </table>
       </div>
       {% else %}
-      <p class="text-muted">Bạn chưa có khóa học nào.</p>
+      <p class="text-muted">{% trans "You have not any courses now" %}</p>
       {% endif %}
     </div>
   </div>
 
   <!-- Khóa học hiện có -->
   <div class="card">
-    <div class="card-header bg-success">📚 Khóa học hiện có</div>
+    <div class="card-header bg-success">📚 {% trans "Current courses at our center" %}</div>
     <div class="card-body">
       {% if suggested_courses %}
       <div class="table-responsive">
         <table>
           <thead>
             <tr>
-              <th>Mã học phần</th>
-              <th>Tên học phần</th>
-              <th>Số tín chỉ</th>
-              <th>Trạng thái</th>
-              <th>Đăng ký</th>
+              <th>{% trans "Subject code" %}</th>
+              <th>{% trans "Subject name" %}</th>
+              <th>{% trans "Study month" %}</th>
+              <th>{% trans "Static" %}</th>
+              <th>{% trans "Optional" %}</th>
             </tr>
           </thead>
           <tbody>
@@ -171,7 +171,7 @@ button:hover { transform: scale(1.05); }
               <td>
                 <button class="bg-success-btn"
                         onclick="registerCourse('{% url 'home:register_course' course.code %}')">
-                  Đăng ký
+                  {% trans "Register" %}
                 </button>
               </td>
             </tr>
@@ -180,7 +180,7 @@ button:hover { transform: scale(1.05); }
         </table>
       </div>
       {% else %}
-      <p class="text-muted">Không có khóa học nào để đăng ký.</p>
+      <p class="text-muted">{% trans "There are no courses for you" %}</p>
       {% endif %}
     </div>
   </div>

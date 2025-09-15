@@ -1,0 +1,417 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 15:26+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Greek\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\home\templates\base.html:111 .\home\templates\home\account.html:221
+msgid "Teachers"
+msgstr "Δάσκαλοι"
+
+#: .\home\templates\base.html:112 .\home\templates\base.html:125
+#: .\home\templates\home\centers.html:5 .\home\templates\home\teachers.html:115
+msgid "Courses"
+msgstr "Μαθήματα"
+
+#: .\home\templates\base.html:113
+msgid "Help"
+msgstr "Βοήθεια"
+
+#: .\home\templates\base.html:114
+msgid "Theme"
+msgstr "Θέμα"
+
+#: .\home\templates\base.html:124
+msgid "Home"
+msgstr "Αρχική"
+
+#: .\home\templates\base.html:126 .\home\templates\home\home.html:121
+#: .\home\templates\home\results.html:4
+msgid "Results"
+msgstr "Αποτελέσματα"
+
+#: .\home\templates\base.html:127 .\home\templates\home\home.html:125
+msgid "Documents"
+msgstr "Έγγραφα"
+
+#: .\home\templates\base.html:128 .\home\templates\home\calendar.html:5
+msgid "Calendar"
+msgstr "Ημερολόγιο"
+
+#: .\home\templates\base.html:129
+msgid "Chat"
+msgstr "Συνομιλία"
+
+#: .\home\templates\base.html:130 .\home\templates\home\notification.html:4
+msgid "Notifications"
+msgstr "Ειδοποιήσεις"
+
+#: .\home\templates\base.html:131
+msgid "Account"
+msgstr "Λογαριασμός"
+
+#: .\home\templates\base.html:138
+msgid "Language"
+msgstr "Γλώσσα"
+
+#: .\home\templates\base.html:150
+msgid "Logout"
+msgstr "Αποσύνδεση"
+
+#: .\home\templates\base.html:210
+msgid "Are you sure you want to log out?"
+msgstr "Είστε σίγουροι ότι θέλετε να αποσυνδεθείτε;"
+
+#: .\home\templates\home\account.html:180
+msgid "My account information"
+msgstr "Πληροφορίες λογαριασμού μου"
+
+#: .\home\templates\home\account.html:187
+msgid "Name"
+msgstr "Όνομα"
+
+#: .\home\templates\home\account.html:192
+msgid "Student id"
+msgstr "Αριθμός φοιτητή"
+
+#: .\home\templates\home\account.html:197
+msgid "Personal"
+msgstr "Προσωπικό"
+
+#: .\home\templates\home\account.html:198
+msgid "Company"
+msgstr "Εταιρεία"
+
+#: .\home\templates\home\account.html:200
+msgid "Type of your account"
+msgstr "Τύπος λογαριασμού σας"
+
+#: .\home\templates\home\account.html:205
+msgid "Phone number"
+msgstr "Τηλέφωνο"
+
+#: .\home\templates\home\account.html:210
+msgid "Your email"
+msgstr "Το email σας"
+
+#: .\home\templates\home\account.html:215
+msgid "Your date of birth"
+msgstr "Ημερομηνία γέννησής σας"
+
+#: .\home\templates\home\account.html:220
+msgid "Students"
+msgstr "Φοιτητές"
+
+#: .\home\templates\home\account.html:222
+msgid "Others"
+msgstr "Άλλοι"
+
+#: .\home\templates\home\account.html:224
+msgid "Jobs"
+msgstr "Εργασίες"
+
+#: .\home\templates\home\account.html:229
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: .\home\templates\home\account.html:233
+msgid "Update your information"
+msgstr "Ενημερώστε τις πληροφορίες σας"
+
+#: .\home\templates\home\calendar.html:194
+#: .\home\templates\home\notification.html:144
+#: .\home\templates\home\notification.html:151
+msgid "Today"
+msgstr "Σήμερα"
+
+#: .\home\templates\home\centers.html:131
+msgid "Courses at the center now"
+msgstr "Μαθήματα στο κέντρο αυτή τη στιγμή"
+
+#: .\home\templates\home\centers.html:139
+#: .\home\templates\home\courses.html:117
+#: .\home\templates\home\results.html:118
+msgid "Subject code"
+msgstr "Κωδικός μαθήματος"
+
+#: .\home\templates\home\centers.html:140
+#: .\home\templates\home\courses.html:118
+#: .\home\templates\home\results.html:119
+msgid "Subject name"
+msgstr "Όνομα μαθήματος"
+
+#: .\home\templates\home\centers.html:141
+#: .\home\templates\home\courses.html:119
+#: .\home\templates\home\results.html:120
+msgid "Study month"
+msgstr "Μήνας μελέτης"
+
+#: .\home\templates\home\centers.html:142
+msgid "Register"
+msgstr "Εγγραφή"
+
+#: .\home\templates\home\centers.html:160
+msgid "There are no courses yet"
+msgstr "Δεν υπάρχουν μαθήματα ακόμη"
+
+#: .\home\templates\home\chat.html:4
+msgid "Chat assistant"
+msgstr "Βοηθός συνομιλίας"
+
+#: .\home\templates\home\chat.html:141
+msgid "Hi! I'm your virtual assistant. Please enter your question below 👋"
+msgstr "Γεια! Είμαι ο εικονικός σας βοηθός. Παρακαλώ εισάγετε την ερώτησή σας παρακάτω 👋"
+
+#: .\home\templates\home\course_detail.html:171
+msgid "List of my lessons"
+msgstr "Λίστα των μαθημάτων μου"
+
+#: .\home\templates\home\course_detail.html:176
+msgid "Find lessons you want..."
+msgstr "Βρείτε τα μαθήματα που θέλετε..."
+
+#: .\home\templates\home\course_detail.html:181
+msgid "Youtube search"
+msgstr "Αναζήτηση στο YouTube"
+
+#: .\home\templates\home\course_detail.html:182
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: .\home\templates\home\course_detail.html:196
+msgid "Description:"
+msgstr "Περιγραφή:"
+
+#: .\home\templates\home\course_detail.html:197
+msgid "Starting date: "
+msgstr "Ημερομηνία έναρξης: "
+
+#: .\home\templates\home\course_detail.html:202
+msgid "Learn now"
+msgstr "Ξεκινήστε τώρα να μαθαίνετε"
+
+#: .\home\templates\home\course_detail.html:207
+msgid "There are no lessons for this course."
+msgstr "Δεν υπάρχουν μαθήματα για αυτό το μάθημα"
+
+#: .\home\templates\home\courses.html:110
+msgid "My course"
+msgstr "Το μάθημά μου"
+
+#: .\home\templates\home\courses.html:150
+msgid "Current courses at our center"
+msgstr "Τρέχοντα μαθήματα στο κέντρο μας"
+
+#: .\home\templates\home\courses.html:120
+#: .\home\templates\home\results.html:121
+msgid "Static"
+msgstr "Στατικό"
+
+#: .\home\templates\home\courses.html:121
+#: .\home\templates\home\results.html:122
+msgid "Optional"
+msgstr "Προαιρετικό"
+
+#: .\home\templates\home\courses.html:134
+msgid "Learn about the course"
+msgstr "Μάθετε για το μάθημα"
+
+#: .\home\templates\home\courses.html:143
+msgid "You have not any courses now"
+msgstr "Δεν έχετε μαθήματα αυτή τη στιγμή"
+
+#: .\home\templates\home\documents.html:4
+msgid "Library"
+msgstr "Βιβλιοθήκη"
+
+#: .\home\templates\home\documents.html:57
+msgid "My library"
+msgstr "Η βιβλιοθήκη μου"
+
+#: .\home\templates\home\documents.html:59
+msgid "Add"
+msgstr "Προσθήκη"
+
+#: .\home\templates\home\documents.html:60
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: .\home\templates\home\documents.html:62
+msgid "List"
+msgstr "Λίστα"
+
+#: .\home\templates\home\documents.html:63
+msgid "Column"
+msgstr "Στήλη"
+
+#: .\home\templates\home\documents.html:66
+msgid "The amount of books currently"
+msgstr "Αριθμός βιβλίων αυτή τη στιγμή"
+
+#: .\home\templates\home\documents.html:76
+#: .\home\templates\home\documents.html:129
+#: .\home\templates\home\documents.html:133
+msgid "Read now"
+msgstr "Διαβάστε τώρα"
+
+#: .\home\templates\home\documents.html:80
+msgid "None of books"
+msgstr "Κανένα βιβλίο"
+
+#: .\home\templates\home\documents.html:88
+msgid "Books you read recently"
+msgstr "Βιβλία που διαβάσατε πρόσφατα"
+
+#: .\home\templates\home\documents.html:99
+msgid "Open"
+msgstr "Άνοιγμα"
+
+#: .\home\templates\home\documents.html:105
+msgid "None of books are reading"
+msgstr "Δεν διαβάζεται κανένα βιβλίο"
+
+#: .\home\templates\home\documents.html:112
+msgid "Top of books"
+msgstr "Κορυφαία βιβλία"
+
+#: .\home\templates\home\documents.html:114
+msgid "The number of books"
+msgstr "Αριθμός βιβλίων"
+
+#: .\home\templates\home\documents.html:138
+msgid "None of books here"
+msgstr "Δεν υπάρχουν βιβλία εδώ"
+
+#: .\home\templates\home\documents.html:143
+msgid "Previous"
+msgstr "Προηγούμενο"
+
+#: .\home\templates\home\documents.html:145
+msgid "Page"
+msgstr "Σελίδα"
+
+#: .\home\templates\home\documents.html:147
+msgid "Next page"
+msgstr "Επόμενη σελίδα"
+
+#: .\home\templates\home\help.html:4
+msgid "Help center"
+msgstr "Κέντρο βοήθειας"
+
+#: .\home\templates\home\help.html:116
+msgid "Frequently asked questions"
+msgstr "Συχνές ερωτήσεις"
+
+#: .\home\templates\home\help.html:117
+msgid "Contact support"
+msgstr "Επικοινωνία με υποστήριξη"
+
+#: .\home\templates\home\help.html:118
+msgid "System user manual"
+msgstr "Εγχειρίδιο χρήστη συστήματος"
+
+#: .\home\templates\home\help.html:119
+msgid "Tips"
+msgstr "Συμβουλές"
+
+#: .\home\templates\home\home.html:109
+msgid "Welcome to the Dashboard 👋"
+msgstr "Καλώς ήρθατε στον Πίνακα Ελέγχου 👋"
+
+#: .\home\templates\home\home.html:110
+msgid "Hi"
+msgstr "Γεια"
+
+#: .\home\templates\home\home.html:110
+msgid "explore your account and activities here."
+msgstr "εξερευνήστε τον λογαριασμό και τις δραστηριότητές σας εδώ."
+
+#: .\home\templates\home\home.html:114
+msgid "Quick Stats"
+msgstr "Γρήγορα Στατιστικά"
+
+#: .\home\templates\home\home.html:117
+msgid "Studying Courses"
+msgstr "Μαθήματα"
+
+#: .\home\templates\home\home.html:129
+msgid "Progress"
+msgstr "Πρόοδος"
+
+#: .\home\templates\home\home.html:136
+msgid "Learning Progress"
+msgstr "Πρόοδος Μάθησης"
+
+#: .\home\templates\home\home.html:139
+msgid "User Activities"
+msgstr "Δραστηριότητες Χρήστη"
+
+#: .\home\templates\home\lessons.html:5
+msgid "Lesson"
+msgstr "Μάθημα"
+
+#: .\home\templates\home\lessons.html:99
+msgid "Your browswer does not support videos"
+msgstr "Ο περιηγητής σας δεν υποστηρίζει βίντεο"
+
+#: .\home\templates\home\lessons.html:104
+msgid "Back"
+msgstr "Πίσω"
+
+#: .\home\templates\home\lessons.html:105
+msgid "Done"
+msgstr "Ολοκληρώθηκε"
+
+#: .\home\templates\home\notification.html:142
+msgid "All"
+msgstr "Όλα"
+
+#: .\home\templates\home\notification.html:143
+msgid "Unread"
+msgstr "Αδιάβαστα"
+
+#: .\home\templates\home\notification.html:145
+msgid "This week"
+msgstr "Αυτή την εβδομάδα"
+
+#: .\home\templates\home\notification.html:171
+msgid "See older notifications"
+msgstr "Δείτε παλαιότερες ειδοποιήσεις"
+
+#: .\home\templates\home\results.html:138
+msgid "You have no recorded learning outcomes."
+msgstr "Δεν έχετε καταγεγραμμένα αποτελέσματα μάθησης"
+
+#: .\home\templates\home\teachers.html:4
+msgid "List of teachers"
+msgstr "Λίστα δασκάλων"
+
+#: .\home\templates\home\teachers.html:113
+msgid "STT"
+msgstr "Α/Α"
+
+#: .\home\templates\home\teachers.html:114
+msgid "Teachers name"
+msgstr "Όνομα δασκάλου"
+
+#: .\home\templates\home\teachers.html:127
+msgid "No data of teachers"
+msgstr "Δεν υπάρχουν δεδομένα δασκάλων"
+
+#: .\home\templates\home\help.html:119
+msgid "Here you can find system user manuals and ways to contact for support."
+msgstr "Εδώ μπορείτε να βρείτε εγχειρίδια χρήστη του συστήματος και τρόπους επικοινωνίας για υποστήριξη."

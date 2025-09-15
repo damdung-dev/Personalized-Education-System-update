@@ -1,0 +1,417 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 15:26+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Romanian\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\home\templates\base.html:111 .\home\templates\home\account.html:221
+msgid "Teachers"
+msgstr "Profesori"
+
+#: .\home\templates\base.html:112 .\home\templates\base.html:125
+#: .\home\templates\home\centers.html:5 .\home\templates\home\teachers.html:115
+msgid "Courses"
+msgstr "Cursuri"
+
+#: .\home\templates\base.html:113
+msgid "Help"
+msgstr "Ajutor"
+
+#: .\home\templates\base.html:114
+msgid "Theme"
+msgstr "Temă"
+
+#: .\home\templates\base.html:124
+msgid "Home"
+msgstr "Acasă"
+
+#: .\home\templates\base.html:126 .\home\templates\home\home.html:121
+#: .\home\templates\home\results.html:4
+msgid "Results"
+msgstr "Rezultate"
+
+#: .\home\templates\base.html:127 .\home\templates\home\home.html:125
+msgid "Documents"
+msgstr "Documente"
+
+#: .\home\templates\base.html:128 .\home\templates\home\calendar.html:5
+msgid "Calendar"
+msgstr "Calendar"
+
+#: .\home\templates\base.html:129
+msgid "Chat"
+msgstr "Chat"
+
+#: .\home\templates\base.html:130 .\home\templates\home\notification.html:4
+msgid "Notifications"
+msgstr "Notificări"
+
+#: .\home\templates\base.html:131
+msgid "Account"
+msgstr "Cont"
+
+#: .\home\templates\base.html:138
+msgid "Language"
+msgstr "Limbă"
+
+#: .\home\templates\base.html:150
+msgid "Logout"
+msgstr "Deconectare"
+
+#: .\home\templates\base.html:210
+msgid "Are you sure you want to log out?"
+msgstr "Sigur doriți să vă deconectați?"
+
+#: .\home\templates\home\account.html:180
+msgid "My account information"
+msgstr "Informațiile contului meu"
+
+#: .\home\templates\home\account.html:187
+msgid "Name"
+msgstr "Nume"
+
+#: .\home\templates\home\account.html:192
+msgid "Student id"
+msgstr "ID student"
+
+#: .\home\templates\home\account.html:197
+msgid "Personal"
+msgstr "Personal"
+
+#: .\home\templates\home\account.html:198
+msgid "Company"
+msgstr "Companie"
+
+#: .\home\templates\home\account.html:200
+msgid "Type of your account"
+msgstr "Tipul contului tău"
+
+#: .\home\templates\home\account.html:205
+msgid "Phone number"
+msgstr "Număr de telefon"
+
+#: .\home\templates\home\account.html:210
+msgid "Your email"
+msgstr "Email-ul tău"
+
+#: .\home\templates\home\account.html:215
+msgid "Your date of birth"
+msgstr "Data ta de naștere"
+
+#: .\home\templates\home\account.html:220
+msgid "Students"
+msgstr "Studenți"
+
+#: .\home\templates\home\account.html:222
+msgid "Others"
+msgstr "Alții"
+
+#: .\home\templates\home\account.html:224
+msgid "Jobs"
+msgstr "Locuri de muncă"
+
+#: .\home\templates\home\account.html:229
+msgid "Description"
+msgstr "Descriere"
+
+#: .\home\templates\home\account.html:233
+msgid "Update your information"
+msgstr "Actualizează informațiile tale"
+
+#: .\home\templates\home\calendar.html:194
+#: .\home\templates\home\notification.html:144
+#: .\home\templates\home\notification.html:151
+msgid "Today"
+msgstr "Astăzi"
+
+#: .\home\templates\home\centers.html:131
+msgid "Courses at the center now"
+msgstr "Cursuri disponibile la centru"
+
+#: .\home\templates\home\centers.html:139
+#: .\home\templates\home\courses.html:117
+#: .\home\templates\home\results.html:118
+msgid "Subject code"
+msgstr "Codul materiei"
+
+#: .\home\templates\home\centers.html:140
+#: .\home\templates\home\courses.html:118
+#: .\home\templates\home\results.html:119
+msgid "Subject name"
+msgstr "Numele materiei"
+
+#: .\home\templates\home\centers.html:141
+#: .\home\templates\home\courses.html:119
+#: .\home\templates\home\results.html:120
+msgid "Study month"
+msgstr "Luna de studiu"
+
+#: .\home\templates\home\centers.html:142
+msgid "Register"
+msgstr "Înregistrează-te"
+
+#: .\home\templates\home\centers.html:160
+msgid "There are no courses yet"
+msgstr "Nu există cursuri încă"
+
+#: .\home\templates\home\chat.html:4
+msgid "Chat assistant"
+msgstr "Asistent chat"
+
+#: .\home\templates\home\chat.html:141
+msgid "Hi! I'm your virtual assistant. Please enter your question below 👋"
+msgstr "Bună! Sunt asistentul tău virtual. Introdu întrebarea ta mai jos 👋"
+
+#: .\home\templates\home\course_detail.html:171
+msgid "List of my lessons"
+msgstr "Lista lecțiilor mele"
+
+#: .\home\templates\home\course_detail.html:176
+msgid "Find lessons you want..."
+msgstr "Găsește lecțiile dorite..."
+
+#: .\home\templates\home\course_detail.html:181
+msgid "Youtube search"
+msgstr "Căutare YouTube"
+
+#: .\home\templates\home\course_detail.html:182
+msgid "Search"
+msgstr "Caută"
+
+#: .\home\templates\home\course_detail.html:196
+msgid "Description:"
+msgstr "Descriere:"
+
+#: .\home\templates\home\course_detail.html:197
+msgid "Starting date: "
+msgstr "Data de începere: "
+
+#: .\home\templates\home\course_detail.html:202
+msgid "Learn now"
+msgstr "Învață acum"
+
+#: .\home\templates\home\course_detail.html:207
+msgid "There are no lessons for this course."
+msgstr "Nu există lecții pentru acest curs."
+
+#: .\home\templates\home\courses.html:110
+msgid "My course"
+msgstr "Cursul meu"
+
+#: .\home\templates\home\courses.html:150
+msgid "Current courses at our center"
+msgstr "Cursuri actuale la centrul nostru"
+
+#: .\home\templates\home\courses.html:120
+#: .\home\templates\home\results.html:121
+msgid "Static"
+msgstr "Static"
+
+#: .\home\templates\home\courses.html:121
+#: .\home\templates\home\results.html:122
+msgid "Optional"
+msgstr "Opțional"
+
+#: .\home\templates\home\courses.html:134
+msgid "Learn about the course"
+msgstr "Află despre curs"
+
+#: .\home\templates\home\courses.html:143
+msgid "You have not any courses now"
+msgstr "Nu ai niciun curs acum"
+
+#: .\home\templates\home\documents.html:4
+msgid "Library"
+msgstr "Bibliotecă"
+
+#: .\home\templates\home\documents.html:57
+msgid "My library"
+msgstr "Biblioteca mea"
+
+#: .\home\templates\home\documents.html:59
+msgid "Add"
+msgstr "Adaugă"
+
+#: .\home\templates\home\documents.html:60
+msgid "Delete"
+msgstr "Șterge"
+
+#: .\home\templates\home\documents.html:62
+msgid "List"
+msgstr "Listă"
+
+#: .\home\templates\home\documents.html:63
+msgid "Column"
+msgstr "Coloană"
+
+#: .\home\templates\home\documents.html:66
+msgid "The amount of books currently"
+msgstr "Numărul de cărți în prezent"
+
+#: .\home\templates\home\documents.html:76
+#: .\home\templates\home\documents.html:129
+#: .\home\templates\home\documents.html:133
+msgid "Read now"
+msgstr "Citește acum"
+
+#: .\home\templates\home\documents.html:80
+msgid "None of books"
+msgstr "Nicio carte"
+
+#: .\home\templates\home\documents.html:88
+msgid "Books you read recently"
+msgstr "Cărțile citite recent"
+
+#: .\home\templates\home\documents.html:99
+msgid "Open"
+msgstr "Deschide"
+
+#: .\home\templates\home\documents.html:105
+msgid "None of books are reading"
+msgstr "Nicio carte nu se citește"
+
+#: .\home\templates\home\documents.html:112
+msgid "Top of books"
+msgstr "Topul cărților"
+
+#: .\home\templates\home\documents.html:114
+msgid "The number of books"
+msgstr "Numărul de cărți"
+
+#: .\home\templates\home\documents.html:138
+msgid "None of books here"
+msgstr "Nu există cărți aici"
+
+#: .\home\templates\home\documents.html:143
+msgid "Previous"
+msgstr "Anterior"
+
+#: .\home\templates\home\documents.html:145
+msgid "Page"
+msgstr "Pagină"
+
+#: .\home\templates\home\documents.html:147
+msgid "Next page"
+msgstr "Pagina următoare"
+
+#: .\home\templates\home\help.html:4
+msgid "Help center"
+msgstr "Centrul de ajutor"
+
+#: .\home\templates\home\help.html:116
+msgid "Frequently asked questions"
+msgstr "Întrebări frecvente"
+
+#: .\home\templates\home\help.html:117
+msgid "Contact support"
+msgstr "Contactează suportul"
+
+#: .\home\templates\home\help.html:118
+msgid "System user manual"
+msgstr "Manual utilizator sistem"
+
+#: .\home\templates\home\help.html:119
+msgid "Tips"
+msgstr "Sfaturi"
+
+#: .\home\templates\home\home.html:109
+msgid "Welcome to the Dashboard 👋"
+msgstr "Bun venit la Dashboard 👋"
+
+#: .\home\templates\home\home.html:110
+msgid "Hi"
+msgstr "Salut"
+
+#: .\home\templates\home\home.html:110
+msgid "explore your account and activities here."
+msgstr "explorează contul și activitățile tale aici."
+
+#: .\home\templates\home\home.html:114
+msgid "Quick Stats"
+msgstr "Statistici rapide"
+
+#: .\home\templates\home\home.html:117
+msgid "Studying Courses"
+msgstr "Cursuri în desfășurare"
+
+#: .\home\templates\home\home.html:129
+msgid "Progress"
+msgstr "Progres"
+
+#: .\home\templates\home\home.html:136
+msgid "Learning Progress"
+msgstr "Progres în învățare"
+
+#: .\home\templates\home\home.html:139
+msgid "User Activities"
+msgstr "Activități utilizator"
+
+#: .\home\templates\home\lessons.html:5
+msgid "Lesson"
+msgstr "Lecție"
+
+#: .\home\templates\home\lessons.html:99
+msgid "Your browswer does not support videos"
+msgstr "Browser-ul tău nu suportă videoclipuri"
+
+#: .\home\templates\home\lessons.html:104
+msgid "Back"
+msgstr "Înapoi"
+
+#: .\home\templates\home\lessons.html:105
+msgid "Done"
+msgstr "Finalizat"
+
+#: .\home\templates\home\notification.html:142
+msgid "All"
+msgstr "Toate"
+
+#: .\home\templates\home\notification.html:143
+msgid "Unread"
+msgstr "Necitite"
+
+#: .\home\templates\home\notification.html:145
+msgid "This week"
+msgstr "Săptămâna aceasta"
+
+#: .\home\templates\home\notification.html:171
+msgid "See older notifications"
+msgstr "Vezi notificările mai vechi"
+
+#: .\home\templates\home\results.html:138
+msgid "You have no recorded learning outcomes."
+msgstr "Nu ai rezultate de învățare înregistrate"
+
+#: .\home\templates\home\teachers.html:4
+msgid "List of teachers"
+msgstr "Lista profesorilor"
+
+#: .\home\templates\home\teachers.html:113
+msgid "STT"
+msgstr "Nr."
+
+#: .\home\templates\home\teachers.html:114
+msgid "Teachers name"
+msgstr "Numele profesorilor"
+
+#: .\home\templates\home\teachers.html:127
+msgid "No data of teachers"
+msgstr "Nu există date despre profesori"
+
+#: .\home\templates\home\help.html:119
+msgid "Here you can find system user manuals and ways to contact for support."
+msgstr "Aici puteți găsi manuale de utilizare ale sistemului și modalități de contact pentru asistență."

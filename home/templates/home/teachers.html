@@ -1,5 +1,7 @@
 {% extends "base.html" %}
-{% block title %}Danh sách Giáo viên{% endblock %}
+{% load static %}
+{% load i18n %}
+{% block title %}{% trans "List of teachers" %}{% endblock %}
 
 {% block style %}
 <style>
@@ -103,14 +105,14 @@ tbody tr:nth-child(even) {
 {% block content %}
 <div class="container">
   <div class="card">
-    <h1>Danh sách Giáo viên</h1>
+    <h1>{% trans "List of teachers" %}</h1>
     <div class="table-responsive">
       <table>
         <thead>
           <tr>
-            <th>STT</th>
-            <th>Tên giáo viên</th>
-            <th>Khóa học</th>
+            <th>{% trans "STT" %}</th>
+            <th>{% trans "Teachers name" %}</th>
+            <th>{% trans "Courses" %}</th>
           </tr>
         </thead>
         <tbody>
@@ -122,7 +124,7 @@ tbody tr:nth-child(even) {
           </tr>
           {% empty %}
           <tr>
-            <td colspan="3" class="text-center">Chưa có dữ liệu giáo viên</td>
+            <td colspan="3" class="text-center">{% trans "No data of teachers" %}</td>
           </tr>
           {% endfor %}
         </tbody>

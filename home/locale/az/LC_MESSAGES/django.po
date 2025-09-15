@@ -1,0 +1,421 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 15:26+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Azerbaijani\n"
+"Language: az\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\home\templates\base.html:111 .\home\templates\home\account.html:221
+msgid "Teachers"
+msgstr "Müəllimlər"
+
+#: .\home\templates\base.html:112 .\home\templates\base.html:125
+#: .\home\templates\home\centers.html:5 .\home\templates\home\teachers.html:115
+msgid "Courses"
+msgstr "Kurslar"
+
+#: .\home\templates\base.html:113
+msgid "Help"
+msgstr "Kömək"
+
+#: .\home\templates\base.html:114
+msgid "Theme"
+msgstr "Tema"
+
+#: .\home\templates\base.html:124
+msgid "Home"
+msgstr "Ana səhifə"
+
+#: .\home\templates\base.html:126 .\home\templates\home\home.html:121
+#: .\home\templates\home\results.html:4
+msgid "Results"
+msgstr "Nəticələr"
+
+#: .\home\templates\base.html:127 .\home\templates\home\home.html:125
+msgid "Documents"
+msgstr "Sənədlər"
+
+#: .\home\templates\base.html:128 .\home\templates\home\calendar.html:5
+msgid "Calendar"
+msgstr "Təqvim"
+
+#: .\home\templates\base.html:129
+msgid "Chat"
+msgstr "Çat"
+
+#: .\home\templates\base.html:130 .\home\templates\home\notification.html:4
+msgid "Notifications"
+msgstr "Bildirişlər"
+
+#: .\home\templates\base.html:131
+msgid "Account"
+msgstr "Hesab"
+
+#: .\home\templates\base.html:138
+msgid "Language"
+msgstr "Dil"
+
+#: .\home\templates\base.html:150
+msgid "Logout"
+msgstr "Çıxış"
+
+#: .\home\templates\base.html:210
+msgid "Are you sure you want to log out?"
+msgstr "Çıxmaq istədiyinizə əminsiniz?"
+
+#: .\home\templates\home\account.html:180
+msgid "My account information"
+msgstr "Hesab məlumatlarım"
+
+#: .\home\templates\home\account.html:187
+msgid "Name"
+msgstr "Ad"
+
+#: .\home\templates\home\account.html:192
+msgid "Student id"
+msgstr "Tələbə ID"
+
+#: .\home\templates\home\account.html:197
+msgid "Personal"
+msgstr "Şəxsi"
+
+#: .\home\templates\home\account.html:198
+msgid "Company"
+msgstr "Şirkət"
+
+#: .\home\templates\home\account.html:200
+msgid "Type of your account"
+msgstr "Hesab növü"
+
+#: .\home\templates\home\account.html:205
+msgid "Phone number"
+msgstr "Telefon nömrəsi"
+
+#: .\home\templates\home\account.html:210
+msgid "Your email"
+msgstr "E-poçtunuz"
+
+#: .\home\templates\home\account.html:215
+msgid "Your date of birth"
+msgstr "Doğum tarixi"
+
+#: .\home\templates\home\account.html:220
+msgid "Students"
+msgstr "Tələbələr"
+
+#: .\home\templates\home\account.html:222
+msgid "Others"
+msgstr "Digərləri"
+
+#: .\home\templates\home\account.html:224
+msgid "Jobs"
+msgstr "İşlər"
+
+#: .\home\templates\home\account.html:229
+msgid "Description"
+msgstr "Təsvir"
+
+#: .\home\templates\home\account.html:233
+msgid "Update your information"
+msgstr "Məlumatlarınızı yeniləyin"
+
+#: .\home\templates\home\calendar.html:194
+#: .\home\templates\home\notification.html:144
+#: .\home\templates\home\notification.html:151
+msgid "Today"
+msgstr "Bu gün"
+
+#: .\home\templates\home\centers.html:131
+msgid "Courses at the center now"
+msgstr "Mərkəzdəki kurslar"
+
+#: .\home\templates\home\centers.html:139
+#: .\home\templates\home\courses.html:117
+#: .\home\templates\home\results.html:118
+msgid "Subject code"
+msgstr "Fənn kodu"
+
+#: .\home\templates\home\centers.html:140
+#: .\home\templates\home\courses.html:118
+#: .\home\templates\home\results.html:119
+msgid "Subject name"
+msgstr "Fənn adı"
+
+#: .\home\templates\home\centers.html:141
+#: .\home\templates\home\courses.html:119
+#: .\home\templates\home\results.html:120
+msgid "Study month"
+msgstr "Tədris ayı"
+
+#: .\home\templates\home\centers.html:142
+msgid "Register"
+msgstr "Qeydiyyat"
+
+#: .\home\templates\home\centers.html:160
+msgid "There are no courses yet"
+msgstr "Hələ kurs yoxdur"
+
+#: .\home\templates\home\chat.html:4
+msgid "Chat assistant"
+msgstr "Çat köməkçisi"
+
+#: .\home\templates\home\chat.html:141
+msgid "Hi! I'm your virtual assistant. Please enter your question below 👋"
+msgstr "Salam! Mən sizin virtual köməkçinizəm. Zəhmət olmasa sualınızı aşağıda daxil edin 👋"
+
+#: .\home\templates\home\course_detail.html:171
+msgid "List of my lessons"
+msgstr "Dərslərim siyahısı"
+
+#: .\home\templates\home\course_detail.html:176
+msgid "Find lessons you want..."
+msgstr "İstədiyiniz dərsləri tapın..."
+
+#: .\home\templates\home\course_detail.html:181
+msgid "Youtube search"
+msgstr "YouTube axtarışı"
+
+#: .\home\templates\home\course_detail.html:182
+msgid "Search"
+msgstr "Axtarış"
+
+#: .\home\templates\home\course_detail.html:196
+msgid "Description:"
+msgstr "Təsvir:"
+
+#: .\home\templates\home\course_detail.html:197
+msgid "Starting date: "
+msgstr "Başlama tarixi: "
+
+#: .\home\templates\home\course_detail.html:202
+msgid "Learn now"
+msgstr "İndi öyrənin"
+
+#: .\home\templates\home\course_detail.html:207
+msgid "There are no lessons for this course."
+msgstr "Bu kurs üçün dərs yoxdur"
+
+#: .\home\templates\home\courses.html:110
+msgid "My course"
+msgstr "Kursum" 
+
+#: .\home\templates\home\courses.html:150
+msgid "Current courses at our center"
+msgstr "Mərkəzimizdə mövcud kurslar"
+
+#: .\home\templates\home\courses.html:120
+#: .\home\templates\home\results.html:121
+msgid "Static"
+msgstr "Statik"
+
+#: .\home\templates\home\courses.html:121
+#: .\home\templates\home\results.html:122
+msgid "Optional"
+msgstr "İsteğe bağlı"
+
+#: .\home\templates\home\courses.html:134
+msgid "Learn about the course"
+msgstr "Kurs haqqında öyrənin"
+
+#: .\home\templates\home\courses.html:143
+msgid "You have not any courses now"
+msgstr "Hal-hazırda kursunuz yoxdur"
+
+#: .\home\templates\home\documents.html:4
+msgid "Library"
+msgstr "Kitabxana"
+
+#: .\home\templates\home\documents.html:57
+msgid "My library"
+msgstr "Mənim kitabxanam"
+
+#: .\home\templates\home\documents.html:59
+msgid "Add"
+msgstr "Əlavə et"
+
+#: .\home\templates\home\documents.html:60
+msgid "Delete"
+msgstr "Sil"
+
+#: .\home\templates\home\documents.html:62
+msgid "List"
+msgstr "Siyahı"
+
+#: .\home\templates\home\documents.html:63
+msgid "Column"
+msgstr "Sütun"
+
+#: .\home\templates\home\documents.html:66
+msgid "The amount of books currently"
+msgstr "Cari kitab sayı"
+
+#: .\home\templates\home\documents.html:76
+#: .\home\templates\home\documents.html:129
+#: .\home\templates\home\documents.html:133
+msgid "Read now"
+msgstr "İndi oxu"
+
+#: .\home\templates\home\documents.html:80
+msgid "None of books"
+msgstr "Kitab yoxdur"
+
+#: .\home\templates\home\documents.html:88
+msgid "Books you read recently"
+msgstr "Son oxuduğunuz kitablar"
+
+#: .\home\templates\home\documents.html:99
+msgid "Open"
+msgstr "Aç"
+
+#: .\home\templates\home\documents.html:105
+msgid "None of books are reading"
+msgstr "Heç bir kitab oxunmur"
+
+#: .\home\templates\home\documents.html:112
+msgid "Top of books"
+msgstr "Kitabların üstü"
+
+#: .\home\templates\home\documents.html:114
+msgid "The number of books"
+msgstr "Kitab sayı"
+
+#: .\home\templates\home\documents.html:138
+msgid "None of books here"
+msgstr "Burada kitab yoxdur"
+
+#: .\home\templates\home\documents.html:143
+msgid "Previous"
+msgstr "Əvvəlki"
+
+#: .\home\templates\home\documents.html:145
+msgid "Page"
+msgstr "Səhifə"
+
+#: .\home\templates\home\documents.html:147
+msgid "Next page"
+msgstr "Növbəti səhifə"
+
+#: .\home\templates\home\help.html:4
+msgid "Help center"
+msgstr "Kömək mərkəzi"
+
+#: .\home\templates\home\help.html:116
+msgid "Frequently asked questions"
+msgstr "Tez-tez verilən suallar"
+
+#: .\home\templates\home\help.html:117
+msgid "Contact support"
+msgstr "Dəstək ilə əlaqə"
+
+#: .\home\templates\home\help.html:118
+msgid "System user manual"
+msgstr "Sistem istifadəçi təlimatı"
+
+#: .\home\templates\home\help.html:119
+msgid "Tips"
+msgstr "Məsləhətlər"
+
+#: .\home\templates\home\home.html:109
+msgid "Welcome to the Dashboard 👋"
+msgstr "Dashboard-a xoş gəlmisiniz 👋"
+
+#: .\home\templates\home\home.html:110
+msgid "Hi"
+msgstr "Salam"
+
+#: .\home\templates\home\home.html:110
+msgid "explore your account and activities here."
+msgstr "burada hesabınızı və fəaliyyətlərinizi araşdırın."
+
+#: .\home\templates\home\home.html:114
+msgid "Quick Stats"
+msgstr "Sürətli Statistika"
+
+#: .\home\templates\home\home.html:117
+msgid "Studying Courses"
+msgstr "Təhsil kursları"
+
+#: .\home\templates\home\home.html:129
+msgid "Progress"
+msgstr "İrəliləyiş"
+
+#: .\home\templates\home\home.html:136
+msgid "Learning Progress"
+msgstr "Öyrənmə irəliləyişi"
+
+#: .\home\templates\home\home.html:139
+msgid "User Activities"
+msgstr "İstifadəçi fəaliyyətləri"
+
+#: .\home\templates\home\lessons.html:5
+msgid "Lesson"
+msgstr "Dərs"
+
+#: .\home\templates\home\lessons.html:99
+msgid "Your browswer does not support videos"
+msgstr "Brauzeriniz videoları dəstəkləmir"
+
+#: .\home\templates\home\lessons.html:104
+msgid "Back"
+msgstr "Geri"
+
+#: .\home\templates\home\lessons.html:105
+msgid "Done"
+msgstr "Bitdi"
+
+#: .\home\templates\home\notification.html:142
+msgid "All"
+msgstr "Hamısı"
+
+#: .\home\templates\home\notification.html:143
+msgid "Unread"
+msgstr "Oxunmamış"
+
+#: .\home\templates\home\notification.html:145
+msgid "This week"
+msgstr "Bu həftə"
+
+#: .\home\templates\home\notification.html:171
+msgid "See older notifications"
+msgstr "Köhnə bildirişləri gör"
+
+#: .\home\templates\home\results.html:138
+msgid "You have no recorded learning outcomes."
+msgstr "Qeyd edilmiş öyrənmə nəticələriniz yoxdur"
+
+#: .\home\templates\home\teachers.html:4
+msgid "List of teachers"
+msgstr "Müəllimlərin siyahısı"
+
+#: .\home\templates\home\teachers.html:113
+msgid "STT"
+msgstr "S/T"
+
+#: .\home\templates\home\teachers.html:114
+msgid "Teachers name"
+msgstr "Müəllimlərin adı"
+
+#: .\home\templates\home\teachers.html:127
+msgid "No data of teachers"
+msgstr "Müəllim məlumatı yoxdur"
+
+#: .\home\templates\home\results.html:110
+msgid "My results"
+msgstr "Mənim nəticələrim"   # Azerbaijani
+
+#: .\home\templates\home\help.html:119
+msgid "Here you can find system user manuals and ways to contact for support."
+msgstr "Burada sistem istifadəçi təlimatlarını və dəstək üçün əlaqə üsullarını tapa bilərsiniz."

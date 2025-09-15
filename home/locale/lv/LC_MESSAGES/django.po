@@ -1,0 +1,416 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 15:26+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Latvian\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\home\templates\base.html:111 .\home\templates\home\account.html:221
+msgid "Teachers"
+msgstr "Skolotāji"
+
+#: .\home\templates\base.html:112 .\home\templates\base.html:125
+#: .\home\templates\home\centers.html:5 .\home\templates\home\teachers.html:115
+msgid "Courses"
+msgstr "Kursi"
+
+#: .\home\templates\base.html:113
+msgid "Help"
+msgstr "Palīdzība"
+
+#: .\home\templates\base.html:114
+msgid "Theme"
+msgstr "Tēma"
+
+#: .\home\templates\base.html:124
+msgid "Home"
+msgstr "Mājas"
+
+#: .\home\templates\base.html:126 .\home\templates\home\home.html:121
+#: .\home\templates\home\results.html:4
+msgid "Results"
+msgstr "Rezultāti"
+
+#: .\home\templates\base.html:127 .\home\templates\home\home.html:125
+msgid "Documents"
+msgstr "Dokumenti"
+
+#: .\home\templates\base.html:128 .\home\templates\home\calendar.html:5
+msgid "Calendar"
+msgstr "Kalendārs"
+
+#: .\home\templates\base.html:129
+msgid "Chat"
+msgstr "Čats"
+
+#: .\home\templates\base.html:130 .\home\templates\home\notification.html:4
+msgid "Notifications"
+msgstr "Paziņojumi"
+
+#: .\home\templates\base.html:131
+msgid "Account"
+msgstr "Konts"
+
+#: .\home\templates\base.html:138
+msgid "Language"
+msgstr "Valoda"
+
+#: .\home\templates\base.html:150
+msgid "Logout"
+msgstr "Izrakstīties"
+
+#: .\home\templates\base.html:210
+msgid "Are you sure you want to log out?"
+msgstr "Vai tiešām vēlaties izrakstīties?"
+
+#: .\home\templates\home\account.html:180
+msgid "My account information"
+msgstr "Mana konta informācija"
+
+#: .\home\templates\home\account.html:187
+msgid "Name"
+msgstr "Vārds"
+
+#: .\home\templates\home\account.html:192
+msgid "Student id"
+msgstr "Studenta ID"
+
+#: .\home\templates\home\account.html:197
+msgid "Personal"
+msgstr "Personīgi"
+
+#: .\home\templates\home\account.html:198
+msgid "Company"
+msgstr "Uzņēmums"
+
+#: .\home\templates\home\account.html:200
+msgid "Type of your account"
+msgstr "Jūsu konta veids"
+
+#: .\home\templates\home\account.html:205
+msgid "Phone number"
+msgstr "Telefona numurs"
+
+#: .\home\templates\home\account.html:210
+msgid "Your email"
+msgstr "Jūsu e-pasts"
+
+#: .\home\templates\home\account.html:215
+msgid "Your date of birth"
+msgstr "Jūsu dzimšanas datums"
+
+#: .\home\templates\home\account.html:220
+msgid "Students"
+msgstr "Studenti"
+
+#: .\home\templates\home\account.html:222
+msgid "Others"
+msgstr "Citi"
+
+#: .\home\templates\home\account.html:224
+msgid "Jobs"
+msgstr "Darbi"
+
+#: .\home\templates\home\account.html:229
+msgid "Description"
+msgstr "Apraksts"
+
+#: .\home\templates\home\account.html:233
+msgid "Update your information"
+msgstr "Atjaunināt savu informāciju"
+
+#: .\home\templates\home\calendar.html:194
+#: .\home\templates\home\notification.html:144
+#: .\home\templates\home\notification.html:151
+msgid "Today"
+msgstr "Šodien"
+
+#: .\home\templates\home\centers.html:131
+msgid "Courses at the center now"
+msgstr "Pašreizējie kursi centrā"
+
+#: .\home\templates\home\centers.html:139
+#: .\home\templates\home\courses.html:117
+#: .\home\templates\home\results.html:118
+msgid "Subject code"
+msgstr "Priekšmeta kods"
+
+#: .\home\templates\home\centers.html:140
+#: .\home\templates\home\courses.html:118
+#: .\home\templates\home\results.html:119
+msgid "Subject name"
+msgstr "Priekšmeta nosaukums"
+
+#: .\home\templates\home\centers.html:141
+#: .\home\templates\home\courses.html:119
+#: .\home\templates\home\results.html:120
+msgid "Study month"
+msgstr "Studiju mēnesis"
+
+#: .\home\templates\home\centers.html:142
+msgid "Register"
+msgstr "Reģistrēties"
+
+#: .\home\templates\home\centers.html:160
+msgid "There are no courses yet"
+msgstr "Vēl nav kursu"
+
+#: .\home\templates\home\chat.html:4
+msgid "Chat assistant"
+msgstr "Čata asistents"
+
+#: .\home\templates\home\chat.html:141
+msgid "Hi! I'm your virtual assistant. Please enter your question below 👋"
+msgstr "Sveiki! Es esmu jūsu virtuālais asistents. Lūdzu, ievadiet savu jautājumu zemāk 👋"
+
+#: .\home\templates\home\course_detail.html:171
+msgid "List of my lessons"
+msgstr "Manu stundu saraksts"
+
+#: .\home\templates\home\course_detail.html:176
+msgid "Find lessons you want..."
+msgstr "Atrodiet vēlamās stundas..."
+
+#: .\home\templates\home\course_detail.html:181
+msgid "Youtube search"
+msgstr "YouTube meklēšana"
+
+#: .\home\templates\home\course_detail.html:182
+msgid "Search"
+msgstr "Meklēt"
+
+#: .\home\templates\home\course_detail.html:196
+msgid "Description:"
+msgstr "Apraksts:"
+
+#: .\home\templates\home\course_detail.html:197
+msgid "Starting date: "
+msgstr "Sākuma datums: "
+
+#: .\home\templates\home\course_detail.html:202
+msgid "Learn now"
+msgstr "Sāc mācīties"
+
+#: .\home\templates\home\course_detail.html:207
+msgid "There are no lessons for this course."
+msgstr "Šim kursam nav stundu"
+
+#: .\home\templates\home\courses.html:110
+msgid "My course"
+msgstr "Mans kurss"
+
+#: .\home\templates\home\courses.html:150
+msgid "Current courses at our center"
+msgstr "Pašreizējie kursi mūsu centrā"
+
+#: .\home\templates\home\courses.html:120
+#: .\home\templates\home\results.html:121
+msgid "Static"
+msgstr "Statiskā"
+
+#: .\home\templates\home\courses.html:121
+#: .\home\templates\home\results.html:122
+msgid "Optional"
+msgstr "Papildu"
+
+#: .\home\templates\home\courses.html:134
+msgid "Learn about the course"
+msgstr "Uzzināt par kursu"
+
+#: .\home\templates\home\courses.html:143
+msgid "You have not any courses now"
+msgstr "Jums šobrīd nav kursu"
+
+#: .\home\templates\home\documents.html:4
+msgid "Library"
+msgstr "Bibliotēka"
+
+#: .\home\templates\home\documents.html:57
+msgid "My library"
+msgstr "Mana bibliotēka"
+
+#: .\home\templates\home\documents.html:59
+msgid "Add"
+msgstr "Pievienot"
+
+#: .\home\templates\home\documents.html:60
+msgid "Delete"
+msgstr "Dzēst"
+
+#: .\home\templates\home\documents.html:62
+msgid "List"
+msgstr "Saraksts"
+
+#: .\home\templates\home\documents.html:63
+msgid "Column"
+msgstr "Kolonna"
+
+#: .\home\templates\home\documents.html:66
+msgid "The amount of books currently"
+msgstr "Pašreizējais grāmatu skaits"
+
+#: .\home\templates\home\documents.html:76
+#: .\home\templates\home\documents.html:129
+#: .\home\templates\home\documents.html:133
+msgid "Read now"
+msgstr "Lasīt tagad"
+
+#: .\home\templates\home\documents.html:80
+msgid "None of books"
+msgstr "Nav grāmatu"
+
+#: .\home\templates\home\documents.html:88
+msgid "Books you read recently"
+msgstr "Grāmatas, ko nesen lasījāt"
+
+#: .\home\templates\home\documents.html:99
+msgid "Open"
+msgstr "Atvērt"
+
+#: .\home\templates\home\documents.html:105
+msgid "None of books are reading"
+msgstr "Nav lasāmu grāmatu"
+
+#: .\home\templates\home\documents.html:112
+msgid "Top of books"
+msgstr "Populārākās grāmatas"
+
+#: .\home\templates\home\documents.html:114
+msgid "The number of books"
+msgstr "Grāmatu skaits"
+
+#: .\home\templates\home\documents.html:138
+msgid "None of books here"
+msgstr "Šeit nav grāmatu"
+
+#: .\home\templates\home\documents.html:143
+msgid "Previous"
+msgstr "Iepriekšējais"
+
+#: .\home\templates\home\documents.html:145
+msgid "Page"
+msgstr "Lapa"
+
+#: .\home\templates\home\documents.html:147
+msgid "Next page"
+msgstr "Nākamā lapa"
+
+#: .\home\templates\home\help.html:4
+msgid "Help center"
+msgstr "Palīdzības centrs"
+
+#: .\home\templates\home\help.html:116
+msgid "Frequently asked questions"
+msgstr "Bieži uzdotie jautājumi"
+
+#: .\home\templates\home\help.html:117
+msgid "Contact support"
+msgstr "Sazināties ar atbalstu"
+
+#: .\home\templates\home\help.html:118
+msgid "System user manual"
+msgstr "Sistēmas lietotāja rokasgrāmata"
+
+#: .\home\templates\home\help.html:119
+msgid "Tips"
+msgstr "Padomi"
+
+#: .\home\templates\home\home.html:109
+msgid "Welcome to the Dashboard 👋"
+msgstr "Laipni lūdzam informācijas panelī 👋"
+
+#: .\home\templates\home\home.html:110
+msgid "Hi"
+msgstr "Sveiki"
+
+#: .\home\templates\home\home.html:110
+msgid "explore your account and activities here."
+msgstr "šeit izpētiet savu kontu un aktivitātes"
+
+#: .\home\templates\home\home.html:114
+msgid "Quick Stats"
+msgstr "Ātrie statistikas dati"
+
+#: .\home\templates\home\home.html:117
+msgid "Studying Courses"
+msgstr "Studējamie kursi"
+
+#: .\home\templates\home\home.html:129
+msgid "Progress"
+msgstr "Progress"
+
+#: .\home\templates\home\home.html:136
+msgid "Learning Progress"
+msgstr "Mācību progress"
+
+#: .\home\templates\home\home.html:139
+msgid "User Activities"
+msgstr "Lietotāja aktivitātes"
+
+#: .\home\templates\home\lessons.html:5
+msgid "Lesson"
+msgstr "Stunda"
+
+#: .\home\templates\home\lessons.html:99
+msgid "Your browswer does not support videos"
+msgstr "Jūsu pārlūkprogramma neatbalsta videoklipus"
+
+#: .\home\templates\home\lessons.html:104
+msgid "Back"
+msgstr "Atpakaļ"
+
+#: .\home\templates\home\lessons.html:105
+msgid "Done"
+msgstr "Gatavs"
+
+#: .\home\templates\home\notification.html:142
+msgid "All"
+msgstr "Visi"
+
+#: .\home\templates\home\notification.html:143
+msgid "Unread"
+msgstr "Nelasīts"
+
+#: .\home\templates\home\notification.html:145
+msgid "This week"
+msgstr "Šonedēļ"
+
+#: .\home\templates\home\notification.html:171
+msgid "See older notifications"
+msgstr "Skatīt vecākus paziņojumus"
+
+#: .\home\templates\home\results.html:138
+msgid "You have no recorded learning outcomes."
+msgstr "Jums nav ierakstītu mācību rezultātu"
+
+#: .\home\templates\home\teachers.html:4
+msgid "List of teachers"
+msgstr "Skolotāju saraksts"
+
+#: .\home\templates\home\teachers.html:113
+msgid "STT"
+msgstr "Nr."
+
+#: .\home\templates\home\teachers.html:114
+msgid "Teachers name"
+msgstr "Skolotāja vārds"
+
+#: .\home\templates\home\teachers.html:127
+msgid "No data of teachers"
+msgstr "Nav skolotāju datu"
+
+#: .\home\templates\home\help.html:119
+msgid "Here you can find system user manuals and ways to contact for support."
+msgstr "Šeit jūs varat atrast sistēmas lietotāja rokasgrāmatas un veidus, kā sazināties ar atbalstu."
