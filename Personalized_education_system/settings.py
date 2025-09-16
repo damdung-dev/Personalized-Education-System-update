@@ -6,8 +6,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-q_bv$9^5n3l%epp!9j_8_tt)4tvllk3o15q^7r4bwr3^h+%^a+'
 DEBUG = True
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '3a225b5938dd.ngrok-free.app']
-CSRF_TRUSTED_ORIGINS = ['https://3a225b5938dd.ngrok-free.app']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '45648999ec05.ngrok-free.app']
+CSRF_TRUSTED_ORIGINS = ['https://45648999ec05.ngrok-free.app']
 
 # Applications
 INSTALLED_APPS = [
@@ -61,7 +61,7 @@ DATABASES = {
         "ENGINE": "django.db.backends.mysql",
         "NAME": "education_system",
         "USER": "root",
-        "PASSWORD": "...",
+        "PASSWORD": "Dung@2292001",
         "HOST": "localhost",
         "PORT": "3306",
     }
@@ -173,7 +173,7 @@ EMAIL_USE_TLS = True
 
 # Your email credentials
 EMAIL_HOST_USER = "damducdung2001@gmail.com"
-EMAIL_HOST_PASSWORD = "..."  # Use App Password if Gmail (not your login password!)
+EMAIL_HOST_PASSWORD = "eoak kdui rmrh lssc"  # Use App Password if Gmail (not your login password!)
 
 # Default sender (optional but recommended)
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER

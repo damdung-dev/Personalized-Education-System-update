@@ -6,87 +6,110 @@
 
 {% block style %}
 <style>
-:root {
-  --primary: #007bff;
-  --success: #28a745;
-  --bg-light: #f8f9fa;
-  --bg-dark: #1e1e1e;
-  --radius: 14px;
-  --shadow: 0 6px 20px rgba(0,0,0,0.15);
-  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+:root{
+  --primary:#007bff;
+  --bg-dark:#1e1e1e;
+  --radius:12px;
+  --shadow:0 8px 30px rgba(0,0,0,0.15);
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
 }
 
-/* Container */
-.lesson-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 32px 16px;
-  background: var(--bg-light);
-  min-height: 100vh;
-  font-family: var(--font);
+.lesson-container{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding:28px 16px;
+  min-height:100vh;
+  font-family:var(--font);
+  background:#f7f8fb;
 }
 
-/* Video wrapper */
-.video-wrapper {
-  width: 100%;
-  max-width: 960px;
-}
-.lesson-video {
-  width: 100%;
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  background: black;
+.video-wrapper{
+  width:100%;
+  max-width:960px;
+  position:relative;
+  border-radius:var(--radius);
+  overflow:hidden;
+  box-shadow:var(--shadow);
+  background:#000;
 }
 
-/* Action buttons */
-.lesson-actions {
-  margin-top: 24px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  justify-content: center;
-  width: 100%;
-  max-width: 400px;
-}
-.lesson-actions button {
-  flex: 1 1 45%; /* 2 nút ngang hàng, co giãn */
-  padding: 12px 22px;
-  font-size: 16px;
-  border: none;
-  border-radius: var(--radius);
-  cursor: pointer;
-  font-weight: 600;
-  transition: all 0.3s;
-  text-align: center;
-}
-.btn-back {
-  background: var(--primary);
-  color: #fff;
-}
-.btn-done {
-  background: var(--success);
-  color: #fff;
-}
-.btn-back:hover {
-  background: #0056b3;
-  transform: translateY(-2px);
-}
-.btn-done:hover {
-  background: #218838;
-  transform: translateY(-2px);
+.lesson-video{
+  width:100%;
+  display:block;
+  background:black;
 }
 
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-  .lesson-container {
-    background: var(--bg-dark);
-    color: #fff;
-  }
-  .lesson-actions button {
-    color: #fff;
-  }
+/* controls */
+.controls{
+  position:absolute;
+  left:0; right:0; bottom:0;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:10px;
+  background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,0.7));
+  box-sizing:border-box;
+}
+
+.left-controls, .center-controls, .right-controls{
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+
+.progress-container{
+  flex:1;
+  height:8px;
+  background:rgba(255,255,255,0.12);
+  border-radius:6px;
+  cursor:pointer;
+  position:relative;
+}
+.progress-buffer, .progress-played{
+  position:absolute; left:0; top:0; height:100%; border-radius:6px;
+}
+.progress-buffer{ background:rgba(255,255,255,0.25); width:0%; }
+.progress-played{ background:var(--primary); width:0%; }
+
+.btn{
+  background:transparent;
+  border:none;
+  color:#fff;
+  cursor:pointer;
+  font-size:16px;
+  padding:6px;
+  border-radius:6px;
+}
+.time{
+  color:#fff;
+  font-size:13px;
+  min-width:95px;
+  text-align:center;
+}
+
+/* actions under video */
+.lesson-actions{
+  margin-top:20px;
+  display:flex;
+  gap:12px;
+  width:100%;
+  max-width:420px;
+  justify-content:center;
+}
+.action-btn{
+  flex:1;
+  padding:10px 12px;
+  border-radius:12px;
+  font-weight:600;
+  cursor:pointer;
+  border:none;
+}
+.btn-back{ background:var(--primary); color:#fff; }
+.btn-done{ background:#28a745; color:#fff; }
+
+@media (prefers-color-scheme: dark){
+  .lesson-container{ background:var(--bg-dark); color:#fff; }
 }
 </style>
 {% endblock %}
@@ -94,70 +117,146 @@
 {% block content %}
 <div class="lesson-container">
   <div class="video-wrapper">
-    <video id="lesson-video" controls playsinline class="lesson-video">
-      <source src="{{ video_url }}" type="video/mp4">
-      {% trans "Your browswer does not support videos" %}
+    <video id="lesson-video" class="lesson-video" preload="metadata">
+      <source src="{{ lesson.video_file.url }}" type="video/mp4">
+      {% trans "Your browser does not support videos" %}
     </video>
+
+    <div class="controls">
+      <div class="left-controls">
+        <button id="play-pause" class="btn">▶️</button>
+        <div class="time" id="time-display">0:00 / 0:00</div>
+      </div>
+
+      <div class="center-controls">
+        <div class="progress-container" id="progress-container">
+          <div class="progress-buffer" id="progress-buffer"></div>
+          <div class="progress-played" id="progress-played"></div>
+        </div>
+      </div>
+
+      <div class="right-controls">
+        <button id="mute" class="btn">🔊</button>
+        <input id="volume" type="range" min="0" max="1" step="0.01" value="1">
+        <select id="speed">
+          <option value="0.5">0.5x</option>
+          <option value="0.75">0.75x</option>
+          <option value="1" selected>1x</option>
+          <option value="1.25">1.25x</option>
+          <option value="1.5">1.5x</option>
+          <option value="2">2x</option>
+        </select>
+        <button id="fullscreen" class="btn">⛶</button>
+      </div>
+    </div>
   </div>
 
   <div class="lesson-actions">
-    <button onclick="goBack()" class="btn-back">⬅️ {% trans "Back" %}</button>
-    <button onclick="markDone()" class="btn-done">✅ {% trans "Done" %}</button>
+    <button onclick="goBack()" class="action-btn btn-back">⬅️ {% trans "Back" %}</button>
+    <button onclick="markDone()" class="action-btn btn-done">✅ {% trans "Done" %}</button>
   </div>
 </div>
 {% endblock %}
 
 {% block script %}
 <script>
-const lessonId = "{{ lesson.id }}";
-const video = document.getElementById("lesson-video");
+const video = document.getElementById('lesson-video');
+const playBtn = document.getElementById('play-pause');
+const fullscreenBtn = document.getElementById('fullscreen');
+const speedSelect = document.getElementById('speed');
+const volumeSlider = document.getElementById('volume');
+const muteBtn = document.getElementById('mute');
+const progressContainer = document.getElementById('progress-container');
+const progressPlayed = document.getElementById('progress-played');
+const progressBuffer = document.getElementById('progress-buffer');
+const timeDisplay = document.getElementById('time-display');
 
-// Force unmute sau khi user bấm play hoặc click bất kỳ
-function enableSound() {
-  video.muted = false;
-  video.volume = 1.0;
+let isSeeking = false;
+let wasPlaying = false;
+
+// ------------------ LOG FUNCTION ------------------
+function getCookie(name) {
+  let cookieValue = null;
+  if (document.cookie && document.cookie !== "") {
+    const cookies = document.cookie.split(";");
+    for (let i = 0; i < cookies.length; i++) {
+      const cookie = cookies[i].trim();
+      if (cookie.substring(0, name.length + 1) === (name + "=")) {
+        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+        break;
+      }
+    }
+  }
+  return cookieValue;
 }
 
-// Bật tiếng khi user play video
-video.addEventListener("play", () => {
-  enableSound();
-  logAction("play");
-});
-
-// Log pause / ended
-video.addEventListener("pause", () => logAction("pause"));
-video.addEventListener("ended", () => logAction("done"));
-
-// Nếu user click bất kỳ trên trang → bật tiếng (fix autoplay policy)
-document.addEventListener("click", () => {
-  enableSound();
-}, { once: true });
-
-// Gửi action về server
-function logAction(action) {
-  fetch(`/home/lesson/${lessonId}/log-action/`, {
+function sendLog(action) {
+  fetch("{% url 'home:log_action' lesson.id %}", {
     method: "POST",
     headers: {
-      "X-CSRFToken": "{{ csrf_token }}",
+      "X-CSRFToken": getCookie("csrftoken"),
       "Content-Type": "application/x-www-form-urlencoded",
     },
     body: "action=" + action,
   }).catch(err => console.error("Log error:", err));
 }
+// --------------------------------------------------
 
-// Quay lại
-function goBack() {
-  logAction("back");
+// helpers
+function clamp(v,a,b){ return Math.max(a,Math.min(b,v)); }
+function fmtTime(s){ if(isNaN(s)) return "0:00"; return `${Math.floor(s/60)}:${String(Math.floor(s%60)).padStart(2,'0')}`; }
+function safePlay(){ const p = video.play(); if(p?.then) p.catch(()=>{}); }
+function seek(pos){ video.currentTime = clamp(pos*video.duration,0,video.duration); }
+
+// update UI
+function updateTime(){ timeDisplay.textContent = `${fmtTime(video.currentTime)} / ${fmtTime(video.duration)}`; }
+function updateProgress(){ progressPlayed.style.width = ((video.currentTime/video.duration)*100||0)+'%'; }
+function updateBuffer(){ if(video.buffered.length>0) progressBuffer.style.width = ((video.buffered.end(video.buffered.length-1)/video.duration)*100||0)+'%'; }
+
+// play/pause
+playBtn.addEventListener('click', ()=>{ video.paused ? safePlay() : video.pause(); });
+video.addEventListener('play', ()=> { playBtn.textContent='⏸'; sendLog("play"); });
+video.addEventListener('pause', ()=> { playBtn.textContent='▶️'; sendLog("pause"); });
+
+// volume/mute
+volumeSlider.addEventListener('input', ()=>{ video.volume=volumeSlider.value; video.muted=(video.volume===0); muteBtn.textContent=video.muted?'🔇':'🔊'; });
+muteBtn.addEventListener('click', ()=>{ video.muted=!video.muted; muteBtn.textContent=video.muted?'🔇':'🔊'; });
+
+// speed
+speedSelect.addEventListener('change', ()=>{ video.playbackRate = parseFloat(speedSelect.value); });
+
+// fullscreen
+fullscreenBtn.addEventListener('click', ()=>{ const el=video.parentElement; document.fullscreenElement?document.exitFullscreen():el.requestFullscreen(); });
+
+// progress
+function pointerSeek(e){
+  const rect = progressContainer.getBoundingClientRect();
+  seek((e.clientX-rect.left)/rect.width);
+}
+
+progressContainer.addEventListener('pointerdown', e=>{ isSeeking=true; wasPlaying=!video.paused; video.pause(); pointerSeek(e); });
+progressContainer.addEventListener('pointermove', e=>{ if(isSeeking) pointerSeek(e); });
+progressContainer.addEventListener('pointerup', e=>{ if(isSeeking){ isSeeking=false; if(wasPlaying) safePlay(); } });
+progressContainer.addEventListener('click', pointerSeek);
+
+// update loop
+video.addEventListener('timeupdate', ()=>{ if(!isSeeking) updateProgress(); updateTime(); });
+video.addEventListener('progress', updateBuffer);
+video.addEventListener('loadedmetadata', ()=>{ updateProgress(); updateBuffer(); updateTime(); });
+
+// back & done
+function goBack(){
+  sendLog("back");
   window.history.back();
 }
-
-// Đánh dấu hoàn thành
-function markDone() {
-  logAction("done");
-  alert("✅ Bạn đã hoàn thành bài học!");
+function markDone(){
+  sendLog("done");
+  if(confirm("{% trans '✅ Bạn đã hoàn thành bài học! Bấm OK để quay lại khoá học.' %}")){
+    window.location.href="{% url 'home:course_detail' lesson.course.code %}";
+  }
 }
 
-// Trước khi rời trang
-window.addEventListener("beforeunload", () => logAction("back"));
+// log khi thoát trang
+window.addEventListener("beforeunload", ()=> sendLog("back"));
 </script>
 {% endblock %}

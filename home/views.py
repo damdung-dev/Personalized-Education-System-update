@@ -24,6 +24,7 @@ from .models import YouTubeSearch
 from yt_dlp import YoutubeDL
 from django.utils import timezone
 from datetime import date
+from sklearn.linear_model import LogisticRegression
 import numpy as np
 import calendar
 import json
@@ -460,9 +461,6 @@ def course_detail(request, code):
         "student": student
     })
 
-from sklearn.linear_model import LogisticRegression
-import numpy as np
-
 ''' 
 ===============================
 AI Prediction Helper for suggest what user want to watch and encoraging. 
@@ -647,7 +645,7 @@ def generate_reply(user_message):
 
     # Step 2: feed web content vào PhoGPT-4B-Chat
     prompt = f"""
-    Bạn là trợ lý AI thông minh.
+    Bạn là trợ lý AI thông minh. Bạn trả lời được mọi câu hỏi với mọi ngôn ngữ.
     Trả lời ngắn gọn, trọng tâm, hãy trả lời chi tiết.
     Nếu câu hỏi liên quan đến nội dung bạn không biết, hoặc cần tạo hình ảnh, âm thanh, video... thì trả lời: "Tôi không thể thực hiện yêu cầu này".
     Không lặp lại câu hỏi, không hỏi lại người dùng.

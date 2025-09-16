@@ -1,0 +1,255 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 10:46+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Amharic <am@li.org>\n"
+"Language: am\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\Personalized_education_system\settings.py:89
+msgid "Afrikaans"
+msgstr "አፍሪካንስ"
+
+#: .\Personalized_education_system\settings.py:90
+msgid "Amharic"
+msgstr "አማርኛ"
+
+#: .\Personalized_education_system\settings.py:91
+msgid "Arabic"
+msgstr "ዓረብኛ"
+
+#: .\Personalized_education_system\settings.py:92
+msgid "Azerbaijani"
+msgstr "አዘርባጃኒኛ"
+
+#: .\Personalized_education_system\settings.py:93
+msgid "Belarusian"
+msgstr "ቤላሩሲኛ"
+
+#: .\Personalized_education_system\settings.py:94
+msgid "Bulgarian"
+msgstr "ቡልጋሪኛ"
+
+#: .\Personalized_education_system\settings.py:95
+msgid "Bengali"
+msgstr "ቤንጋሊኛ"
+
+#: .\Personalized_education_system\settings.py:96
+msgid "Bosnian"
+msgstr "ቦስኒያኛ"
+
+#: .\Personalized_education_system\settings.py:97
+msgid "Catalan"
+msgstr "ካታላንኛ"
+
+#: .\Personalized_education_system\settings.py:98
+msgid "Czech"
+msgstr "ቼክኛ"
+
+#: .\Personalized_education_system\settings.py:99
+msgid "Welsh"
+msgstr "ወልሽኛ"
+
+#: .\Personalized_education_system\settings.py:100
+msgid "Danish"
+msgstr "ዴኒሽኛ"
+
+#: .\Personalized_education_system\settings.py:101
+msgid "German"
+msgstr "ጀርመንኛ"
+
+#: .\Personalized_education_system\settings.py:102
+msgid "Greek"
+msgstr "ግሪክኛ"
+
+#: .\Personalized_education_system\settings.py:103
+msgid "English"
+msgstr "እንግሊዝኛ"
+
+#: .\Personalized_education_system\settings.py:104
+msgid "Spanish"
+msgstr "ስፓኒሽኛ"
+
+#: .\Personalized_education_system\settings.py:105
+msgid "Estonian"
+msgstr "ኤስቶኒያኛ"
+
+#: .\Personalized_education_system\settings.py:106
+msgid "Basque"
+msgstr "ባስክኛ"
+
+#: .\Personalized_education_system\settings.py:107
+msgid "Persian"
+msgstr "ፐርሲኛ"
+
+#: .\Personalized_education_system\settings.py:108
+msgid "Finnish"
+msgstr "ፊኒሽኛ"
+
+#: .\Personalized_education_system\settings.py:109
+msgid "Filipino"
+msgstr "ፊሊፒንኛ"
+
+#: .\Personalized_education_system\settings.py:110
+msgid "French"
+msgstr "ፈረንሳይኛ"
+
+#: .\Personalized_education_system\settings.py:111
+msgid "Hebrew"
+msgstr "እሥራኤላዊኛ"
+
+#: .\Personalized_education_system\settings.py:112
+msgid "Hindi"
+msgstr "ሂንዲኛ"
+
+#: .\Personalized_education_system\settings.py:113
+msgid "Croatian"
+msgstr "ክሮኤሽያኛ"
+
+#: .\Personalized_education_system\settings.py:114
+msgid "Hungarian"
+msgstr "ሀንጋሪኛ"
+
+#: .\Personalized_education_system\settings.py:115
+msgid "Indonesian"
+msgstr "እንዶኔዢያኛ"
+
+#: .\Personalized_education_system\settings.py:116
+msgid "Icelandic"
+msgstr "አይስላንዲኛ"
+
+#: .\Personalized_education_system\settings.py:117
+msgid "Italian"
+msgstr "ጣሊያንኛ"
+
+#: .\Personalized_education_system\settings.py:118
+msgid "Japanese"
+msgstr "ጃፓንኛ"
+
+#: .\Personalized_education_system\settings.py:119
+msgid "Korean"
+msgstr "ኮሪያኛ"
+
+#: .\Personalized_education_system\settings.py:120
+msgid "Lao"
+msgstr "ላኦኛ"
+
+#: .\Personalized_education_system\settings.py:121
+msgid "Lithuanian"
+msgstr "ሊቱዌኒያኛ"
+
+#: .\Personalized_education_system\settings.py:122
+msgid "Latvian"
+msgstr "ላትቪያኛ"
+
+#: .\Personalized_education_system\settings.py:123
+msgid "Macedonian"
+msgstr "ማሴዶኒያኛ"
+
+#: .\Personalized_education_system\settings.py:124
+msgid "Malay"
+msgstr "ማሌዢኛ"
+
+#: .\Personalized_education_system\settings.py:125
+msgid "Burmese"
+msgstr "ቡርማኛ"
+
+#: .\Personalized_education_system\settings.py:126
+msgid "Nepali"
+msgstr "ነፓሊኛ"
+
+#: .\Personalized_education_system\settings.py:127
+msgid "Dutch"
+msgstr "ኔዘርላንድኛ"
+
+#: .\Personalized_education_system\settings.py:128
+msgid "Norwegian"
+msgstr "ኖርዌጅኛ"
+
+#: .\Personalized_education_system\settings.py:129
+msgid "Polish"
+msgstr "ፖሊሽኛ"
+
+#: .\Personalized_education_system\settings.py:130
+msgid "Portuguese"
+msgstr "ፖርቹጋልኛ"
+
+#: .\Personalized_education_system\settings.py:131
+msgid "Romanian"
+msgstr "ሮማኒያኛ"
+
+#: .\Personalized_education_system\settings.py:132
+msgid "Russian"
+msgstr "ራሽኛ"
+
+#: .\Personalized_education_system\settings.py:133
+msgid "Sinhala"
+msgstr "ሲንሃላኛ"
+
+#: .\Personalized_education_system\settings.py:134
+msgid "Slovak"
+msgstr "ስሎቫክኛ"
+
+#: .\Personalized_education_system\settings.py:135
+msgid "Slovenian"
+msgstr "ስሎቬኒያኛ"
+
+#: .\Personalized_education_system\settings.py:136
+msgid "Serbian"
+msgstr "ሰርቢያኛ"
+
+#: .\Personalized_education_system\settings.py:137
+msgid "Swedish"
+msgstr "ስዊድንኛ"
+
+#: .\Personalized_education_system\settings.py:138
+msgid "Swahili"
+msgstr "ስዋሂሊኛ"
+
+#: .\Personalized_education_system\settings.py:139
+msgid "Tamil"
+msgstr "ታሚልኛ"
+
+#: .\Personalized_education_system\settings.py:140
+msgid "Thai"
+msgstr "ታይኛ"
+
+#: .\Personalized_education_system\settings.py:141
+msgid "Turkish"
+msgstr "ቱርክኛ"
+
+#: .\Personalized_education_system\settings.py:142
+msgid "Ukrainian"
+msgstr "ዩክሬኒኛ"
+
+#: .\Personalized_education_system\settings.py:143
+msgid "Urdu"
+msgstr "ኡርዱኛ"
+
+#: .\Personalized_education_system\settings.py:144
+msgid "Uzbek"
+msgstr "ኡዝበክኛ"
+
+#: .\Personalized_education_system\settings.py:145
+msgid "Vietnamese"
+msgstr "ቪየትናምኛ"
+
+#: .\Personalized_education_system\settings.py:146
+msgid "Chinese (Simplified)"
+msgstr "ቻይንኛ (ቀላል ቅርጸት)"
+
+#: .\Personalized_education_system\settings.py:147
+msgid "Chinese (Traditional)"
+msgstr "ቻይንኛ (ባለመለኪያ)"

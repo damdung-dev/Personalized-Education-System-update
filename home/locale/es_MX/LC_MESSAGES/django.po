@@ -411,3 +411,7 @@ msgstr "Nombre del profesor"
 #: .\home\templates\home\teachers.html:127
 msgid "No data of teachers"
 msgstr "No hay datos de profesores"
+
+#: .\home\templates\home\help.html:119
+msgid "Here you can find system user manuals and ways to contact for support."
+msgstr "Aquí puedes encontrar manuales de usuario del sistema y formas de contactar con soporte."
